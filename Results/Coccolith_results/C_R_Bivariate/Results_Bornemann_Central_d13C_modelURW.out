@@ -1,0 +1,2347 @@
+Starting job 8987087 on c5-60 on saga at Thu Aug 3 15:57:17 CEST 2023
+
+
+Currently Loaded Modules:
+  1) StdEnv                              (S)
+  2) GCCcore/11.3.0
+  3) zlib/1.2.12-GCCcore-11.3.0          (H)
+  4) binutils/2.38-GCCcore-11.3.0        (H)
+  5) GCC/11.3.0
+  6) numactl/2.0.14-GCCcore-11.3.0       (H)
+  7) XZ/5.2.5-GCCcore-11.3.0             (H)
+  8) libxml2/2.9.13-GCCcore-11.3.0       (H)
+  9) libpciaccess/0.16-GCCcore-11.3.0    (H)
+ 10) hwloc/2.7.1-GCCcore-11.3.0          (H)
+ 11) hpcx/2.14
+ 12) OpenMPI/4.1.4-GCC-11.3.0
+ 13) OpenBLAS/0.3.20-GCC-11.3.0
+ 14) FlexiBLAS/3.2.0-GCC-11.3.0
+ 15) FFTW/3.3.10-GCC-11.3.0
+ 16) gompi/2022a
+ 17) FFTW.MPI/3.3.10-gompi-2022a
+ 18) ScaLAPACK/2.2.0-gompi-2022a-fb
+ 19) foss/2022a
+ 20) bzip2/1.0.8-GCCcore-11.3.0          (H)
+ 21) expat/2.4.8-GCCcore-11.3.0          (H)
+ 22) libpng/1.6.37-GCCcore-11.3.0        (H)
+ 23) Brotli/1.0.9-GCCcore-11.3.0         (H)
+ 24) freetype/2.12.1-GCCcore-11.3.0      (H)
+ 25) ncurses/6.3-GCCcore-11.3.0          (H)
+ 26) util-linux/2.38-GCCcore-11.3.0      (H)
+ 27) fontconfig/2.14.0-GCCcore-11.3.0    (H)
+ 28) xorg-macros/1.19.3-GCCcore-11.3.0   (H)
+ 29) X11/20220504-GCCcore-11.3.0         (H)
+ 30) gzip/1.12-GCCcore-11.3.0            (H)
+ 31) lz4/1.9.3-GCCcore-11.3.0            (H)
+ 32) zstd/1.5.2-GCCcore-11.3.0           (H)
+ 33) libdrm/2.4.110-GCCcore-11.3.0       (H)
+ 34) libglvnd/1.4.0-GCCcore-11.3.0       (H)
+ 35) libunwind/1.6.2-GCCcore-11.3.0      (H)
+ 36) LLVM/14.0.3-GCCcore-11.3.0          (H)
+ 37) Mesa/22.0.3-GCCcore-11.3.0          (H)
+ 38) libGLU/9.0.2-GCCcore-11.3.0         (H)
+ 39) pixman/0.40.0-GCCcore-11.3.0        (H)
+ 40) libffi/3.4.2-GCCcore-11.3.0         (H)
+ 41) gettext/0.21-GCCcore-11.3.0         (H)
+ 42) PCRE/8.45-GCCcore-11.3.0            (H)
+ 43) GLib/2.72.1-GCCcore-11.3.0          (H)
+ 44) cairo/1.17.4-GCCcore-11.3.0         (H)
+ 45) libreadline/8.1.2-GCCcore-11.3.0    (H)
+ 46) Tcl/8.6.12-GCCcore-11.3.0           (H)
+ 47) SQLite/3.38.3-GCCcore-11.3.0        (H)
+ 48) PCRE2/10.40-GCCcore-11.3.0          (H)
+ 49) NASM/2.15.05-GCCcore-11.3.0         (H)
+ 50) libjpeg-turbo/2.1.3-GCCcore-11.3.0  (H)
+ 51) jbigkit/2.1-GCCcore-11.3.0          (H)
+ 52) libdeflate/1.10-GCCcore-11.3.0      (H)
+ 53) LibTIFF/4.3.0-GCCcore-11.3.0        (H)
+ 54) Java/11.0.16
+ 55) Tk/8.6.12-GCCcore-11.3.0            (H)
+ 56) OpenSSL/1.1                         (H)
+ 57) cURL/7.83.0-GCCcore-11.3.0          (H)
+ 58) GMP/6.2.1-GCCcore-11.3.0            (H)
+ 59) NLopt/2.7.1-GCCcore-11.3.0          (H)
+ 60) libogg/1.3.5-GCCcore-11.3.0         (H)
+ 61) FLAC/1.3.4-GCCcore-11.3.0           (H)
+ 62) libvorbis/1.3.7-GCCcore-11.3.0      (H)
+ 63) libopus/1.3.1-GCCcore-11.3.0        (H)
+ 64) LAME/3.100-GCCcore-11.3.0           (H)
+ 65) libsndfile/1.1.0-GCCcore-11.3.0     (H)
+ 66) ICU/71.1-GCCcore-11.3.0             (H)
+ 67) Szip/2.1.1-GCCcore-11.3.0           (H)
+ 68) HDF5/1.12.2-gompi-2022a
+ 69) UDUNITS/2.2.28-GCCcore-11.3.0
+ 70) GSL/2.7-GCC-11.3.0
+ 71) ATK/2.38.0-GCCcore-11.3.0           (H)
+ 72) Gdk-Pixbuf/2.42.8-GCCcore-11.3.0    (H)
+ 73) HarfBuzz/4.2.1-GCCcore-11.3.0       (H)
+ 74) FriBidi/1.0.12-GCCcore-11.3.0       (H)
+ 75) Pango/1.50.7-GCCcore-11.3.0         (H)
+ 76) GTK2/2.24.33-GCCcore-11.3.0         (H)
+ 77) Ghostscript/9.56.1-GCCcore-11.3.0   (H)
+ 78) JasPer/2.0.33-GCCcore-11.3.0        (H)
+ 79) LittleCMS/2.13.1-GCCcore-11.3.0     (H)
+ 80) ImageMagick/7.1.0-37-GCCcore-11.3.0 (H)
+ 81) GLPK/5.0-GCCcore-11.3.0             (H)
+ 82) nodejs/16.15.1-GCCcore-11.3.0       (H)
+ 83) Python/3.10.4-GCCcore-11.3.0
+ 84) netCDF/4.9.0-gompi-2022a
+ 85) GEOS/3.10.3-GCC-11.3.0
+ 86) nlohmann_json/3.10.5-GCCcore-11.3.0 (H)
+ 87) PROJ/9.0.0-GCCcore-11.3.0
+ 88) libgeotiff/1.7.1-GCCcore-11.3.0     (H)
+ 89) pybind11/2.9.2-GCCcore-11.3.0       (H)
+ 90) SciPy-bundle/2022.05-foss-2022a
+ 91) libtirpc/1.3.2-GCCcore-11.3.0       (H)
+ 92) HDF/4.2.15-GCCcore-11.3.0           (H)
+ 93) GDAL/3.5.0-foss-2022a
+ 94) MPFR/4.1.0-GCCcore-11.3.0           (H)
+ 95) libgit2/1.4.3-GCCcore-11.3.0        (H)
+ 96) R/4.2.1-foss-2022a
+
+  Where:
+   H:  Hidden Module
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+
+R version 4.2.1 (2022-06-23) -- "Funny-Looking Kid"
+Copyright (C) 2022 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> ####################
+> # BORNEMANN SCRIPT #
+> ####################
+> 
+> 
+> .libPaths("/cluster/home/marionth/R")
+> library(usethis)
+> library(evoTS)
+Warning message:
+package ‘evoTS’ was built under R version 4.2.2 
+> library(paleoTS)
+> 
+> 
+> 
+> setwd("/cluster/home/marionth/Bornemann")
+> 
+> 
+> 
+> 
+> # LOAD MORPHOLOGICAL DATA
+> ## Coccolith ellipsicity
+> 
+> data1 <- read.delim("/cluster/home/marionth/Bornemann/Biscutum_EllipsicitePlacolith.txt")
+> summary(data1)
+       N        trait_mean      trait_var            age_MY       
+ Min.   :60   Min.   :1.139   Min.   :0.001706   Min.   :0.00000  
+ 1st Qu.:60   1st Qu.:1.170   1st Qu.:0.005848   1st Qu.:0.04016  
+ Median :60   Median :1.180   Median :0.006123   Median :0.07226  
+ Mean   :60   Mean   :1.182   Mean   :0.006867   Mean   :0.07506  
+ 3rd Qu.:60   3rd Qu.:1.191   3rd Qu.:0.006596   3rd Qu.:0.10211  
+ Max.   :60   Max.   :1.221   Max.   :0.024865   Max.   :0.15900  
+      ID           
+ Length:50         
+ Class :character  
+ Mode  :character  
+                   
+                   
+                   
+> 
+> sample_size=data1[[1]]
+> ellipsicite_means=data1[[2]]
+> ellipsicite_variance=data1[[3]]
+> time_vector=data1[[4]]
+> 
+> ellipsicite=paleoTS::as.paleoTS(mm=ellipsicite_means, vv=ellipsicite_variance, nn=sample_size, tt=time_vector) # faire un paleoTS object
+> ln.ellipsicite=paleoTS::ln.paleoTS(ellipsicite) # creer une approximative log-transformation des donnees si ce n est pas deja fait
+> ln.ellipsicite$tt<-ln.ellipsicite$tt/(max(ln.ellipsicite$tt)) # transferer time vector en une unite de longueur
+> 
+> plotevoTS(ln.ellipsicite) # plotter l evolution du trait au cours du temps
+> 
+> 
+> 
+> ## Size of central unit
+> 
+> data2 <- read.delim("/cluster/home/marionth/Bornemann/Biscutum_LengthRcentralunit.txt")
+> summary(data2)
+       N        trait_mean      trait_var           age_MY       
+ Min.   :60   Min.   :1.182   Min.   :0.03606   Min.   :0.00000  
+ 1st Qu.:60   1st Qu.:1.273   1st Qu.:0.05793   1st Qu.:0.03993  
+ Median :60   Median :1.339   Median :0.07763   Median :0.07194  
+ Mean   :60   Mean   :1.344   Mean   :0.07713   Mean   :0.07526  
+ 3rd Qu.:60   3rd Qu.:1.399   3rd Qu.:0.09625   3rd Qu.:0.10228  
+ Max.   :60   Max.   :1.542   Max.   :0.12581   Max.   :0.15900  
+      ID           
+ Length:50         
+ Class :character  
+ Mode  :character  
+                   
+                   
+                   
+> 
+> lengthcentral_means=data2[[2]]
+> lengthcentral_variance=data2[[3]]
+> 
+> lengthcentral=paleoTS::as.paleoTS(mm=lengthcentral_means, vv=lengthcentral_variance, nn=sample_size, tt=time_vector) # faire un paleoTS object
+> ln.lengthcentral=paleoTS::ln.paleoTS(lengthcentral) # creer une approximative log-transformation des donnees si ce n est pas deja fait
+> ln.lengthcentral$tt<-ln.lengthcentral$tt/(max(ln.lengthcentral$tt)) # transferer time vector en une unite de longueur
+> 
+> plotevoTS(ln.lengthcentral) # plotter l evolution du trait au cours du temps
+> 
+> 
+> 
+> 
+> ## Total length of the coccolith
+> 
+> data3 <- read.delim("/cluster/home/marionth/Bornemann/Biscutum_TotalcoccolithLength.txt")
+> summary(data3)
+       N        trait_mean      trait_var          age_MY       
+ Min.   :60   Min.   :3.153   Min.   :0.2098   Min.   :0.00000  
+ 1st Qu.:60   1st Qu.:3.342   1st Qu.:0.3685   1st Qu.:0.03966  
+ Median :60   Median :3.410   Median :0.4413   Median :0.07200  
+ Mean   :60   Mean   :3.429   Mean   :0.4490   Mean   :0.07508  
+ 3rd Qu.:60   3rd Qu.:3.506   3rd Qu.:0.4843   3rd Qu.:0.10184  
+ Max.   :60   Max.   :3.752   Max.   :1.5879   Max.   :0.15900  
+      ID           
+ Length:50         
+ Class :character  
+ Mode  :character  
+                   
+                   
+                   
+> 
+> totallength_means=data3[[2]]
+> totallength_variance=data3[[3]]
+> 
+> totallength=paleoTS::as.paleoTS(mm=totallength_means, vv=totallength_variance, nn=sample_size, tt=time_vector) # faire un paleoTS object
+> ln.totallength=paleoTS::ln.paleoTS(totallength) # creer une approximative log-transformation des donnees si ce n est pas deja fait
+> ln.totallength$tt<-ln.totallength$tt/(max(ln.totallength$tt)) # transferer time vector en une unite de longueur
+> 
+> plotevoTS(ln.totallength) # plotter l evolution du trait au cours du temps
+> 
+> 
+> 
+> 
+> 
+> 
+> # LOAD ENVIRONMENTAL DATA
+> 
+> 
+> isotopes <- read.delim("/cluster/home/marionth/Bornemann/isotopes.txt")
+> 
+> geochemistrysample_size=isotopes[[1]]
+> geochemistrytime_vector=isotopes[[7]]
+> geochemistryvariance=isotopes[[2]]
+> d13Ccarb_means=isotopes[[5]]
+> d18Ocarb_means=isotopes[[6]]
+> 
+> 
+> d13Ccarb=paleoTS::as.paleoTS(mm=d13Ccarb_means, vv=geochemistryvariance+0.0001, nn=geochemistrysample_size, tt=geochemistrytime_vector, oldest="first")
+> d13Ccarb$tt=d13Ccarb$tt/(max(d13Ccarb$tt))
+> 
+> d18Ocarb=paleoTS::as.paleoTS(mm=d18Ocarb_means, vv=geochemistryvariance+0.0001, nn=geochemistrysample_size, tt=geochemistrytime_vector, oldest="first")
+> d18Ocarb$tt=d18Ocarb$tt/(max(d18Ocarb$tt))
+> 
+> 
+> 
+> 
+> multienvi=make.multivar.evoTS(ln.lengthcentral, d13Ccarb)
+> 
+> 
+> 
+> 
+> 
+> # UNBIASED RANDOM WALK
+> modelURWNIdiagENVI=fit.multivariate.URW(multienvi, R="diag", r="fixed",trace=TRUE, iterations=100)
+iter   10 value 3015.173469
+iter   20 value -77.868878
+iter   30 value -78.523298
+final  value -78.523298 
+converged
+iter   10 value 7027.933356
+iter   20 value -73.983000
+iter   30 value -78.523281
+final  value -78.523298 
+converged
+iter   10 value -77.996021
+iter   20 value -78.523298
+final  value -78.523298 
+converged
+iter   10 value -66.400630
+iter   20 value -78.521045
+final  value -78.523298 
+converged
+iter   10 value -66.672998
+iter   20 value -78.523298
+final  value -78.523298 
+converged
+iter   10 value 37484.408112
+iter   20 value -43.744374
+iter   30 value -77.765736
+final  value -78.523298 
+converged
+iter   10 value 35274.919830
+iter   20 value -49.279103
+iter   30 value -77.621575
+final  value -78.523298 
+converged
+iter   10 value 6102.188846
+iter   20 value -61.497130
+iter   30 value -78.377321
+final  value -78.523298 
+converged
+iter   10 value 994.483488
+iter   20 value -76.849250
+iter   30 value -78.522359
+final  value -78.523298 
+converged
+iter   10 value -13.978297
+iter   20 value -64.456891
+iter   30 value -78.523285
+final  value -78.523298 
+converged
+iter   10 value -43.939825
+iter   20 value -77.421131
+iter   30 value -78.523279
+final  value -78.523298 
+converged
+iter   10 value 6277.221681
+iter   20 value -52.222597
+iter   30 value -78.403325
+final  value -78.523298 
+converged
+iter   10 value 35.841336
+iter   20 value -62.806928
+iter   30 value -73.120530
+iter   40 value -78.523298
+final  value -78.523298 
+converged
+iter   10 value 2229.184842
+iter   20 value -66.524264
+iter   30 value -78.500914
+final  value -78.523298 
+converged
+iter   10 value 215.754468
+iter   20 value -69.198256
+iter   30 value -78.474251
+final  value -78.523298 
+converged
+iter   10 value 319.523601
+iter   20 value -74.393648
+iter   30 value -78.523298
+final  value -78.523298 
+converged
+iter   10 value 4411.401856
+iter   20 value -72.728664
+iter   30 value -78.457191
+final  value -78.523298 
+converged
+iter   10 value 9406.591503
+iter   20 value -62.256407
+iter   30 value -78.462700
+final  value -78.523298 
+converged
+iter   10 value 48658.891926
+iter   20 value -43.042051
+iter   30 value -77.090178
+final  value -78.523298 
+converged
+iter   10 value 183300.340780
+iter   20 value -5.009198
+iter   30 value -60.735377
+iter   40 value -78.523293
+final  value -78.523298 
+converged
+iter   10 value -47.783349
+iter   20 value -78.403782
+final  value -78.523298 
+converged
+iter   10 value -40.729908
+iter   20 value -77.385529
+final  value -78.523298 
+converged
+iter   10 value -66.088540
+iter   20 value -78.518228
+final  value -78.523298 
+converged
+iter   10 value 320.271629
+iter   20 value -75.801936
+iter   30 value -78.504199
+final  value -78.523298 
+converged
+iter   10 value 37484.134432
+iter   20 value -31.804044
+iter   30 value -70.173152
+iter   40 value -78.523298
+final  value -78.523298 
+converged
+iter   10 value 14578.310752
+iter   20 value -53.321634
+iter   30 value -78.519719
+final  value -78.523298 
+converged
+iter   10 value 57351.108308
+iter   20 value -47.990468
+iter   30 value -78.499903
+final  value -78.523298 
+converged
+iter   10 value -33.212122
+iter   20 value -77.488503
+final  value -78.523298 
+converged
+iter   10 value -76.167237
+iter   20 value -78.523298
+final  value -78.523298 
+converged
+iter   10 value -19.905440
+iter   20 value -78.476102
+final  value -78.523298 
+converged
+iter   10 value -28.235280
+iter   20 value -72.437471
+iter   30 value -78.523298
+final  value -78.523298 
+converged
+iter   10 value -77.552462
+final  value -78.523298 
+converged
+iter   10 value -55.946052
+iter   20 value -78.183605
+final  value -78.523298 
+converged
+iter   10 value -64.757980
+iter   20 value -78.512177
+final  value -78.523298 
+converged
+iter   10 value -72.485517
+iter   20 value -78.523298
+final  value -78.523298 
+converged
+iter   10 value -34.848350
+iter   20 value -78.476086
+final  value -78.523298 
+converged
+iter   10 value -77.650804
+iter   20 value -78.523293
+final  value -78.523298 
+converged
+iter   10 value -59.913069
+iter   20 value -78.478719
+final  value -78.523298 
+converged
+iter   10 value -54.204032
+iter   20 value -78.488581
+final  value -78.523298 
+converged
+iter   10 value -41.377052
+iter   20 value -78.432584
+final  value -78.523298 
+converged
+iter   10 value -68.835430
+iter   20 value -78.461205
+final  value -78.523298 
+converged
+iter   10 value -23.982888
+iter   20 value -76.453592
+final  value -78.523298 
+converged
+iter   10 value 2.871820
+iter   20 value -74.060382
+iter   30 value -78.523298
+final  value -78.523298 
+converged
+iter   10 value -59.524157
+iter   20 value -78.522087
+final  value -78.523298 
+converged
+iter   10 value -67.197871
+iter   20 value -78.523294
+final  value -78.523298 
+converged
+iter   10 value 73578.808214
+iter   20 value -48.168226
+iter   30 value -77.821107
+final  value -78.523298 
+converged
+iter   10 value 196.640407
+iter   20 value -69.489205
+iter   30 value -78.495617
+final  value -78.523298 
+converged
+iter   10 value -20.983595
+iter   20 value -69.682911
+iter   30 value -78.523295
+final  value -78.523298 
+converged
+iter   10 value -77.542553
+iter   20 value -78.523298
+final  value -78.523298 
+converged
+iter   10 value 1.825400
+iter   20 value -66.487861
+iter   30 value -78.523288
+final  value -78.523298 
+converged
+iter   10 value 155744.812769
+iter   20 value -33.757931
+iter   30 value -77.148797
+final  value -78.523298 
+converged
+iter   10 value -74.928605
+iter   20 value -78.523262
+final  value -78.523298 
+converged
+iter   10 value -51.886853
+iter   20 value -78.523298
+final  value -78.523298 
+converged
+iter   10 value -55.256108
+iter   20 value -78.419110
+final  value -78.523298 
+converged
+iter   10 value -51.645415
+iter   20 value -69.936625
+iter   30 value -78.523295
+final  value -78.523298 
+converged
+iter   10 value -49.852451
+iter   20 value -63.377309
+iter   30 value -78.523291
+final  value -78.523298 
+converged
+iter   10 value -35.931905
+iter   20 value -66.899282
+iter   30 value -78.523292
+final  value -78.523298 
+converged
+iter   10 value -42.420346
+iter   20 value -60.352806
+iter   30 value -78.523298
+final  value -78.523298 
+converged
+iter   10 value -39.536696
+iter   20 value -65.080578
+iter   30 value -78.523298
+final  value -78.523298 
+converged
+iter   10 value -48.076090
+iter   20 value -62.329374
+iter   30 value -78.523016
+final  value -78.523298 
+converged
+iter   10 value -55.545376
+iter   20 value -72.604773
+iter   30 value -78.523298
+final  value -78.523298 
+converged
+iter   10 value -54.353295
+iter   20 value -75.227793
+iter   30 value -78.523294
+final  value -78.523298 
+converged
+iter   10 value -62.939938
+iter   20 value -77.780267
+iter   30 value -78.523298
+final  value -78.523298 
+converged
+iter   10 value -53.252156
+iter   20 value -73.256223
+iter   30 value -78.523298
+final  value -78.523298 
+converged
+iter   10 value -55.625354
+iter   20 value -76.477742
+final  value -78.523298 
+converged
+iter   10 value -78.434144
+final  value -78.523298 
+converged
+iter   10 value -75.681207
+iter   20 value -78.523298
+final  value -78.523298 
+converged
+iter   10 value -70.388273
+iter   20 value -78.523294
+final  value -78.523298 
+converged
+iter   10 value -11.548896
+iter   20 value -64.416320
+iter   30 value -78.523298
+final  value -78.523298 
+converged
+iter   10 value -58.892770
+iter   20 value -78.392235
+final  value -78.523298 
+converged
+iter   10 value -61.379498
+iter   20 value -78.419663
+final  value -78.523298 
+converged
+iter   10 value 220321.830460
+iter   20 value -0.772229
+iter   30 value -58.002971
+iter   40 value -78.521769
+final  value -78.523298 
+converged
+iter   10 value 198717.695377
+iter   20 value -1.977445
+iter   30 value -62.056932
+iter   40 value -78.523285
+final  value -78.523298 
+converged
+iter   10 value 0.077329
+iter   20 value -46.225650
+iter   30 value -77.478089
+final  value -78.523298 
+converged
+iter   10 value 178173.717682
+iter   20 value 0.484059
+iter   30 value -58.032139
+iter   40 value -78.483689
+final  value -78.523298 
+converged
+iter   10 value 177564.251329
+iter   20 value -0.675064
+iter   30 value -65.025612
+iter   40 value -78.523295
+final  value -78.523298 
+converged
+iter   10 value 31122.955006
+iter   20 value -0.607749
+iter   30 value -55.478488
+iter   40 value -78.510727
+final  value -78.523298 
+converged
+iter   10 value 2.660460
+iter   20 value -47.674734
+iter   30 value -76.565791
+final  value -78.523298 
+converged
+iter   10 value -23.381287
+iter   20 value -72.431572
+final  value -78.523298 
+converged
+iter   10 value -12.942095
+iter   20 value -68.554354
+iter   30 value -78.523298
+final  value -78.523298 
+converged
+iter   10 value -6.997466
+iter   20 value -57.069012
+iter   30 value -78.523298
+final  value -78.523298 
+converged
+iter   10 value 1.209576
+iter   20 value -57.239734
+iter   30 value -78.500675
+final  value -78.523298 
+converged
+iter   10 value 26.925781
+iter   20 value -37.203102
+iter   30 value -67.257159
+iter   40 value -78.523298
+final  value -78.523298 
+converged
+iter   10 value 34.659293
+iter   20 value -41.864886
+iter   30 value -66.173747
+iter   40 value -78.523298
+final  value -78.523298 
+converged
+iter   10 value 31.987740
+iter   20 value -45.982137
+iter   30 value -78.523127
+final  value -78.523298 
+converged
+iter   10 value 36.848136
+iter   20 value 26.979772
+iter   30 value -75.710024
+final  value -78.523298 
+converged
+iter   10 value 38.640279
+iter   20 value -44.291279
+iter   30 value -77.448659
+final  value -78.523298 
+converged
+iter   10 value 38.613568
+iter   20 value -50.371400
+iter   30 value -78.500296
+final  value -78.523298 
+converged
+iter   10 value 49.763886
+iter   20 value 39.690470
+iter   30 value -64.682471
+iter   40 value -78.523296
+final  value -78.523298 
+converged
+iter   10 value 44.192801
+iter   20 value -19.681977
+iter   30 value -75.952806
+iter   40 value -78.523298
+final  value -78.523298 
+converged
+iter   10 value 30.379196
+iter   20 value -46.144162
+iter   30 value -78.477899
+final  value -78.523298 
+converged
+iter   10 value 27.634757
+iter   20 value -74.810673
+iter   30 value -78.523142
+final  value -78.523298 
+converged
+iter   10 value 38.772793
+iter   20 value -66.699352
+iter   30 value -78.522302
+final  value -78.523298 
+converged
+iter   10 value -70.247846
+iter   20 value -78.498087
+final  value -78.523298 
+converged
+iter   10 value 51.726908
+iter   20 value 43.500663
+iter   30 value -73.379977
+iter   40 value -78.523298
+final  value -78.523298 
+converged
+iter   10 value 47.795154
+iter   20 value 38.177431
+iter   30 value -70.287599
+iter   40 value -78.523257
+final  value -78.523298 
+converged
+iter   10 value 33.162548
+iter   20 value -59.820168
+iter   30 value -78.516004
+final  value -78.523298 
+converged
+iter   10 value 28.940526
+iter   20 value -44.046755
+iter   30 value -78.273202
+final  value -78.523298 
+converged
+iter   10 value 35.744285
+iter   20 value -38.795361
+iter   30 value -75.837990
+iter   40 value -78.523298
+final  value -78.523298 
+converged
+iter   10 value 17.232511
+iter   20 value -56.072761
+iter   30 value -78.446070
+final  value -78.523298 
+converged
+> # (1) AICc =
+> 
+> 
+> 
+> 
+> 
+> 
+> ## UNBIASED RANDOM WALK WITH ACCELERATED AND DECELERATED MODELS
+> 
+> 
+> modelaccelNIdiagENVI=fit.multivariate.URW(multienvi, R="diag", r="accel",trace=TRUE, iterations=100)
+iter   10 value -65.867639
+iter   20 value -80.035408
+iter   30 value -80.075364
+iter   40 value -80.088581
+final  value -80.088593 
+converged
+iter   10 value -48.447716
+iter   20 value -79.248579
+iter   30 value -79.984104
+iter   40 value -80.087697
+final  value -80.088593 
+converged
+iter   10 value -72.087981
+iter   20 value -75.662655
+iter   30 value -79.521822
+iter   40 value -80.088018
+final  value -80.088593 
+converged
+iter   10 value -62.690478
+iter   20 value -76.145749
+iter   30 value -80.081866
+iter   40 value -80.088593
+final  value -80.088593 
+converged
+iter   10 value -62.069014
+iter   20 value -74.824026
+iter   30 value -79.823411
+iter   40 value -80.088480
+final  value -80.088593 
+converged
+iter   10 value -1.412680
+iter   20 value -71.423277
+iter   30 value -79.353241
+iter   40 value -80.084521
+final  value -80.088593 
+converged
+iter   10 value 18.122322
+iter   20 value -70.222824
+iter   30 value -72.744100
+iter   40 value -79.829717
+iter   50 value -80.088556
+final  value -80.088592 
+converged
+iter   10 value 12.195702
+iter   20 value -71.154268
+iter   30 value -78.788087
+iter   40 value -80.050085
+iter   50 value -80.088593
+final  value -80.088593 
+converged
+iter   10 value -4.502327
+iter   20 value -72.744704
+iter   30 value -78.634437
+iter   40 value -80.085362
+final  value -80.088593 
+converged
+iter   10 value 1.338082
+iter   20 value -79.612246
+iter   30 value -80.066487
+final  value -80.088593 
+converged
+iter   10 value -16.550552
+iter   20 value -79.639158
+iter   30 value -80.085903
+iter   40 value -80.088592
+final  value -80.088593 
+converged
+iter   10 value 30.747333
+iter   20 value -70.468271
+iter   30 value -76.419639
+iter   40 value -79.915393
+iter   50 value -80.088570
+iter   60 value -80.088593
+final  value -80.088593 
+converged
+iter   10 value 33.159287
+iter   20 value -74.769091
+iter   30 value -78.457448
+iter   40 value -80.088474
+final  value -80.088592 
+converged
+iter   10 value 9370.277314
+iter   20 value -65.920026
+iter   30 value -76.514181
+iter   40 value -80.077767
+iter   50 value -80.088480
+final  value -80.088592 
+converged
+iter   10 value 38.245134
+iter   20 value -73.850946
+iter   30 value -77.804273
+iter   40 value -80.048278
+iter   50 value -80.088571
+final  value -80.088592 
+converged
+iter   10 value 0.603924
+iter   20 value -75.666194
+iter   30 value -77.568544
+iter   40 value -80.088591
+final  value -80.088593 
+converged
+iter   10 value 99.631299
+iter   20 value -65.313790
+iter   30 value -70.838218
+iter   40 value -80.007652
+iter   50 value -80.088591
+final  value -80.088591 
+converged
+iter   10 value 5.336209
+iter   20 value -66.569328
+iter   30 value -75.376224
+iter   40 value -80.085331
+iter   50 value -80.088592
+final  value -80.088592 
+converged
+iter   10 value -8.920583
+iter   20 value -71.501159
+iter   30 value -72.986630
+iter   40 value -79.745421
+iter   50 value -80.088576
+final  value -80.088593 
+converged
+iter   10 value 544.289060
+iter   20 value -73.000814
+iter   30 value -74.916048
+iter   40 value -80.088583
+final  value -80.088593 
+converged
+iter   10 value 3185.212334
+iter   20 value -72.196920
+iter   30 value -74.124156
+iter   40 value -80.086891
+iter   50 value -80.088593
+final  value -80.088593 
+converged
+iter   10 value 598.004988
+iter   20 value -70.350297
+iter   30 value -78.783546
+iter   40 value -80.087767
+final  value -80.088593 
+converged
+iter   10 value 115.106393
+iter   20 value -57.443607
+iter   30 value -66.448106
+iter   40 value -80.041387
+iter   50 value -80.088592
+final  value -80.088592 
+converged
+iter   10 value 27.630864
+iter   20 value -65.867892
+iter   30 value -72.838088
+iter   40 value -80.084546
+final  value -80.088593 
+converged
+iter   10 value 1.604472
+iter   20 value -56.874633
+iter   30 value -62.461993
+iter   40 value -79.815897
+iter   50 value -80.088577
+final  value -80.088593 
+converged
+iter   10 value 58.271222
+iter   20 value -52.209857
+iter   30 value -60.188189
+iter   40 value -79.986947
+iter   50 value -80.083433
+iter   60 value -80.087303
+iter   70 value -80.088592
+final  value -80.088593 
+converged
+iter   10 value 90.997410
+iter   20 value -26.912053
+iter   30 value -41.459997
+iter   40 value -75.558315
+iter   50 value -80.086893
+final  value -80.088593 
+converged
+iter   10 value 126.617208
+iter   20 value -22.335730
+iter   30 value -32.173632
+iter   40 value -75.617832
+iter   50 value -80.088583
+final  value -80.088592 
+converged
+iter   10 value 22557.844514
+iter   20 value -8.901223
+iter   30 value -31.613992
+iter   40 value -71.326735
+iter   50 value -80.088560
+final  value -80.088593 
+converged
+iter   10 value 15881.348881
+iter   20 value -2.382321
+iter   30 value -36.892469
+iter   40 value -79.654219
+iter   50 value -80.088331
+final  value -80.088593 
+converged
+iter   10 value 81108.808112
+iter   20 value 107.924765
+iter   30 value -32.338191
+iter   40 value -34.577026
+iter   50 value -79.184823
+iter   60 value -80.009970
+iter   70 value -80.088592
+final  value -80.088593 
+converged
+iter   10 value 74219.444651
+iter   20 value 121.923622
+iter   30 value -38.198733
+iter   40 value -40.234388
+iter   50 value -79.244300
+iter   60 value -80.088578
+final  value -80.088593 
+converged
+iter   10 value 3906.980831
+iter   20 value 116.570331
+iter   30 value -48.010358
+iter   40 value -49.291098
+iter   50 value -78.479812
+iter   60 value -79.854197
+iter   70 value -80.088593
+final  value -80.088593 
+converged
+iter   10 value 7085.399990
+iter   20 value 64.732172
+iter   30 value -60.208298
+iter   40 value -64.453958
+iter   50 value -79.985102
+iter   60 value -80.088593
+final  value -80.088593 
+converged
+iter   10 value 190055.344665
+iter   20 value 91.314565
+iter   30 value -60.758554
+iter   40 value -62.815101
+iter   50 value -80.070612
+iter   60 value -80.088554
+final  value -80.088591 
+converged
+iter   10 value 363897.505721
+iter   20 value 121.302625
+iter   30 value -50.645861
+iter   40 value -67.223324
+iter   50 value -78.699368
+iter   60 value -80.088427
+final  value -80.088592 
+converged
+iter   10 value 389713.047098
+iter   20 value 81.943716
+iter   30 value -71.577854
+iter   40 value -73.418471
+iter   50 value -80.021729
+final  value -80.088593 
+converged
+iter   10 value 101107.641558
+iter   20 value 74.426304
+iter   30 value -60.623780
+iter   40 value -69.934715
+iter   50 value -79.644634
+iter   60 value -80.088502
+final  value -80.088593 
+converged
+iter   10 value 89666.462734
+iter   20 value 71.439503
+iter   30 value -64.723871
+iter   40 value -70.725389
+iter   50 value -79.897534
+iter   60 value -80.088592
+final  value -80.088592 
+converged
+iter   10 value 134263.888020
+iter   20 value 41.893254
+iter   30 value -73.176041
+iter   40 value -75.123767
+iter   50 value -80.050522
+iter   60 value -80.088592
+final  value -80.088592 
+converged
+iter   10 value 177355.088009
+iter   20 value 43.727878
+iter   30 value -73.275234
+iter   40 value -75.242278
+iter   50 value -79.770312
+iter   60 value -80.088512
+final  value -80.088593 
+converged
+iter   10 value 48371.278817
+iter   20 value 63.605489
+iter   30 value -72.482134
+iter   40 value -74.665431
+iter   50 value -80.086286
+iter   60 value -80.088590
+final  value -80.088593 
+converged
+iter   10 value 124972.531826
+iter   20 value 84.176925
+iter   30 value -41.250907
+iter   40 value -75.428953
+iter   50 value -79.196915
+iter   60 value -80.088586
+final  value -80.088593 
+converged
+iter   10 value 75060.237422
+iter   20 value 79.984508
+iter   30 value -69.630358
+iter   40 value -72.418325
+iter   50 value -79.914331
+iter   60 value -80.088581
+final  value -80.088593 
+converged
+iter   10 value 406755.669926
+iter   20 value 101.399310
+iter   30 value 15.976883
+iter   40 value -77.726747
+iter   50 value -79.694500
+iter   60 value -80.081905
+iter   70 value -80.088590
+final  value -80.088592 
+converged
+iter   10 value 51.462526
+iter   20 value -68.939414
+iter   30 value -77.584027
+iter   40 value -80.086282
+iter   50 value -80.088592
+final  value -80.088592 
+converged
+iter   10 value 626273.242179
+iter   20 value 85.676959
+iter   30 value -70.930955
+iter   40 value -79.456050
+iter   50 value -80.088327
+final  value -80.088592 
+converged
+iter   10 value 702039.442050
+iter   20 value 87.783658
+iter   30 value -71.824342
+iter   40 value -80.088510
+final  value -80.088517 
+converged
+iter   10 value 650038.861126
+iter   20 value 85.356164
+iter   30 value -78.134019
+iter   40 value -79.949104
+iter   50 value -80.088508
+final  value -80.088592 
+converged
+iter   10 value 147206.713103
+iter   20 value 108.204402
+iter   30 value -78.841248
+iter   40 value -79.880097
+iter   50 value -80.083799
+iter   60 value -80.088590
+final  value -80.088592 
+converged
+iter   10 value 293239.986591
+iter   20 value 111.093883
+iter   30 value -49.886654
+iter   40 value -79.599685
+iter   50 value -80.088266
+final  value -80.088593 
+converged
+iter   10 value 459717.385383
+iter   20 value 106.197069
+iter   30 value -73.127956
+iter   40 value -79.107232
+iter   50 value -80.087217
+final  value -80.088593 
+converged
+iter   10 value 765518.360414
+iter   20 value 98.102313
+iter   30 value -70.392298
+iter   40 value -79.961860
+iter   50 value -80.088587
+final  value -80.088593 
+converged
+iter   10 value 758145.413211
+iter   20 value 95.229299
+iter   30 value -73.991184
+iter   40 value -79.911081
+iter   50 value -80.086280
+final  value -80.088593 
+converged
+iter   10 value 700787.503279
+iter   20 value 101.696875
+iter   30 value -76.044517
+iter   40 value -80.055300
+iter   50 value -80.088400
+iter   60 value -80.088593
+final  value -80.088593 
+converged
+iter   10 value 880442.532574
+iter   20 value 91.722577
+iter   30 value -15.753252
+iter   40 value -79.464154
+iter   50 value -80.074884
+final  value -80.088593 
+converged
+iter   10 value 957181.684672
+iter   20 value 77.522895
+iter   30 value 29.335985
+iter   40 value -44.395297
+iter   50 value -78.265714
+iter   60 value -78.706656
+iter   70 value -80.087380
+final  value -80.088593 
+converged
+iter   10 value 909276.776088
+iter   20 value 69.418412
+iter   30 value -9.398810
+iter   40 value -69.886275
+iter   50 value -78.661084
+iter   60 value -79.411089
+iter   70 value -80.087083
+iter   80 value -80.088592
+final  value -80.088593 
+converged
+iter   10 value 938028.262955
+iter   20 value 82.180959
+iter   30 value 26.493244
+iter   40 value -56.829556
+iter   50 value -78.566551
+iter   60 value -78.792100
+iter   70 value -80.087593
+final  value -80.088593 
+converged
+iter   10 value 1183445.153569
+iter   20 value 65.261666
+iter   30 value -14.474622
+iter   40 value -38.505443
+iter   50 value -59.880866
+iter   60 value -78.554116
+iter   70 value -80.083150
+final  value -80.088592 
+converged
+iter   10 value 1043890.741189
+iter   20 value 60.819472
+iter   30 value -18.612634
+iter   40 value -67.366666
+iter   50 value -73.326312
+final  value -75.882492 
+converged
+iter   10 value 979682.670908
+iter   20 value 57.824238
+iter   30 value -1.257737
+iter   40 value -45.828699
+iter   50 value -68.052916
+iter   60 value -78.472437
+iter   70 value -78.810245
+iter   80 value -80.088269
+final  value -80.088592 
+converged
+iter   10 value 1228583.678307
+iter   20 value 61.938368
+iter   30 value -11.749927
+iter   40 value -51.488182
+iter   50 value -65.263978
+iter   60 value -78.550980
+iter   70 value -79.266725
+iter   80 value -80.088592
+final  value -80.088592 
+converged
+iter   10 value 952339.003473
+iter   20 value 55.930004
+iter   30 value -34.559523
+iter   40 value -76.566247
+final  value -77.203331 
+converged
+iter   10 value 982072.661105
+iter   20 value 38.607372
+iter   30 value -13.822024
+iter   40 value -40.118456
+iter   50 value -59.325259
+iter   60 value -78.245102
+iter   70 value -79.373580
+iter   80 value -80.088590
+final  value -80.088593 
+converged
+iter   10 value 990030.053332
+iter   20 value 37.511832
+iter   30 value -17.572366
+iter   40 value -75.258967
+ERROR : L-BFGS-B needs finite values of 'fn' 
+iter   10 value 1002064.829404
+iter   20 value 32.573351
+iter   30 value -27.461498
+iter   40 value -54.623940
+iter   50 value -69.765534
+iter   60 value -78.586988
+iter   70 value -80.026570
+final  value -80.088593 
+converged
+iter   10 value 838977.810609
+iter   20 value 36.025691
+iter   30 value -58.798687
+iter   40 value -78.679510
+iter   50 value -79.696634
+iter   60 value -80.088582
+final  value -80.088593 
+converged
+iter   10 value 970859.886520
+iter   20 value 62.782243
+iter   30 value 11.563842
+iter   40 value -75.706556
+iter   50 value -78.613340
+iter   60 value -80.057706
+iter   70 value -80.088591
+final  value -80.088593 
+converged
+iter   10 value 1126269.466713
+iter   20 value 76.891550
+iter   30 value -66.930960
+iter   40 value -68.266219
+iter   50 value -78.551197
+iter   60 value -79.869068
+iter   70 value -80.088593
+final  value -80.088593 
+converged
+iter   10 value 270032.891321
+iter   20 value 142.993410
+iter   30 value -73.705308
+iter   40 value -80.085626
+iter   50 value -80.087235
+iter   60 value -80.088555
+final  value -80.088593 
+converged
+iter   10 value 82.396731
+iter   20 value -14.271608
+iter   30 value -79.230297
+iter   40 value -79.939763
+final  value -80.088593 
+converged
+iter   10 value 74.143066
+iter   20 value -74.252225
+iter   30 value -78.341118
+iter   40 value -80.088591
+final  value -80.088593 
+converged
+iter   10 value 37.244228
+iter   20 value -64.770664
+iter   30 value -79.562373
+iter   40 value -79.878381
+iter   50 value -80.088591
+final  value -80.088592 
+converged
+iter   10 value -48.582685
+iter   20 value -71.316922
+iter   30 value -80.058404
+iter   40 value -80.088554
+final  value -80.088593 
+converged
+iter   10 value -75.016763
+iter   20 value -79.352736
+iter   30 value -80.088592
+final  value -80.088592 
+converged
+iter   10 value 44.989499
+iter   20 value -69.981628
+iter   30 value -73.310784
+iter   40 value -79.964232
+iter   50 value -80.088592
+final  value -80.088593 
+converged
+iter   10 value 16.623332
+iter   20 value -80.077083
+iter   30 value -80.088557
+final  value -80.088593 
+converged
+iter   10 value -77.276395
+iter   20 value -79.784120
+iter   30 value -80.086915
+final  value -80.088593 
+converged
+iter   10 value -38.813643
+iter   20 value -77.957631
+iter   30 value -78.537972
+iter   40 value -79.858164
+iter   50 value -80.088592
+final  value -80.088592 
+converged
+iter   10 value -41.861424
+iter   20 value -72.241545
+iter   30 value -78.212164
+iter   40 value -78.764757
+iter   50 value -80.084681
+final  value -80.088593 
+converged
+iter   10 value -41.446989
+iter   20 value -80.033945
+iter   30 value -80.080697
+iter   40 value -80.088592
+final  value -80.088593 
+converged
+iter   10 value -16.504585
+iter   20 value -79.667843
+iter   30 value -79.943150
+iter   40 value -80.088365
+final  value -80.088593 
+converged
+iter   10 value -18.120872
+iter   20 value -79.557028
+iter   30 value -79.957934
+iter   40 value -80.088593
+final  value -80.088593 
+converged
+iter   10 value -37.104193
+iter   20 value -60.441918
+iter   30 value -78.435553
+iter   40 value -79.790501
+final  value -80.088592 
+converged
+iter   10 value -41.025954
+iter   20 value -66.266906
+iter   30 value -78.462146
+iter   40 value -79.201912
+iter   50 value -80.088550
+final  value -80.088593 
+converged
+iter   10 value -35.555116
+iter   20 value -71.352910
+iter   30 value -78.395283
+ERROR : L-BFGS-B needs finite values of 'fn' 
+iter   10 value -30.875260
+iter   20 value -69.988511
+final  value -72.842335 
+converged
+iter   10 value -20.364310
+iter   20 value -60.638422
+iter   30 value -75.682428
+iter   40 value -78.594105
+iter   50 value -80.086394
+iter   60 value -80.088593
+final  value -80.088593 
+converged
+iter   10 value -6.806070
+iter   20 value -46.327524
+iter   30 value -49.199064
+iter   40 value -78.536889
+iter   50 value -79.420652
+iter   60 value -80.087969
+iter   70 value -80.088593
+final  value -80.088593 
+converged
+iter   10 value -18.408992
+iter   20 value -48.320644
+iter   30 value -49.510360
+iter   40 value -78.020259
+iter   50 value -79.102389
+iter   60 value -80.088190
+final  value -80.088593 
+converged
+iter   10 value -18.632318
+iter   20 value -44.140930
+iter   30 value -56.616857
+iter   40 value -73.684226
+iter   50 value -79.596596
+iter   60 value -80.088592
+final  value -80.088592 
+converged
+iter   10 value -23.374522
+iter   20 value -48.784750
+iter   30 value -64.828017
+iter   40 value -78.292277
+iter   50 value -79.263710
+iter   60 value -80.088592
+final  value -80.088593 
+converged
+iter   10 value -18.653941
+iter   20 value -33.834695
+iter   30 value -55.166371
+final  value -55.166371 
+converged
+iter   10 value -8.618109
+iter   20 value -59.820026
+iter   30 value -62.578748
+iter   40 value -78.547670
+iter   50 value -79.102754
+iter   60 value -80.088560
+final  value -80.088592 
+converged
+iter   10 value -24.411749
+iter   20 value -54.234993
+iter   30 value -67.746488
+iter   40 value -78.531466
+iter   50 value -79.024975
+iter   60 value -80.088592
+final  value -80.088592 
+converged
+iter   10 value -29.774868
+iter   20 value -34.618917
+iter   30 value -68.871938
+iter   40 value -78.456318
+iter   50 value -79.506684
+iter   60 value -80.082007
+iter   70 value -80.088586
+final  value -80.088593 
+converged
+iter   10 value -38.060374
+iter   20 value -72.963138
+iter   30 value -78.452801
+iter   40 value -79.777308
+iter   50 value -80.088565
+final  value -80.088593 
+converged
+iter   10 value -26.124084
+iter   20 value -52.667529
+iter   30 value -65.570005
+iter   40 value -78.536373
+iter   50 value -79.556745
+iter   60 value -80.087527
+final  value -80.088593 
+converged
+iter   10 value -35.900398
+iter   20 value -51.029592
+iter   30 value -65.858004
+iter   40 value -78.553206
+iter   50 value -79.814596
+iter   60 value -80.088357
+final  value -80.088593 
+converged
+iter   10 value -31.131143
+iter   20 value -59.681920
+iter   30 value -78.667406
+iter   40 value -80.013853
+final  value -80.088593 
+converged
+iter   10 value -27.494780
+iter   20 value -53.263378
+iter   30 value -55.162806
+iter   40 value -74.099318
+iter   50 value -78.530859
+iter   60 value -79.761712
+iter   70 value -80.081764
+iter   80 value -80.088593
+final  value -80.088593 
+converged
+> # (1) AICc = 
+> modeldecelNIdiagENVI=fit.multivariate.URW(multienvi, R="diag", r="decel",trace=TRUE, iterations=100)
+iter   10 value -54.910579
+iter   20 value -75.856658
+iter   30 value -78.212949
+iter   40 value -78.574561
+final  value -78.574561 
+converged
+iter   10 value 794.899451
+iter   20 value -70.630572
+iter   30 value -74.053825
+iter   40 value -78.542793
+final  value -78.574561 
+converged
+iter   10 value 1369.456476
+iter   20 value -68.791801
+iter   30 value -72.969800
+iter   40 value -78.574560
+final  value -78.574561 
+converged
+iter   10 value -2.730785
+iter   20 value -47.616671
+iter   30 value -73.459136
+iter   40 value -76.129064
+iter   50 value -78.574561
+final  value -78.574561 
+converged
+iter   10 value 0.448615
+iter   20 value -51.346744
+iter   30 value -70.223433
+iter   40 value -78.015869
+final  value -78.574561 
+converged
+iter   10 value -27.441265
+iter   20 value -70.744529
+iter   30 value -72.642130
+iter   40 value -78.574535
+final  value -78.574561 
+converged
+iter   10 value -13.561661
+iter   20 value -64.821031
+iter   30 value -74.546911
+iter   40 value -78.569291
+final  value -78.574561 
+converged
+iter   10 value -10.587808
+iter   20 value -58.811021
+iter   30 value -73.984518
+iter   40 value -78.572904
+final  value -78.574561 
+converged
+iter   10 value -34.241529
+iter   20 value -73.880219
+iter   30 value -78.411057
+iter   40 value -78.574561
+final  value -78.574561 
+converged
+iter   10 value -17.236373
+iter   20 value -74.742342
+iter   30 value -77.904170
+iter   40 value -78.574561
+final  value -78.574561 
+converged
+iter   10 value -14.897108
+iter   20 value -53.893230
+iter   30 value -77.071149
+final  value -78.574561 
+converged
+iter   10 value -1.956730
+iter   20 value -58.039979
+iter   30 value -72.801329
+iter   40 value -78.332771
+final  value -78.574561 
+converged
+iter   10 value -16.253161
+iter   20 value -70.734587
+iter   30 value -76.340701
+iter   40 value -78.574561
+final  value -78.574561 
+converged
+iter   10 value 12.962209
+iter   20 value -66.585633
+iter   30 value -67.891742
+iter   40 value -75.093186
+iter   50 value -78.574560
+final  value -78.574561 
+converged
+iter   10 value 17.445551
+iter   20 value -56.617194
+iter   30 value -78.574385
+final  value -78.574561 
+converged
+iter   10 value 10.003659
+iter   20 value -50.778794
+iter   30 value -66.377143
+iter   40 value -78.560699
+final  value -78.574561 
+converged
+iter   10 value 16.565170
+iter   20 value -46.463563
+iter   30 value -70.462350
+iter   40 value -78.296951
+final  value -78.574561 
+converged
+iter   10 value -1.768434
+iter   20 value -56.562358
+iter   30 value -66.444849
+iter   40 value -73.389206
+iter   50 value -78.241646
+iter   60 value -78.574560
+final  value -78.574561 
+converged
+iter   10 value 17.548292
+iter   20 value -54.950175
+iter   30 value -62.381015
+iter   40 value -73.957480
+iter   50 value -78.574346
+final  value -78.574561 
+converged
+iter   10 value 16.663130
+iter   20 value -45.786631
+iter   30 value -64.483625
+iter   40 value -67.202500
+iter   50 value -78.569840
+final  value -78.574561 
+converged
+iter   10 value 24.269129
+iter   20 value -44.967785
+iter   30 value -64.973512
+iter   40 value -77.343673
+final  value -78.574561 
+converged
+iter   10 value 49.823638
+iter   20 value 12.473225
+iter   30 value -58.753280
+iter   40 value -72.355373
+iter   50 value -78.574558
+final  value -78.574561 
+converged
+iter   10 value 19.892611
+iter   20 value -48.602657
+iter   30 value -62.591071
+iter   40 value -77.669061
+final  value -78.574561 
+converged
+iter   10 value 31.615584
+iter   20 value -56.948516
+iter   30 value -64.045285
+iter   40 value -78.165840
+final  value -78.574561 
+converged
+iter   10 value 26.676579
+iter   20 value -18.516883
+iter   30 value -59.322850
+iter   40 value -75.464873
+iter   50 value -78.574534
+final  value -78.574561 
+converged
+iter   10 value 21.700086
+iter   20 value -60.344876
+iter   30 value -74.600145
+final  value -78.574561 
+converged
+iter   10 value 33.171673
+iter   20 value -7.668732
+iter   30 value -53.435734
+iter   40 value -78.087680
+final  value -78.597525 
+converged
+iter   10 value 47.693302
+iter   20 value -13.654346
+iter   30 value -45.612344
+iter   40 value -60.787367
+iter   50 value -78.360338
+iter   60 value -78.574561
+final  value -78.574561 
+converged
+iter   10 value 36.957226
+iter   20 value -51.283832
+iter   30 value -52.331640
+iter   40 value -75.669134
+iter   50 value -78.574548
+final  value -78.574561 
+converged
+iter   10 value 42.539054
+iter   20 value -20.217671
+iter   30 value -45.220322
+iter   40 value -53.326505
+iter   50 value -65.358476
+iter   60 value -71.254979
+iter   70 value -78.574561
+final  value -78.574561 
+converged
+iter   10 value 44.862938
+iter   20 value 24.513111
+iter   30 value -34.966729
+iter   40 value -44.399846
+iter   50 value -72.847690
+iter   60 value -77.695230
+iter   70 value -78.574558
+final  value -78.574561 
+converged
+iter   10 value 48.938662
+iter   20 value -0.998828
+iter   30 value -39.377193
+iter   40 value -54.984845
+iter   50 value -72.849431
+iter   60 value -78.072666
+iter   70 value -78.574555
+final  value -78.574561 
+converged
+iter   10 value 45.006150
+iter   20 value -40.069206
+iter   30 value -43.576020
+iter   40 value -72.952419
+iter   50 value -78.574561
+final  value -78.574561 
+converged
+iter   10 value 48.746056
+iter   20 value 13.884728
+iter   30 value -40.804094
+iter   40 value -41.596218
+iter   50 value -71.489330
+iter   60 value -78.574561
+final  value -78.574561 
+converged
+iter   10 value 57.187403
+iter   20 value 4.765219
+iter   30 value -34.849789
+iter   40 value -35.184901
+iter   50 value -36.323963
+iter   60 value -49.855993
+iter   70 value -68.755115
+iter   80 value -78.574561
+final  value -78.574561 
+converged
+iter   10 value 72.852215
+iter   20 value 54.388966
+iter   30 value -71.936869
+iter   40 value -77.840450
+iter   50 value -78.574561
+final  value -78.574561 
+converged
+iter   10 value 28.054893
+iter   20 value -53.339271
+iter   30 value -54.874608
+iter   40 value -75.677099
+iter   50 value -78.574561
+final  value -78.574561 
+converged
+iter   10 value 30.733927
+iter   20 value -49.248911
+iter   30 value -56.258204
+iter   40 value -59.602608
+iter   50 value -78.573348
+final  value -78.574561 
+converged
+iter   10 value 37.044567
+iter   20 value -50.683890
+iter   30 value -52.696242
+iter   40 value -63.662732
+iter   50 value -77.979468
+final  value -78.574561 
+converged
+iter   10 value 37.020867
+iter   20 value -50.777534
+iter   30 value -53.257823
+iter   40 value -58.191591
+iter   50 value -78.568659
+final  value -78.574561 
+converged
+iter   10 value 33.723679
+iter   20 value -53.124657
+iter   30 value -55.386777
+iter   40 value -71.310203
+iter   50 value -78.488073
+final  value -78.574561 
+converged
+iter   10 value 33.805220
+iter   20 value -49.873643
+iter   30 value -53.872178
+iter   40 value -69.071039
+iter   50 value -78.574559
+final  value -78.574561 
+converged
+iter   10 value 39.963462
+iter   20 value -47.103353
+iter   30 value -48.764532
+iter   40 value -66.689562
+iter   50 value -78.574561
+final  value -78.574561 
+converged
+iter   10 value 41.781859
+iter   20 value -15.619523
+iter   30 value -52.598194
+iter   40 value -57.705268
+iter   50 value -73.247773
+iter   60 value -78.574130
+final  value -78.574561 
+converged
+iter   10 value 28.235754
+iter   20 value -56.824827
+iter   30 value -59.161995
+iter   40 value -78.525411
+final  value -78.574561 
+converged
+iter   10 value 45.087630
+iter   20 value 7.210305
+iter   30 value -42.619842
+iter   40 value -43.859140
+iter   50 value -64.461154
+iter   60 value -78.574557
+final  value -78.574561 
+converged
+iter   10 value 39.551990
+iter   20 value 4.556594
+iter   30 value -48.494520
+iter   40 value -72.496263
+iter   50 value -78.574561
+final  value -78.574561 
+converged
+iter   10 value 44.161427
+iter   20 value 33.760014
+iter   30 value -75.294203
+iter   40 value -78.571301
+iter   50 value -78.574560
+final  value -78.574561 
+converged
+iter   10 value 40.469068
+iter   20 value 24.606387
+iter   30 value -72.371523
+iter   40 value -78.574561
+final  value -78.574561 
+converged
+iter   10 value 54.495539
+iter   20 value 37.478501
+iter   30 value -75.548971
+iter   40 value -77.739729
+iter   50 value -78.574557
+final  value -78.574561 
+converged
+iter   10 value 36.365869
+iter   20 value 30.108527
+iter   30 value -60.538363
+iter   40 value -74.330323
+iter   50 value -78.574553
+final  value -78.574561 
+converged
+iter   10 value 33.736705
+iter   20 value -53.354675
+iter   30 value -68.537232
+iter   40 value -78.574374
+final  value -78.574561 
+converged
+iter   10 value 45.189449
+iter   20 value 34.221300
+iter   30 value -78.232939
+final  value -78.574561 
+converged
+iter   10 value 45.020976
+iter   20 value 31.245058
+iter   30 value -67.968167
+iter   40 value -78.561438
+final  value -78.574561 
+converged
+iter   10 value 60.265735
+iter   20 value 44.167224
+iter   30 value -77.676414
+iter   40 value -78.574561
+final  value -78.574561 
+converged
+iter   10 value 52.093187
+iter   20 value 15.332528
+iter   30 value -29.340487
+iter   40 value -29.578870
+iter   50 value -47.842268
+iter   60 value -69.259589
+iter   70 value -78.574523
+final  value -78.574561 
+converged
+iter   10 value 56.193504
+iter   20 value 46.831502
+iter   30 value -6.992175
+iter   40 value -30.916622
+iter   50 value -60.435672
+iter   60 value -78.286202
+final  value -78.574561 
+converged
+iter   10 value 58.242558
+iter   20 value 39.569309
+iter   30 value -16.626046
+iter   40 value -36.438961
+iter   50 value -67.425766
+iter   60 value -78.574556
+final  value -78.574561 
+converged
+iter   10 value 54.424664
+iter   20 value 3.202370
+iter   30 value -34.478855
+iter   40 value -38.248399
+iter   50 value -77.264083
+iter   60 value -78.574561
+final  value -78.574561 
+converged
+iter   10 value 53.679839
+iter   20 value 49.450475
+iter   30 value -75.468233
+final  value -78.574561 
+converged
+iter   10 value 49.518033
+iter   20 value -18.769167
+iter   30 value -63.569315
+iter   40 value -78.470248
+final  value -78.574561 
+converged
+iter   10 value 47.170783
+iter   20 value -13.395415
+iter   30 value -42.926591
+iter   40 value -59.917403
+iter   50 value -78.574556
+final  value -78.574561 
+converged
+iter   10 value 42.035885
+iter   20 value -43.423400
+iter   30 value -53.035528
+iter   40 value -57.613822
+iter   50 value -73.760366
+final  value -78.574561 
+converged
+iter   10 value 37.238893
+iter   20 value -41.519008
+iter   30 value -53.873905
+iter   40 value -56.405167
+iter   50 value -78.154020
+final  value -78.574561 
+converged
+iter   10 value 29.008734
+iter   20 value -53.000618
+iter   30 value -60.745357
+iter   40 value -78.444246
+final  value -78.574561 
+converged
+iter   10 value 25.644431
+iter   20 value -63.078787
+iter   30 value -65.286553
+iter   40 value -76.710732
+iter   50 value -78.574561
+final  value -78.574561 
+converged
+iter   10 value 11.384595
+iter   20 value -60.998057
+iter   30 value -70.981633
+iter   40 value -78.574245
+final  value -78.574561 
+converged
+iter   10 value 13.809696
+iter   20 value -66.310276
+iter   30 value -78.574561
+final  value -78.574561 
+converged
+iter   10 value 19.609503
+iter   20 value -56.304138
+iter   30 value -67.996438
+iter   40 value -78.190139
+final  value -78.574561 
+converged
+iter   10 value 7.731644
+iter   20 value -57.201129
+iter   30 value -71.249341
+iter   40 value -76.281406
+iter   50 value -78.574561
+final  value -78.574561 
+converged
+iter   10 value 5.639473
+iter   20 value -56.562534
+iter   30 value -72.620408
+iter   40 value -78.261891
+iter   50 value -78.574561
+final  value -78.574561 
+converged
+iter   10 value 12.386316
+iter   20 value -32.207489
+iter   30 value -68.357257
+iter   40 value -75.519279
+iter   50 value -78.574555
+final  value -78.574561 
+converged
+iter   10 value 15.878757
+iter   20 value -64.231492
+iter   30 value -73.134948
+iter   40 value -78.574561
+final  value -78.574561 
+converged
+iter   10 value 13.684654
+iter   20 value -64.828571
+iter   30 value -68.159376
+iter   40 value -70.448874
+iter   50 value -78.574552
+final  value -78.574561 
+converged
+iter   10 value 24.196615
+iter   20 value -51.925551
+iter   30 value -62.846839
+iter   40 value -66.193382
+iter   50 value -78.574064
+final  value -78.574561 
+converged
+iter   10 value 29.491016
+iter   20 value -58.575941
+iter   30 value -61.336018
+iter   40 value -69.430572
+iter   50 value -78.574437
+final  value -78.574561 
+converged
+iter   10 value 23.594670
+iter   20 value -48.592023
+iter   30 value -65.406828
+iter   40 value -75.928597
+final  value -78.574561 
+converged
+iter   10 value 21.553917
+iter   20 value -59.930969
+iter   30 value -74.625936
+final  value -78.574561 
+converged
+iter   10 value 22.453934
+iter   20 value -51.463628
+iter   30 value -77.229146
+iter   40 value -78.574411
+final  value -78.574561 
+converged
+iter   10 value 27.157926
+iter   20 value -45.407511
+iter   30 value -77.500343
+final  value -78.574561 
+converged
+iter   10 value 8.069466
+iter   20 value -41.903428
+iter   30 value -70.251013
+iter   40 value -75.551998
+iter   50 value -78.325557
+final  value -78.574561 
+converged
+iter   10 value 39.880568
+iter   20 value -46.094113
+iter   30 value -78.574535
+final  value -78.574561 
+converged
+iter   10 value 22.478665
+iter   20 value 7.984291
+iter   30 value -44.768736
+iter   40 value -77.928682
+iter   50 value -78.574561
+final  value -78.574561 
+converged
+iter   10 value 19.892250
+iter   20 value 0.110652
+iter   30 value -66.525943
+iter   40 value -73.159957
+final  value -78.574561 
+converged
+iter   10 value 26.476326
+iter   20 value -36.329246
+iter   30 value -62.086972
+iter   40 value -75.715616
+iter   50 value -78.574561
+final  value -78.574561 
+converged
+iter   10 value 23.869679
+iter   20 value -46.639058
+iter   30 value -71.163865
+iter   40 value -74.013494
+iter   50 value -78.574530
+final  value -78.574561 
+converged
+iter   10 value 19.760442
+iter   20 value -53.521082
+iter   30 value -63.971984
+iter   40 value -78.263483
+final  value -78.574561 
+converged
+iter   10 value 16.364184
+iter   20 value -59.269344
+iter   30 value -71.024158
+iter   40 value -78.574561
+final  value -78.574561 
+converged
+iter   10 value 15.437850
+iter   20 value -67.838238
+iter   30 value -77.527169
+final  value -78.574561 
+converged
+iter   10 value 24.022631
+iter   20 value -57.645901
+iter   30 value -67.219596
+iter   40 value -75.151413
+iter   50 value -78.573934
+final  value -78.574561 
+converged
+iter   10 value 34.346226
+iter   20 value -28.384070
+iter   30 value -59.991648
+iter   40 value -72.893944
+iter   50 value -78.547120
+final  value -78.574561 
+converged
+iter   10 value 25.614713
+iter   20 value -56.009536
+iter   30 value -62.719654
+iter   40 value -68.451582
+iter   50 value -78.473789
+final  value -78.574561 
+converged
+iter   10 value 43.172479
+iter   20 value -50.986403
+iter   30 value -56.069693
+iter   40 value -64.712820
+iter   50 value -78.557767
+final  value -78.574561 
+converged
+iter   10 value 53.181032
+iter   20 value 21.995881
+iter   30 value -29.458612
+iter   40 value -44.380792
+iter   50 value -69.911318
+iter   60 value -78.574546
+final  value -78.574561 
+converged
+iter   10 value 48.693570
+iter   20 value 4.619620
+iter   30 value -40.285609
+iter   40 value -58.301885
+iter   50 value -68.484016
+iter   60 value -78.574561
+final  value -78.574561 
+converged
+iter   10 value 44.819313
+iter   20 value -36.049978
+iter   30 value -50.287483
+iter   40 value -59.996060
+iter   50 value -78.461552
+final  value -78.574561 
+converged
+iter   10 value 39.710643
+iter   20 value 3.981024
+iter   30 value -52.011083
+iter   40 value -54.966348
+iter   50 value -73.341242
+iter   60 value -78.574551
+final  value -78.574561 
+converged
+iter   10 value 36.769371
+iter   20 value -32.965745
+iter   30 value -51.165439
+iter   40 value -52.373519
+iter   50 value -78.412603
+final  value -78.574561 
+converged
+iter   10 value 41.085303
+iter   20 value 12.470840
+iter   30 value -51.565609
+iter   40 value -56.617910
+iter   50 value -73.554472
+iter   60 value -78.574549
+final  value -78.574561 
+converged
+iter   10 value 41.262293
+iter   20 value -23.266100
+iter   30 value -46.713540
+iter   40 value -50.658896
+iter   50 value -52.634279
+iter   60 value -74.676028
+iter   70 value -78.574561
+final  value -78.574561 
+converged
+> # (2) AICc =
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> save.image(file='Bornemann_FINAL_Central_d13C_1.RData')
+> 
+> 
+> 
+> 
+> modelURWNIdiagENVI
+$converge
+[1] "Model converged successfully"
+
+$modelName
+[1] "Multivariate Random walk (R matrix with zero off-diagonal elements)"
+
+$logL
+[1] 78.5233
+
+$AICc
+[1] -148.1577
+
+$ancestral.values
+[1] 0.390799 1.589798
+
+$SE.anc
+[1] NA
+
+$R
+           [,1]     [,2]
+[1,] 0.02655308 0.000000
+[2,] 0.00000000 3.853081
+
+$SE.R
+[1] NA
+
+$method
+[1] "Joint"
+
+$K
+[1] 4
+
+$n
+[1] 50
+
+$iter
+[1] 100
+
+attr(,"class")
+[1] "paleoTSfit"
+> 
+> modelaccelNIdiagENVI
+$converge
+[1] "Model converged successfully"
+
+$modelName
+[1] "Multivariate Random walk with accelerating rate of evoluton (diagonal R matrix: no trait correlations)"
+
+$logL
+[1] 80.08859
+
+$AICc
+[1] -148.8135
+
+$ancestral.values
+[1] 0.389280 1.589579
+
+$SE.anc
+[1] NA
+
+$r
+[1] 1.408935
+
+$SE.r
+[1] NA
+
+$R
+           [,1]     [,2]
+[1,] 0.01314998 0.000000
+[2,] 0.00000000 1.819556
+
+$SE.R
+[1] NA
+
+$method
+[1] "Joint"
+
+$K
+[1] 5
+
+$n
+[1] 50
+
+$iter
+[1] 100
+
+attr(,"class")
+[1] "paleoTSfit"
+> modeldecelNIdiagENVI
+$converge
+[1] "Model converged successfully"
+
+$modelName
+[1] "Multivariate Random walk with decelerating rate of evoluton (diagonal R matrix: no trait correlations)"
+
+$logL
+[1] 78.59752
+
+$AICc
+[1] -145.8314
+
+$ancestral.values
+[1] 0.3908681 1.5898031
+
+$SE.anc
+[1] NA
+
+$r
+[1] -9.997549e-14
+
+$SE.r
+[1] NA
+
+$R
+           [,1]     [,2]
+[1,] 0.02694974 0.000000
+[2,] 0.00000000 3.848371
+
+$SE.R
+[1] NA
+
+$method
+[1] "Joint"
+
+$K
+[1] 5
+
+$n
+[1] 50
+
+$iter
+[1] 100
+
+attr(,"class")
+[1] "paleoTSfit"
+> 
+
+Job 8987087 consumed 0.1 billing hours from project nn8105k.
+
+Submitted 2023-08-03T15:57:16; waited 0.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 1.5 days
+Elapsed wallclock time:   8.2 minutes
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+8987087           1            0.0 %  2023-08-03T15:57:16  492.0 s  0
+8987087.batch     1      1    95.3 %  2023-08-03T15:57:16  492.0 s  0
+
+Used CPU time:   7.8 CPU minutes
+Unused CPU time: 23.3 CPU seconds
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+8987087           3.0        
+8987087.batch     3.0     0.2
+
+Job 8987087 completed at Thu Aug 3 16:05:29 CEST 2023

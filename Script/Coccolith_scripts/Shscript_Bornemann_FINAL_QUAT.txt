@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# Account name:
+#SBATCH --account=nn8105k
+
+# Project name:
+#SBATCH --job-name=Bornemann
+
+# Time limit:
+#SBATCH --time=35:0:0
+
+#SBATCH --mem=3G
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=1
+
+
+# Define the R script names
+scripts=(Bornemann_hpc_FINAL_QUAT_model4_*.R)
+
+# Submit a separate job for each script
+        for script in "${scripts[@]}"; do
+        sbatch --export=SCRIPT="$script" slurm_script_QUAT.submit
+done

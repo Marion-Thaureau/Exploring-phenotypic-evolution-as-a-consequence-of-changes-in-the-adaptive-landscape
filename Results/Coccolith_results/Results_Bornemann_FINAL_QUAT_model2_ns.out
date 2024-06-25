@@ -1,0 +1,628 @@
+Starting job 9897544 on c10-14 on saga at Wed Nov 1 09:24:37 CET 2023
+
+
+Currently Loaded Modules:
+  1) StdEnv                              (S)
+  2) GCCcore/11.3.0
+  3) zlib/1.2.12-GCCcore-11.3.0          (H)
+  4) binutils/2.38-GCCcore-11.3.0        (H)
+  5) GCC/11.3.0
+  6) numactl/2.0.14-GCCcore-11.3.0       (H)
+  7) XZ/5.2.5-GCCcore-11.3.0             (H)
+  8) libxml2/2.9.13-GCCcore-11.3.0       (H)
+  9) libpciaccess/0.16-GCCcore-11.3.0    (H)
+ 10) hwloc/2.7.1-GCCcore-11.3.0          (H)
+ 11) hpcx/2.14
+ 12) OpenMPI/4.1.4-GCC-11.3.0
+ 13) OpenBLAS/0.3.20-GCC-11.3.0
+ 14) FlexiBLAS/3.2.0-GCC-11.3.0
+ 15) FFTW/3.3.10-GCC-11.3.0
+ 16) gompi/2022a
+ 17) FFTW.MPI/3.3.10-gompi-2022a
+ 18) ScaLAPACK/2.2.0-gompi-2022a-fb
+ 19) foss/2022a
+ 20) bzip2/1.0.8-GCCcore-11.3.0          (H)
+ 21) expat/2.4.8-GCCcore-11.3.0          (H)
+ 22) libpng/1.6.37-GCCcore-11.3.0        (H)
+ 23) Brotli/1.0.9-GCCcore-11.3.0         (H)
+ 24) freetype/2.12.1-GCCcore-11.3.0      (H)
+ 25) ncurses/6.3-GCCcore-11.3.0          (H)
+ 26) util-linux/2.38-GCCcore-11.3.0      (H)
+ 27) fontconfig/2.14.0-GCCcore-11.3.0    (H)
+ 28) xorg-macros/1.19.3-GCCcore-11.3.0   (H)
+ 29) X11/20220504-GCCcore-11.3.0         (H)
+ 30) gzip/1.12-GCCcore-11.3.0            (H)
+ 31) lz4/1.9.3-GCCcore-11.3.0            (H)
+ 32) zstd/1.5.2-GCCcore-11.3.0           (H)
+ 33) libdrm/2.4.110-GCCcore-11.3.0       (H)
+ 34) libglvnd/1.4.0-GCCcore-11.3.0       (H)
+ 35) libunwind/1.6.2-GCCcore-11.3.0      (H)
+ 36) LLVM/14.0.3-GCCcore-11.3.0          (H)
+ 37) Mesa/22.0.3-GCCcore-11.3.0          (H)
+ 38) libGLU/9.0.2-GCCcore-11.3.0         (H)
+ 39) pixman/0.40.0-GCCcore-11.3.0        (H)
+ 40) libffi/3.4.2-GCCcore-11.3.0         (H)
+ 41) gettext/0.21-GCCcore-11.3.0         (H)
+ 42) PCRE/8.45-GCCcore-11.3.0            (H)
+ 43) GLib/2.72.1-GCCcore-11.3.0          (H)
+ 44) cairo/1.17.4-GCCcore-11.3.0         (H)
+ 45) libreadline/8.1.2-GCCcore-11.3.0    (H)
+ 46) Tcl/8.6.12-GCCcore-11.3.0           (H)
+ 47) SQLite/3.38.3-GCCcore-11.3.0        (H)
+ 48) PCRE2/10.40-GCCcore-11.3.0          (H)
+ 49) NASM/2.15.05-GCCcore-11.3.0         (H)
+ 50) libjpeg-turbo/2.1.3-GCCcore-11.3.0  (H)
+ 51) jbigkit/2.1-GCCcore-11.3.0          (H)
+ 52) libdeflate/1.10-GCCcore-11.3.0      (H)
+ 53) LibTIFF/4.3.0-GCCcore-11.3.0        (H)
+ 54) Java/11.0.16
+ 55) Tk/8.6.12-GCCcore-11.3.0            (H)
+ 56) OpenSSL/1.1                         (H)
+ 57) cURL/7.83.0-GCCcore-11.3.0          (H)
+ 58) GMP/6.2.1-GCCcore-11.3.0            (H)
+ 59) NLopt/2.7.1-GCCcore-11.3.0          (H)
+ 60) libogg/1.3.5-GCCcore-11.3.0         (H)
+ 61) FLAC/1.3.4-GCCcore-11.3.0           (H)
+ 62) libvorbis/1.3.7-GCCcore-11.3.0      (H)
+ 63) libopus/1.3.1-GCCcore-11.3.0        (H)
+ 64) LAME/3.100-GCCcore-11.3.0           (H)
+ 65) libsndfile/1.1.0-GCCcore-11.3.0     (H)
+ 66) ICU/71.1-GCCcore-11.3.0             (H)
+ 67) Szip/2.1.1-GCCcore-11.3.0           (H)
+ 68) HDF5/1.12.2-gompi-2022a
+ 69) UDUNITS/2.2.28-GCCcore-11.3.0
+ 70) GSL/2.7-GCC-11.3.0
+ 71) ATK/2.38.0-GCCcore-11.3.0           (H)
+ 72) Gdk-Pixbuf/2.42.8-GCCcore-11.3.0    (H)
+ 73) HarfBuzz/4.2.1-GCCcore-11.3.0       (H)
+ 74) FriBidi/1.0.12-GCCcore-11.3.0       (H)
+ 75) Pango/1.50.7-GCCcore-11.3.0         (H)
+ 76) GTK2/2.24.33-GCCcore-11.3.0         (H)
+ 77) Ghostscript/9.56.1-GCCcore-11.3.0   (H)
+ 78) JasPer/2.0.33-GCCcore-11.3.0        (H)
+ 79) LittleCMS/2.13.1-GCCcore-11.3.0     (H)
+ 80) ImageMagick/7.1.0-37-GCCcore-11.3.0 (H)
+ 81) GLPK/5.0-GCCcore-11.3.0             (H)
+ 82) nodejs/16.15.1-GCCcore-11.3.0       (H)
+ 83) Python/3.10.4-GCCcore-11.3.0
+ 84) netCDF/4.9.0-gompi-2022a
+ 85) GEOS/3.10.3-GCC-11.3.0
+ 86) nlohmann_json/3.10.5-GCCcore-11.3.0 (H)
+ 87) PROJ/9.0.0-GCCcore-11.3.0
+ 88) libgeotiff/1.7.1-GCCcore-11.3.0     (H)
+ 89) pybind11/2.9.2-GCCcore-11.3.0       (H)
+ 90) SciPy-bundle/2022.05-foss-2022a
+ 91) libtirpc/1.3.2-GCCcore-11.3.0       (H)
+ 92) HDF/4.2.15-GCCcore-11.3.0           (H)
+ 93) GDAL/3.5.0-foss-2022a
+ 94) MPFR/4.1.0-GCCcore-11.3.0           (H)
+ 95) libgit2/1.4.3-GCCcore-11.3.0        (H)
+ 96) R/4.2.1-foss-2022a
+
+  Where:
+   H:  Hidden Module
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+
+R version 4.2.1 (2022-06-23) -- "Funny-Looking Kid"
+Copyright (C) 2022 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> ####################
+> # BORNEMANN SCRIPT #
+> ####################
+> 
+> 
+> .libPaths("/cluster/home/marionth/R")
+> library(usethis)
+> library(evoTS)
+Warning message:
+package ‘evoTS’ was built under R version 4.2.2 
+> library(paleoTS)
+Warning message:
+package ‘paleoTS’ was built under R version 4.2.2 
+> library(stats)
+> library(dplyr)
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+> library(parallel)
+> library(foreach)
+> library(doParallel)
+Loading required package: iterators
+> library(MCSPCD)
+> 
+> 
+> setwd("/cluster/home/marionth/Bornemann")
+> 
+> 
+> 
+> 
+> # LOAD MORPHOLOGICAL DATA
+> ## Coccolith ellipsicity
+> 
+> data1 <- read.delim("/cluster/home/marionth/Bornemann/Biscutum_EllipsicitePlacolith.txt")
+> summary(data1)
+       N        trait_mean      trait_var            age_MY       
+ Min.   :60   Min.   :1.139   Min.   :0.001706   Min.   :0.00000  
+ 1st Qu.:60   1st Qu.:1.170   1st Qu.:0.005848   1st Qu.:0.04016  
+ Median :60   Median :1.180   Median :0.006123   Median :0.07226  
+ Mean   :60   Mean   :1.182   Mean   :0.006867   Mean   :0.07506  
+ 3rd Qu.:60   3rd Qu.:1.191   3rd Qu.:0.006596   3rd Qu.:0.10211  
+ Max.   :60   Max.   :1.221   Max.   :0.024865   Max.   :0.15900  
+      ID           
+ Length:50         
+ Class :character  
+ Mode  :character  
+                   
+                   
+                   
+> 
+> sample_size=data1[[1]]
+> ellipsicite_means=data1[[2]]
+> ellipsicite_variance=data1[[3]]
+> time_vector=data1[[4]]
+> 
+> ellipsicite=paleoTS::as.paleoTS(mm=ellipsicite_means, vv=ellipsicite_variance, nn=sample_size, tt=time_vector) # faire un paleoTS object
+> ln.ellipsicite=paleoTS::ln.paleoTS(ellipsicite) # creer une approximative log-transformation des donnees si ce n est pas deja fait
+> ln.ellipsicite$tt<-ln.ellipsicite$tt/(max(ln.ellipsicite$tt)) # transferer time vector en une unite de longueur
+> 
+> plotevoTS(ln.ellipsicite) # plotter l evolution du trait au cours du temps
+> 
+> 
+> 
+> ## Size of central unit
+> 
+> data2 <- read.delim("/cluster/home/marionth/Bornemann/Biscutum_LengthRcentralunit.txt")
+> summary(data2)
+       N        trait_mean      trait_var           age_MY       
+ Min.   :60   Min.   :1.182   Min.   :0.03606   Min.   :0.00000  
+ 1st Qu.:60   1st Qu.:1.273   1st Qu.:0.05793   1st Qu.:0.03993  
+ Median :60   Median :1.339   Median :0.07763   Median :0.07194  
+ Mean   :60   Mean   :1.344   Mean   :0.07713   Mean   :0.07526  
+ 3rd Qu.:60   3rd Qu.:1.399   3rd Qu.:0.09625   3rd Qu.:0.10228  
+ Max.   :60   Max.   :1.542   Max.   :0.12581   Max.   :0.15900  
+      ID           
+ Length:50         
+ Class :character  
+ Mode  :character  
+                   
+                   
+                   
+> 
+> lengthcentral_means=data2[[2]]
+> lengthcentral_variance=data2[[3]]
+> 
+> lengthcentral=paleoTS::as.paleoTS(mm=lengthcentral_means, vv=lengthcentral_variance, nn=sample_size, tt=time_vector) # faire un paleoTS object
+> ln.lengthcentral=paleoTS::ln.paleoTS(lengthcentral) # creer une approximative log-transformation des donnees si ce n est pas deja fait
+> ln.lengthcentral$tt<-ln.lengthcentral$tt/(max(ln.lengthcentral$tt)) # transferer time vector en une unite de longueur
+> 
+> plotevoTS(ln.lengthcentral) # plotter l evolution du trait au cours du temps
+> 
+> 
+> 
+> 
+> ## Total length of the coccolith
+> 
+> data3 <- read.delim("/cluster/home/marionth/Bornemann/Biscutum_TotalcoccolithLength.txt")
+> summary(data3)
+       N        trait_mean      trait_var          age_MY       
+ Min.   :60   Min.   :3.153   Min.   :0.2098   Min.   :0.00000  
+ 1st Qu.:60   1st Qu.:3.342   1st Qu.:0.3685   1st Qu.:0.03966  
+ Median :60   Median :3.410   Median :0.4413   Median :0.07200  
+ Mean   :60   Mean   :3.429   Mean   :0.4490   Mean   :0.07508  
+ 3rd Qu.:60   3rd Qu.:3.506   3rd Qu.:0.4843   3rd Qu.:0.10184  
+ Max.   :60   Max.   :3.752   Max.   :1.5879   Max.   :0.15900  
+      ID           
+ Length:50         
+ Class :character  
+ Mode  :character  
+                   
+                   
+                   
+> 
+> totallength_means=data3[[2]]
+> totallength_variance=data3[[3]]
+> 
+> totallength=paleoTS::as.paleoTS(mm=totallength_means, vv=totallength_variance, nn=sample_size, tt=time_vector) # faire un paleoTS object
+> ln.totallength=paleoTS::ln.paleoTS(totallength) # creer une approximative log-transformation des donnees si ce n est pas deja fait
+> ln.totallength$tt<-ln.totallength$tt/(max(ln.totallength$tt)) # transferer time vector en une unite de longueur
+> 
+> plotevoTS(ln.totallength) # plotter l evolution du trait au cours du temps
+> 
+> 
+> 
+> 
+> 
+> # LOAD ENVIRONMENTAL DATA
+> 
+> 
+> 
+> 
+> isotopes <- read.delim("/cluster/home/marionth/Bornemann/isotopes.txt")
+> 
+> geochemistrysample_size=isotopes[[1]]
+> geochemistrytime_vector=isotopes[[7]]
+> geochemistryvariance=isotopes[[2]]
+> d13Ccarb_means=isotopes[[5]]
+> d18Ocarb_means=isotopes[[6]]
+> 
+> 
+> 
+> d13Ccarb=paleoTS::as.paleoTS(mm=d13Ccarb_means, vv=geochemistryvariance+0.0001, nn=geochemistrysample_size, tt=geochemistrytime_vector, oldest="first")
+> d13Ccarb$tt=d13Ccarb$tt/(max(d13Ccarb$tt))
+> 
+> d18Ocarb=paleoTS::as.paleoTS(mm=d18Ocarb_means, vv=geochemistryvariance+0.0001, nn=geochemistrysample_size, tt=geochemistrytime_vector, oldest="first")
+> d18Ocarb$tt=d18Ocarb$tt/(max(d18Ocarb$tt))
+> 
+> 
+> 
+> 
+> 
+> 
+> multiENVI=make.multivar.evoTS(ln.totallength, d18Ocarb, d13Ccarb) 
+> plotevoTS.multivariate(multiENVI, y_min=-3, y_max=3, x.label="relative time", y.label="Trait and proxy d18O and d13C means", pch=c(20,20))
+> 
+> 
+> 
+> 
+> 
+> #number of cores that I want to use (also defined in the batch srcipt)
+> registerDoParallel(52)
+> 
+> #To calculate the time needed to process each iteration
+> start_time <- Sys.time()
+> 
+> 
+> 
+> ##NO COEVOLUTION
+> A = matrix(c(1,1,0,0,1,0,0,0,1), nrow = 3, byrow=TRUE)
+> R = matrix(c(1,0,0,0,1,0,0,0,1), nrow = 3, byrow=TRUE) 
+> 
+> 
+> 
+> 
+> #Loop foreach 
+> OUOU.model1 <- foreach(i=1:100) %dopar% { #calculation for each iteration 
++   result <- multiResultClass() #create a table to store the results
++   
++   #set and register a different seed for each loop
++   seed <- (10+i) 
++   set.seed(seed)
++   
++   result$result1 <- seed
++   result$result2 <- fit.multivariate.OU.user.defined(multiENVI, A.user=A,R.user=R, iterations = 1, hess = TRUE)
++   
++   end_time <- Sys.time(); end_time - start_time 
++   print( end_time - start_time ) 
++   result$result3 <- end_time - start_time 
++   
++   return(result)
++   
++ }
+Time difference of 2.883666 hours
+Time difference of 3.052704 hours
+Time difference of 3.165512 hours
+Time difference of 3.322708 hours
+Time difference of 3.371419 hours
+Time difference of 3.412514 hours
+Time difference of 3.488192 hours
+Time difference of 3.509944 hours
+Time difference of 3.547627 hours
+Time difference of 3.54923 hours
+Time difference of 3.6582 hours
+Time difference of 3.67664 hours
+Time difference of 3.867357 hours
+Time difference of 4.272599 hours
+Time difference of 4.291024 hours
+Time difference of 4.428473 hours
+Time difference of 4.466696 hours
+Time difference of 4.555831 hours
+Time difference of 4.624783 hours
+Time difference of 4.835249 hours
+Time difference of 4.855591 hours
+Time difference of 4.880226 hours
+Time difference of 4.958685 hours
+Time difference of 5.107901 hours
+Time difference of 5.216985 hours
+Time difference of 5.230348 hours
+Time difference of 5.312159 hours
+Time difference of 5.361317 hours
+Time difference of 5.473529 hours
+Time difference of 5.519935 hours
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 5.578165 hours
+Time difference of 5.701086 hours
+Time difference of 5.761256 hours
+Time difference of 5.814497 hours
+Time difference of 5.819302 hours
+Time difference of 6.11396 hours
+Time difference of 6.212759 hours
+Time difference of 6.315414 hours
+Time difference of 6.426968 hours
+Time difference of 6.448167 hours
+Time difference of 6.546673 hours
+Time difference of 6.565709 hours
+Time difference of 6.621587 hours
+Time difference of 6.726068 hours
+Time difference of 6.897182 hours
+Time difference of 6.993707 hours
+Time difference of 7.567646 hours
+Time difference of 7.698707 hours
+Time difference of 7.791294 hours
+Time difference of 7.888506 hours
+Time difference of 8.085793 hours
+Time difference of 8.236742 hours
+Time difference of 8.26835 hours
+Time difference of 8.295993 hours
+Time difference of 8.420881 hours
+Time difference of 8.513923 hours
+Time difference of 8.547221 hours
+Time difference of 8.573849 hours
+Time difference of 8.656003 hours
+Time difference of 8.693617 hours
+Time difference of 8.839088 hours
+Time difference of 8.99087 hours
+Time difference of 9.000767 hours
+Time difference of 9.025323 hours
+Time difference of 9.031269 hours
+Time difference of 9.08808 hours
+Time difference of 9.169827 hours
+Time difference of 9.243651 hours
+Time difference of 9.266665 hours
+Time difference of 9.298215 hours
+Time difference of 9.305754 hours
+Time difference of 9.384622 hours
+Time difference of 9.435234 hours
+Time difference of 9.475307 hours
+Time difference of 9.525892 hours
+Time difference of 9.610893 hours
+Time difference of 9.662651 hours
+Time difference of 9.665453 hours
+Time difference of 9.674336 hours
+Time difference of 9.677557 hours
+Time difference of 9.69725 hours
+Time difference of 9.707083 hours
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 9.773603 hours
+Time difference of 9.781606 hours
+Time difference of 9.800919 hours
+Time difference of 9.815542 hours
+Time difference of 9.831884 hours
+Time difference of 9.835791 hours
+Time difference of 9.863193 hours
+Time difference of 9.930163 hours
+Time difference of 9.970842 hours
+Time difference of 10.0035 hours
+Time difference of 10.12792 hours
+Time difference of 10.19046 hours
+Time difference of 10.20281 hours
+Time difference of 10.23606 hours
+Time difference of 10.25072 hours
+Time difference of 10.29878 hours
+Time difference of 10.54113 hours
+Time difference of 10.54976 hours
+> 
+> 
+> print ("DONE")
+[1] "DONE"
+> end_time <- Sys.time(); end_time - start_time
+Time difference of 10.54979 hours
+> 
+> 
+> 
+> 
+> 
+> save.image(file='Bornemann_FINAL_QUAT_model2_ns.RData')
+> 
+> 
+> 
+> 
+> 
+> #creation of AIC matrix
+> AICvalues<-matrix(ncol=2,nrow=100)
+> colnames(AICvalues) <- c("iteration", "AIC")
+> 
+> 
+> #Loop to fill the AIC matrix
+> for (j in 1:100) {
++   AICvalues[j,1] = j #iteration number
++   AICvalues[j,2] = OUOU.model1[[j]]$result2$AIC #AIC value
++ }
+> 
+> 
+> #Finding the best AIC
+> BestAICiteration = which.min(AICvalues[,2])
+> 
+> #Finding the best iteration associated to the best AIC
+> BESTRESULT=OUOU.model1[[BestAICiteration]]
+> BESTRESULT
+$LE_overall
+NULL
+
+$LE_overall_exp
+NULL
+
+$LE_overall_nonexp
+NULL
+
+$LE_without_dis
+NULL
+
+$LE_without_dis_exp
+NULL
+
+$LE_without_dis_nonexp
+NULL
+
+$LE_dis
+NULL
+
+$LE_dis_exp
+NULL
+
+$LE_dis_nonexp
+NULL
+
+$LE_non_dis
+NULL
+
+$LE_non_dis_exp
+NULL
+
+$LE_non_dis_nonexp
+NULL
+
+$np_age
+NULL
+
+$tp_dis
+NULL
+
+$nsurvival
+NULL
+
+$rsurvival
+NULL
+
+$nb_dis
+NULL
+
+$nb_dis_exp
+NULL
+
+$nb_dis_nonexp
+NULL
+
+$p_dis
+NULL
+
+$a_dis
+NULL
+
+$m_exp
+NULL
+
+$p_exp
+NULL
+
+$mortality_r
+NULL
+
+$result1
+[1] 50
+
+$result2
+$converge
+[1] "Model converged successfully"
+
+$logL
+[1] 94.62363
+
+$AICc
+[1] -153.1361
+
+$ancestral.values
+[1]  1.276892 -4.009882  1.590065
+
+$SE.anc
+[1] 0.025782921 0.009998162 0.009995126
+
+$optima
+[1]  1.229419 -4.053442  1.594192
+
+$SE.optima
+[1] 0.006610831 0.071364187 0.092272307
+
+$A
+         [,1]      [,2]     [,3]
+[1,] 181.7856  4.914452  0.00000
+[2,]   0.0000 45.223360  0.00000
+[3,]   0.0000  0.000000 24.46758
+
+$SE.A
+         [,1]      [,2]     [,3]
+[1,] 220.3617  6.545632 0.000000
+[2,]   0.0000 16.994253 0.000000
+[3,]   0.0000  0.000000 9.819198
+
+$half.life
+[1] 0.003812993 0.015327193 0.028329212
+
+$R
+        [,1]     [,2]     [,3]
+[1,] 0.38838 0.000000 0.000000
+[2,] 0.00000 9.144241 0.000000
+[3,] 0.00000 0.000000 4.891054
+
+$SE.R
+          [,1]     [,2]       [,3]
+[1,] 0.1521897 0.000000 0.00000000
+[2,] 0.0000000 0.217609 0.00000000
+[3,] 0.0000000 0.000000 0.08079416
+
+$method
+[1] "Joint"
+
+$K
+[1] 13
+
+$n
+[1] 50
+
+$iter
+[1] 1
+
+attr(,"class")
+[1] "paleoTSfit"
+
+$result3
+Time difference of 3.052704 hours
+
+> 
+
+Job 9897544 consumed 550.5 billing hours from project nn8105k.
+
+Submitted 2023-11-01T09:24:34; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 5.0 days
+Elapsed wallclock time:   10.6 hours
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+9897544          52            0.0 %  2023-11-01T09:24:35   10.6 h  0
+9897544.batch    52      1   185.2 %  2023-11-01T09:24:35   10.6 h  0
+
+Used CPU time:   42.5 CPU days
+Unused CPU time: 0.0 CPU seconds
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+9897544          60.0        
+9897544.batch    60.0    17.9
+
+Job 9897544 completed at Wed Nov 1 19:59:48 CET 2023
