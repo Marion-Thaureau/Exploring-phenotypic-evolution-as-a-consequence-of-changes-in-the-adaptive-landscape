@@ -1,0 +1,353 @@
+Starting job 16244830 on c5-55 on Saga at Thu Nov 27 16:49:47 CET 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv                              (S)
+  2) GCCcore/11.3.0
+  3) zlib/1.2.12-GCCcore-11.3.0          (H)
+  4) binutils/2.38-GCCcore-11.3.0        (H)
+  5) GCC/11.3.0
+  6) numactl/2.0.14-GCCcore-11.3.0       (H)
+  7) XZ/5.2.5-GCCcore-11.3.0             (H)
+  8) libxml2/2.9.13-GCCcore-11.3.0       (H)
+  9) libpciaccess/0.16-GCCcore-11.3.0    (H)
+ 10) hwloc/2.7.1-GCCcore-11.3.0          (H)
+ 11) hpcx/2.14
+ 12) OpenMPI/4.1.4-GCC-11.3.0
+ 13) OpenBLAS/0.3.20-GCC-11.3.0
+ 14) FlexiBLAS/3.2.0-GCC-11.3.0
+ 15) FFTW/3.3.10-GCC-11.3.0
+ 16) gompi/2022a
+ 17) FFTW.MPI/3.3.10-gompi-2022a
+ 18) ScaLAPACK/2.2.0-gompi-2022a-fb
+ 19) foss/2022a
+ 20) bzip2/1.0.8-GCCcore-11.3.0          (H)
+ 21) expat/2.4.8-GCCcore-11.3.0          (H)
+ 22) libpng/1.6.37-GCCcore-11.3.0        (H)
+ 23) Brotli/1.0.9-GCCcore-11.3.0         (H)
+ 24) freetype/2.12.1-GCCcore-11.3.0      (H)
+ 25) ncurses/6.3-GCCcore-11.3.0          (H)
+ 26) util-linux/2.38-GCCcore-11.3.0      (H)
+ 27) fontconfig/2.14.0-GCCcore-11.3.0    (H)
+ 28) xorg-macros/1.19.3-GCCcore-11.3.0   (H)
+ 29) X11/20220504-GCCcore-11.3.0         (H)
+ 30) gzip/1.12-GCCcore-11.3.0            (H)
+ 31) lz4/1.9.3-GCCcore-11.3.0            (H)
+ 32) zstd/1.5.2-GCCcore-11.3.0           (H)
+ 33) libdrm/2.4.110-GCCcore-11.3.0       (H)
+ 34) libglvnd/1.4.0-GCCcore-11.3.0       (H)
+ 35) libunwind/1.6.2-GCCcore-11.3.0      (H)
+ 36) LLVM/14.0.3-GCCcore-11.3.0
+ 37) Mesa/22.0.3-GCCcore-11.3.0          (H)
+ 38) libGLU/9.0.2-GCCcore-11.3.0         (H)
+ 39) pixman/0.40.0-GCCcore-11.3.0        (H)
+ 40) libffi/3.4.2-GCCcore-11.3.0         (H)
+ 41) gettext/0.21-GCCcore-11.3.0         (H)
+ 42) PCRE/8.45-GCCcore-11.3.0            (H)
+ 43) GLib/2.72.1-GCCcore-11.3.0          (H)
+ 44) cairo/1.17.4-GCCcore-11.3.0         (H)
+ 45) libreadline/8.1.2-GCCcore-11.3.0    (H)
+ 46) Tcl/8.6.12-GCCcore-11.3.0           (H)
+ 47) SQLite/3.38.3-GCCcore-11.3.0        (H)
+ 48) PCRE2/10.40-GCCcore-11.3.0          (H)
+ 49) NASM/2.15.05-GCCcore-11.3.0         (H)
+ 50) libjpeg-turbo/2.1.3-GCCcore-11.3.0  (H)
+ 51) jbigkit/2.1-GCCcore-11.3.0          (H)
+ 52) libdeflate/1.10-GCCcore-11.3.0      (H)
+ 53) LibTIFF/4.3.0-GCCcore-11.3.0        (H)
+ 54) Java/11.0.16
+ 55) Tk/8.6.12-GCCcore-11.3.0            (H)
+ 56) OpenSSL/1.1                         (H)
+ 57) cURL/7.83.0-GCCcore-11.3.0          (H)
+ 58) GMP/6.2.1-GCCcore-11.3.0            (H)
+ 59) NLopt/2.7.1-GCCcore-11.3.0          (H)
+ 60) libogg/1.3.5-GCCcore-11.3.0         (H)
+ 61) FLAC/1.3.4-GCCcore-11.3.0           (H)
+ 62) libvorbis/1.3.7-GCCcore-11.3.0      (H)
+ 63) libopus/1.3.1-GCCcore-11.3.0        (H)
+ 64) LAME/3.100-GCCcore-11.3.0           (H)
+ 65) libsndfile/1.1.0-GCCcore-11.3.0     (H)
+ 66) ICU/71.1-GCCcore-11.3.0             (H)
+ 67) Szip/2.1.1-GCCcore-11.3.0           (H)
+ 68) HDF5/1.12.2-gompi-2022a
+ 69) UDUNITS/2.2.28-GCCcore-11.3.0
+ 70) GSL/2.7-GCC-11.3.0
+ 71) ATK/2.38.0-GCCcore-11.3.0           (H)
+ 72) Gdk-Pixbuf/2.42.8-GCCcore-11.3.0    (H)
+ 73) HarfBuzz/4.2.1-GCCcore-11.3.0       (H)
+ 74) FriBidi/1.0.12-GCCcore-11.3.0       (H)
+ 75) Pango/1.50.7-GCCcore-11.3.0         (H)
+ 76) GTK2/2.24.33-GCCcore-11.3.0         (H)
+ 77) Ghostscript/9.56.1-GCCcore-11.3.0   (H)
+ 78) JasPer/2.0.33-GCCcore-11.3.0        (H)
+ 79) LittleCMS/2.13.1-GCCcore-11.3.0     (H)
+ 80) ImageMagick/7.1.0-37-GCCcore-11.3.0 (H)
+ 81) GLPK/5.0-GCCcore-11.3.0             (H)
+ 82) nodejs/16.15.1-GCCcore-11.3.0       (H)
+ 83) Python/3.10.4-GCCcore-11.3.0
+ 84) netCDF/4.9.0-gompi-2022a
+ 85) GEOS/3.10.3-GCC-11.3.0
+ 86) nlohmann_json/3.10.5-GCCcore-11.3.0 (H)
+ 87) PROJ/9.0.0-GCCcore-11.3.0
+ 88) libgeotiff/1.7.1-GCCcore-11.3.0     (H)
+ 89) pybind11/2.9.2-GCCcore-11.3.0       (H)
+ 90) SciPy-bundle/2022.05-foss-2022a
+ 91) libtirpc/1.3.2-GCCcore-11.3.0       (H)
+ 92) HDF/4.2.15-GCCcore-11.3.0           (H)
+ 93) GDAL/3.5.0-foss-2022a
+ 94) MPFR/4.1.0-GCCcore-11.3.0           (H)
+ 95) libgit2/1.4.3-GCCcore-11.3.0        (H)
+ 96) R/4.2.1-foss-2022a
+
+  Where:
+   H:  Hidden Module
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+
+R version 4.2.1 (2022-06-23) -- "Funny-Looking Kid"
+Copyright (C) 2022 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> ################################################
+> ##                                            ##
+> ##  COCCOLITH SCRIPT - Model 1a and Model 1b  ##
+> ##                                            ## 
+> ################################################
+> 
+> 
+> #R version 4.2.1
+> .libPaths("/cluster/home/marionth/R")
+> library(doParallel) #doParallel version 1.0.17
+Loading required package: foreach
+Loading required package: iterators
+Loading required package: parallel
+> library(dplyr) #dplyr version 1.1.0
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+> library(evoTS) #evoTS version 1.0.3
+> library(foreach) #foreach version 1.5.2
+> library(MCSPCD) #MCSPCD version 0.0.0.9000
+> library(paleoTS) #paleoTS version 0.6.2
+> library(parallel) #parallel version 4.2.1
+> library(stats) #stats version 4.2.1
+> library(usethis) #usethis version 2.1.6
+> 
+> 
+> setwd("/cluster/home/marionth/Bornemann")
+> 
+> 
+> 
+> ###### LOAD MORPHOLOGICAL DATA ######
+> bodylength_raw <- read.delim("/cluster/home/marionth/Bornemann/Biscutum_TotalcoccolithLength.txt")
+> 
+> bodylength_ts <- data.frame(
++   mean = bodylength_raw[[2]],
++   variance = bodylength_raw[[3]],
++   samplesize = bodylength_raw[[1]],
++   time = bodylength_raw[[4]]
++ )
+> 
+> 
+> 
+> ###### LOAD ENVIRONMENTAL DATA ######
+> isotopes <- read.delim("/cluster/home/marionth/Bornemann/isotopes.txt")
+> 
+> oxygen_isotopes_ts <- data.frame(
++   mean = isotopes[[4]],
++   variance = abs(isotopes[[4]]*0.001),
++   samplesize = 1,
++   time = isotopes[[5]]
++ )
+> 
+> carbon_isotopes_ts <- data.frame(
++   mean = isotopes[[3]],
++   variance = isotopes[[3]]*0.001,
++   samplesize = 1,
++   time = isotopes[[5]]
++ )
+> 
+> 
+> 
+> ###### CREATING PALEOTS AND EVOTS OBJECTS ######
+> #Creating paleoTS object for the body length time series
+> bodylength_obj <- paleoTS::as.paleoTS(mm = bodylength_ts$mean, vv = bodylength_ts$variance, nn = bodylength_ts$samplesize, tt = bodylength_ts$time)
+> ln.bodylength_obj <- paleoTS::ln.paleoTS(bodylength_obj) #log-transformation of the data
+> ln.bodylength_obj$tt <- ln.bodylength_obj$tt/(max(ln.bodylength_obj$tt)) #transfer of the time vector into a length unit of 1 
+> 
+> #Creating paleoTS object for the oxygen isotope time series
+> oxygen_isotopes_obj <- paleoTS::as.paleoTS(mm = oxygen_isotopes_ts$mean, vv = oxygen_isotopes_ts$variance, nn = oxygen_isotopes_ts$samplesize, tt = oxygen_isotopes_ts$time, oldest="first")
+> oxygen_isotopes_obj$tt <- oxygen_isotopes_obj$tt/(max(oxygen_isotopes_obj$tt)) #transfer of the time vector into a length unit of 1
+> 
+> #Creating paleoTS object for the carbon isotope time series
+> carbon_isotopes_obj <- paleoTS::as.paleoTS(mm = carbon_isotopes_ts$mean, vv = carbon_isotopes_ts$variance, nn = carbon_isotopes_ts$samplesize, tt = carbon_isotopes_ts$time, oldest="first")
+> carbon_isotopes_obj$tt <- carbon_isotopes_obj$tt/(max(carbon_isotopes_obj$tt)) #transfer of the time vector into a length unit of 1
+> 
+> #Creating and plotting the multivariate evoTS object
+> ln.bodylength_isotopes_multiobj <- make.multivar.evoTS(ln.bodylength_obj, oxygen_isotopes_obj, carbon_isotopes_obj)
+> 
+> 
+> 
+> ###### RUNNING Model_1a AND Model_1b ######
+> #Model_1a: empty A matrix; diagonal R matrix 
+> coccolith_model_1a <- fit.multivariate.URW(ln.bodylength_isotopes_multiobj, R = "diag", r = "fixed", iterations = 100, iter.sd = 0.000001, hess = TRUE)
+> 
+> #Model_1b: empty A matrix; full R matrix
+> coccolith_model_1b <- fit.multivariate.URW(ln.bodylength_isotopes_multiobj, R = "symmetric", r = "fixed", iterations = 100, iter.sd = 0.000001, hess = TRUE)
+> 
+> save.image(file <- 'coccolith_allruns_model_1ab.RData')
+> 
+> #calculating the correlation coefficients 
+> Rmatrix_best_coccolith_model_1b <- coccolith_model_1b$R
+> cormatrix_best_coccolith_model_1b <- cov2cor(Rmatrix_best_coccolith_model_1b)
+> 
+> 
+> 
+> ###### EXTRACTING AND SAVING THE ITERATION WITH BEST PARAMETER ESTIMATES ######
+> print(coccolith_model_1a)
+$converge
+[1] "Model converged successfully"
+
+$modelName
+[1] "Multivariate model: Random walk (R matrix with zero off-diagonal elements)"
+
+$logL
+[1] 75.80124
+
+$AICc
+[1] -137.649
+
+$ancestral.values
+[1]  1.271145 -4.007382  1.587266
+
+$SE.anc
+[1] 0.01530363 0.06234555 0.03916421
+
+$R
+            [,1]     [,2]    [,3]
+[1,] 0.004866515 0.000000 0.00000
+[2,] 0.000000000 4.562684 0.00000
+[3,] 0.000000000 0.000000 3.46965
+
+$SE.R
+          [,1]      [,2]      [,3]
+[1,] 0.0396004 0.0000000 0.0000000
+[2,] 0.0000000 0.2477863 0.0000000
+[3,] 0.0000000 0.0000000 0.2018815
+
+$method
+[1] "Joint"
+
+$K
+[1] 6
+
+$n
+[1] 50
+
+$iter
+[1] 100
+
+attr(,"class")
+[1] "evoTSmvFit"
+> save(coccolith_model_1a, file = 'coccolith_bestrun_model_1a.RData')
+> 
+> print(coccolith_model_1b)
+$converge
+[1] "Model converged successfully"
+
+$modelName
+[1] "Multivariate model: Random walk (R matrix with non-zero off-diagonal elements)"
+
+$logL
+[1] 85.16047
+
+$AICc
+[1] -147.8209
+
+$ancestral.values
+[1]  1.272917 -4.001825  1.585151
+
+$SE.anc
+[1] 0.01581669 0.06172643 0.03895341
+
+$R
+             [,1]        [,2]       [,3]
+[1,]  0.007304924 -0.05923778 -0.0571101
+[2,] -0.059237776  4.71740132  2.4471180
+[3,] -0.057110102  2.44711798  3.5488191
+
+$SE.R
+            [,1]       [,2]       [,3]
+[1,] 0.002168515 0.04144568 0.03224139
+[2,] 0.041445684 0.92597656 0.76598570
+[3,] 0.032241392 0.76598570 0.68691185
+
+$method
+[1] "Joint"
+
+$K
+[1] 9
+
+$n
+[1] 50
+
+$iter
+[1] 100
+
+attr(,"class")
+[1] "evoTSmvFit"
+> print(cormatrix_best_coccolith_model_1b)
+           [,1]       [,2]       [,3]
+[1,]  1.0000000 -0.3191093 -0.3547016
+[2,] -0.3191093  1.0000000  0.5980831
+[3,] -0.3547016  0.5980831  1.0000000
+> save(coccolith_model_1b, cormatrix_best_coccolith_model_1b, file = 'coccolith_bestrun_model_1b.RData')
+> 
+
+Job 16244830 consumed 0.6 billing hours from project nn8105k.
+
+Submitted 2025-11-27T16:49:46; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 3.0 hours
+Elapsed wallclock time:   17.1 minutes
+
+Job exited normally.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start   Elapsed  Exit status
+16244830           1            0.0 %  2025-11-27T16:49:47  1028.0 s  0
+16244830.batch     1      1    97.4 %  2025-11-27T16:49:47  1028.0 s  0
+
+Used CPU time:   16.7 CPU minutes
+Unused CPU time: 26.9 CPU seconds
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+16244830          10.0        
+16244830.batch    10.0     0.2
+
+Job 16244830 completed at Thu Nov 27 17:06:55 CET 2025

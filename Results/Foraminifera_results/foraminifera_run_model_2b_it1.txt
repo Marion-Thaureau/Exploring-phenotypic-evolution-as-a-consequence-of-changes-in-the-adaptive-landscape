@@ -1,0 +1,719 @@
+Starting job 16013134 on c11-21 on Saga at Mon Oct 27 13:57:16 CET 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv                              (S)
+  2) GCCcore/11.3.0
+  3) zlib/1.2.12-GCCcore-11.3.0          (H)
+  4) binutils/2.38-GCCcore-11.3.0        (H)
+  5) GCC/11.3.0
+  6) numactl/2.0.14-GCCcore-11.3.0       (H)
+  7) XZ/5.2.5-GCCcore-11.3.0             (H)
+  8) libxml2/2.9.13-GCCcore-11.3.0       (H)
+  9) libpciaccess/0.16-GCCcore-11.3.0    (H)
+ 10) hwloc/2.7.1-GCCcore-11.3.0          (H)
+ 11) hpcx/2.14
+ 12) OpenMPI/4.1.4-GCC-11.3.0
+ 13) OpenBLAS/0.3.20-GCC-11.3.0
+ 14) FlexiBLAS/3.2.0-GCC-11.3.0
+ 15) FFTW/3.3.10-GCC-11.3.0
+ 16) gompi/2022a
+ 17) FFTW.MPI/3.3.10-gompi-2022a
+ 18) ScaLAPACK/2.2.0-gompi-2022a-fb
+ 19) foss/2022a
+ 20) bzip2/1.0.8-GCCcore-11.3.0          (H)
+ 21) expat/2.4.8-GCCcore-11.3.0          (H)
+ 22) libpng/1.6.37-GCCcore-11.3.0        (H)
+ 23) Brotli/1.0.9-GCCcore-11.3.0         (H)
+ 24) freetype/2.12.1-GCCcore-11.3.0      (H)
+ 25) ncurses/6.3-GCCcore-11.3.0          (H)
+ 26) util-linux/2.38-GCCcore-11.3.0      (H)
+ 27) fontconfig/2.14.0-GCCcore-11.3.0    (H)
+ 28) xorg-macros/1.19.3-GCCcore-11.3.0   (H)
+ 29) X11/20220504-GCCcore-11.3.0         (H)
+ 30) gzip/1.12-GCCcore-11.3.0            (H)
+ 31) lz4/1.9.3-GCCcore-11.3.0            (H)
+ 32) zstd/1.5.2-GCCcore-11.3.0           (H)
+ 33) libdrm/2.4.110-GCCcore-11.3.0       (H)
+ 34) libglvnd/1.4.0-GCCcore-11.3.0       (H)
+ 35) libunwind/1.6.2-GCCcore-11.3.0      (H)
+ 36) LLVM/14.0.3-GCCcore-11.3.0          (H)
+ 37) Mesa/22.0.3-GCCcore-11.3.0          (H)
+ 38) libGLU/9.0.2-GCCcore-11.3.0         (H)
+ 39) pixman/0.40.0-GCCcore-11.3.0        (H)
+ 40) libffi/3.4.2-GCCcore-11.3.0         (H)
+ 41) gettext/0.21-GCCcore-11.3.0         (H)
+ 42) PCRE/8.45-GCCcore-11.3.0            (H)
+ 43) GLib/2.72.1-GCCcore-11.3.0          (H)
+ 44) cairo/1.17.4-GCCcore-11.3.0         (H)
+ 45) libreadline/8.1.2-GCCcore-11.3.0    (H)
+ 46) Tcl/8.6.12-GCCcore-11.3.0           (H)
+ 47) SQLite/3.38.3-GCCcore-11.3.0        (H)
+ 48) PCRE2/10.40-GCCcore-11.3.0          (H)
+ 49) NASM/2.15.05-GCCcore-11.3.0         (H)
+ 50) libjpeg-turbo/2.1.3-GCCcore-11.3.0  (H)
+ 51) jbigkit/2.1-GCCcore-11.3.0          (H)
+ 52) libdeflate/1.10-GCCcore-11.3.0      (H)
+ 53) LibTIFF/4.3.0-GCCcore-11.3.0        (H)
+ 54) Java/11.0.16
+ 55) Tk/8.6.12-GCCcore-11.3.0            (H)
+ 56) OpenSSL/1.1                         (H)
+ 57) cURL/7.83.0-GCCcore-11.3.0          (H)
+ 58) GMP/6.2.1-GCCcore-11.3.0            (H)
+ 59) NLopt/2.7.1-GCCcore-11.3.0          (H)
+ 60) libogg/1.3.5-GCCcore-11.3.0         (H)
+ 61) FLAC/1.3.4-GCCcore-11.3.0           (H)
+ 62) libvorbis/1.3.7-GCCcore-11.3.0      (H)
+ 63) libopus/1.3.1-GCCcore-11.3.0        (H)
+ 64) LAME/3.100-GCCcore-11.3.0           (H)
+ 65) libsndfile/1.1.0-GCCcore-11.3.0     (H)
+ 66) ICU/71.1-GCCcore-11.3.0             (H)
+ 67) Szip/2.1.1-GCCcore-11.3.0           (H)
+ 68) HDF5/1.12.2-gompi-2022a
+ 69) UDUNITS/2.2.28-GCCcore-11.3.0
+ 70) GSL/2.7-GCC-11.3.0
+ 71) ATK/2.38.0-GCCcore-11.3.0           (H)
+ 72) Gdk-Pixbuf/2.42.8-GCCcore-11.3.0    (H)
+ 73) HarfBuzz/4.2.1-GCCcore-11.3.0       (H)
+ 74) FriBidi/1.0.12-GCCcore-11.3.0       (H)
+ 75) Pango/1.50.7-GCCcore-11.3.0         (H)
+ 76) GTK2/2.24.33-GCCcore-11.3.0         (H)
+ 77) Ghostscript/9.56.1-GCCcore-11.3.0   (H)
+ 78) JasPer/2.0.33-GCCcore-11.3.0        (H)
+ 79) LittleCMS/2.13.1-GCCcore-11.3.0     (H)
+ 80) ImageMagick/7.1.0-37-GCCcore-11.3.0 (H)
+ 81) GLPK/5.0-GCCcore-11.3.0             (H)
+ 82) nodejs/16.15.1-GCCcore-11.3.0       (H)
+ 83) Python/3.10.4-GCCcore-11.3.0
+ 84) netCDF/4.9.0-gompi-2022a
+ 85) GEOS/3.10.3-GCC-11.3.0
+ 86) nlohmann_json/3.10.5-GCCcore-11.3.0 (H)
+ 87) PROJ/9.0.0-GCCcore-11.3.0
+ 88) libgeotiff/1.7.1-GCCcore-11.3.0     (H)
+ 89) pybind11/2.9.2-GCCcore-11.3.0       (H)
+ 90) SciPy-bundle/2022.05-foss-2022a
+ 91) libtirpc/1.3.2-GCCcore-11.3.0       (H)
+ 92) HDF/4.2.15-GCCcore-11.3.0           (H)
+ 93) GDAL/3.5.0-foss-2022a
+ 94) MPFR/4.1.0-GCCcore-11.3.0           (H)
+ 95) libgit2/1.4.3-GCCcore-11.3.0        (H)
+ 96) R/4.2.1-foss-2022a
+
+  Where:
+   H:  Hidden Module
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+
+R version 4.2.1 (2022-06-23) -- "Funny-Looking Kid"
+Copyright (C) 2022 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> #########################################################
+> ##                                                     ##
+> ##  FORAMINIFERA SCRIPT - Model 2b (iteration 1 - 50)  ##
+> ##                                                     ## 
+> #########################################################
+> 
+> 
+> #R version 4.2.1
+> .libPaths("/cluster/home/marionth/R")
+> library(doParallel) #doParallel version 1.0.17
+Loading required package: foreach
+Loading required package: iterators
+Loading required package: parallel
+> library(dplyr) #dplyr version 1.1.0
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+> library(evoTS) #evoTS version 1.0.3
+> library(foreach) #foreach version 1.5.2
+> library(MCSPCD) #MCSPCD version 0.0.0.9000
+> library(paleoTS) #paleoTS version 0.6.2
+> library(parallel) #parallel version 4.2.1
+> library(stats) #stats version 4.2.1
+> 
+> 
+> setwd("/cluster/home/marionth/Hodell")
+> 
+> 
+> 
+> ###### LOAD MORPHOLOGICAL AND ENVIRONMENTAL DATA ######
+> bodylength_raw <- read.table("Hodell_and_Vayavananda_1993_Fohsella_length.txt",header=T)
+> oxygen_isotopes_raw <- read.csv("table_d18O.csv")
+> carbon_isotopes_raw <- read.csv("table_d13C.csv")
+> 
+> #removing the NA rows
+> dataset_raw = cbind(bodylength_raw, oxygen_isotopes_raw, carbon_isotopes_raw)
+> dataset = dataset_raw %>% filter(!is.na(d13C_mean)) 
+> 
+> #creating the body length time series (already log-transformed)
+> bodylength_ts <- data.frame(
++   mean = dataset$trait_mean,
++   variance = dataset$trait_var,
++   samplesize = dataset$N,
++   time = dataset$age_MY
++ )
+> 
+> #creating the oxygen isotope time series
+> oxygen_isotopes_ts <- data.frame(
++   mean = dataset$d18O_mean,
++   variance = abs(dataset$d18O_mean)*0.001,
++   samplesize = 1,
++   time = dataset$age_MY
++ )
+> 
+> #creating the carbon isotope time series
+> carbon_isotopes_ts <- data.frame(
++   mean = dataset$d13C_mean,
++   variance = abs(dataset$d13C_mean)*0.001,
++   samplesize = 1,
++   time = dataset$age_MY
++ )
+> 
+> 
+> 
+> ###### CREATING PALEOTS AND EVOTS OBJECTS ######
+> #Creating paleoTS object for the body length time series
+> ln.bodylength_obj <- paleoTS::as.paleoTS(mm = bodylength_ts$mean, vv = bodylength_ts$variance, nn = bodylength_ts$samplesize, tt = bodylength_ts$time)
+> ln.bodylength_obj$tt <- ln.bodylength_obj$tt/(max(ln.bodylength_obj$tt)) #transfer of the time vector into a length unit of 1 
+> 
+> #Creating paleoTS object for the oxygen isotope time series
+> oxygen_isotopes_obj <- paleoTS::as.paleoTS(mm = oxygen_isotopes_ts$mean, vv = oxygen_isotopes_ts$variance, nn = oxygen_isotopes_ts$samplesize, tt = oxygen_isotopes_ts$time, oldest="first")
+> oxygen_isotopes_obj$tt <- oxygen_isotopes_obj$tt/(max(oxygen_isotopes_obj$tt)) #transfer of the time vector into a length unit of 1
+> 
+> #Creating paleoTS object for the carbon isotope time series
+> carbon_isotopes_obj <- paleoTS::as.paleoTS(mm = carbon_isotopes_ts$mean, vv = carbon_isotopes_ts$variance, nn = carbon_isotopes_ts$samplesize, tt = carbon_isotopes_ts$time, oldest="first")
+> carbon_isotopes_obj$tt <- carbon_isotopes_obj$tt/(max(carbon_isotopes_obj$tt)) #transfer of the time vector into a length unit of 1
+> 
+> #Creating and plotting the multivariate evoTS object
+> ln.bodylength_isotopes_multiobj <- make.multivar.evoTS(ln.bodylength_obj, oxygen_isotopes_obj, carbon_isotopes_obj)
+> 
+> 
+> 
+> ###### RUNNING Model_2b ######
+> #Parallelisation of the job 
+> registerDoParallel(52)
+> start_time <- Sys.time() 
+> 
+> #Model_2b: only body length is an OU in A matrix; full R matrix 
+> A = matrix(c(1,0,0,0,0,0,0,0,0), nrow = 3, byrow=TRUE)
+> R = matrix(c(1,1,1,1,1,1,1,1,1), nrow = 3, byrow=TRUE)
+> 
+> #Loop for 65 iterations 
+> foraminifera_model_2b_it1 <- foreach(i=1:104) %dopar% { 
++   result <- multiResultClass() 
++   
++ #Set and store a different seed for each iteration
++   seed <- (10+i) 
++   set.seed(seed)
++   result$result1 <- seed
++   
++ #Run iterations using the parametrized matrices A and R
++   result$result2 <- tryCatch({fit.multivariate.OU.user.defined(ln.bodylength_isotopes_multiobj, A.user = A, R.user = R, iterations = 1, hess = TRUE)
++     
++ #Handle non-converging iterations
++   }, error = function(e) {
++     message(paste("Error in iteration", i, ":", e$message))
++     return(NA) 
++   })
++   
++ #Record the running time for each iteration
++   end_time <- Sys.time()
++   elapsed_time <- end_time - start_time
++   print(elapsed_time)
++   result$result3 <- elapsed_time
++   
++   return(result)
++ }
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+Error in iteration 6 : system is computationally singular: reciprocal condition number = 2.41543e-19
+Time difference of 7.203655 hours
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+Error in iteration 35 : system is computationally singular: reciprocal condition number = 1.07001e-20
+Time difference of 8.163075 hours
+Time difference of 9.777267 hours
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+Error in iteration 39 : system is computationally singular: reciprocal condition number = 2.22385e-21
+Time difference of 10.81729 hours
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+Time difference of 11.40424 hours
+Error in iteration 33 : system is computationally singular: reciprocal condition number = 3.03748e-20
+Time difference of 11.45219 hours
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+Time difference of 11.7437 hours
+Error in iteration 29 : system is computationally singular: reciprocal condition number = 1.44032e-21
+Time difference of 11.75215 hours
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+Time difference of 12.41787 hours
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+Time difference of 12.82857 hours
+Error in iteration 24 : system is computationally singular: reciprocal condition number = 1.06444e-21
+Time difference of 14.04404 hours
+Time difference of 14.59573 hours
+Error in iteration 30 : system is computationally singular: reciprocal condition number = 5.16314e-22
+Time difference of 14.87423 hours
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+Error in iteration 49 : system is computationally singular: reciprocal condition number = 2.57263e-21
+Time difference of 16.05754 hours
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+Time difference of 16.99152 hours
+Time difference of 17.31933 hours
+Time difference of 17.34043 hours
+Time difference of 18.0341 hours
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+Error in iteration 9 : system is computationally singular: reciprocal condition number = 9.02775e-21
+Time difference of 19.30575 hours
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+Error in iteration 23 : system is computationally singular: reciprocal condition number = 2.32531e-19
+Time difference of 19.60572 hours
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+Time difference of 19.83184 hours
+Time difference of 19.83955 hours
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+Time difference of 20.98859 hours
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+Time difference of 21.42771 hours
+Time difference of 21.81354 hours
+Time difference of 22.71131 hours
+Time difference of 22.8289 hours
+Error in iteration 37 : system is computationally singular: reciprocal condition number = 1.75149e-19
+Time difference of 22.90227 hours
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+Time difference of 23.16482 hours
+Error in iteration 15 : system is computationally singular: reciprocal condition number = 4.69865e-21
+Time difference of 23.73186 hours
+Error in iteration 25 : system is computationally singular: reciprocal condition number = 1.22164e-19
+Time difference of 23.73508 hours
+Time difference of 1.008828 days
+Error in iteration 76 : system is computationally singular: reciprocal condition number = 6.44289e-21
+Time difference of 1.012577 days
+Error in iteration 46 : system is computationally singular: reciprocal condition number = 1.19416e-18
+Time difference of 1.014799 days
+Time difference of 1.019114 days
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+Time difference of 1.023673 days
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+Error in iteration 51 : system is computationally singular: reciprocal condition number = 1.53012e-19
+Time difference of 1.027023 days
+Time difference of 1.039144 days
+Error in iteration 60 : system is computationally singular: reciprocal condition number = 5.77806e-21
+Time difference of 1.041083 days
+Error in iteration 26 : system is computationally singular: reciprocal condition number = 2.38291e-19
+Time difference of 1.056894 days
+Time difference of 1.064098 days
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+Time difference of 1.079498 days
+Time difference of 1.087777 days
+Time difference of 1.093112 days
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+Time difference of 1.096859 days
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+Time difference of 1.128635 days
+Time difference of 1.147523 days
+Error in iteration 91 : system is computationally singular: reciprocal condition number = 4.50238e-21
+Time difference of 1.186353 days
+Time difference of 1.210905 days
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+Time difference of 1.225686 days
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+Time difference of 1.236704 days
+Time difference of 1.257031 days
+Error in iteration 56 : system is computationally singular: reciprocal condition number = 4.55305e-21
+Time difference of 1.26843 days
+Error in iteration 88 : system is computationally singular: reciprocal condition number = 8.30557e-22
+Time difference of 1.271418 days
+Error in iteration 19 : system is computationally singular: reciprocal condition number = 5.2826e-21
+Time difference of 1.271684 days
+Time difference of 1.275454 days
+Error in iteration 41 : system is computationally singular: reciprocal condition number = 2.77965e-19
+Time difference of 1.275793 days
+Time difference of 1.282061 days
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+Time difference of 1.291266 days
+Error in iteration 61 : system is computationally singular: reciprocal condition number = 4.60422e-21
+Time difference of 1.292123 days
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+Time difference of 1.307455 days
+Error in iteration 92 : system is computationally singular: reciprocal condition number = 4.63895e-22
+Time difference of 1.325293 days
+Time difference of 1.337186 days
+Time difference of 1.341675 days
+Error in iteration 77 : system is computationally singular: reciprocal condition number = 8.15349e-20
+Time difference of 1.357367 days
+Time difference of 1.361618 days
+Time difference of 1.372236 days
+Error in iteration 74 : system is computationally singular: reciprocal condition number = 1.79829e-18
+Time difference of 1.391703 days
+Time difference of 1.392361 days
+Error in iteration 75 : system is computationally singular: reciprocal condition number = 1.18243e-21
+Time difference of 1.395244 days
+Time difference of 1.39652 days
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+Time difference of 1.400564 days
+Error in iteration 53 : system is computationally singular: reciprocal condition number = 1.61433e-21
+Time difference of 1.400776 days
+Error in iteration 86 : system is computationally singular: reciprocal condition number = 1.03582e-21
+Time difference of 1.41208 days
+Time difference of 1.419668 days
+Error in iteration 62 : system is computationally singular: reciprocal condition number = 2.33217e-21
+Time difference of 1.420138 days
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+Time difference of 1.428266 days
+Time difference of 1.45387 days
+Time difference of 1.46213 days
+Time difference of 1.474313 days
+Error in iteration 5 : system is computationally singular: reciprocal condition number = 2.78856e-19
+Time difference of 1.474726 days
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+Time difference of 1.47927 days
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+Error in iteration 103 : system is computationally singular: reciprocal condition number = 2.57933e-19
+Time difference of 1.482604 days
+Error in iteration 99 : system is computationally singular: reciprocal condition number = 9.20317e-21
+Time difference of 1.484607 days
+Time difference of 1.491597 days
+Error in iteration 90 : system is computationally singular: reciprocal condition number = 1.25056e-19
+Time difference of 1.501804 days
+Error in iteration 83 : system is computationally singular: reciprocal condition number = 1.29658e-18
+Time difference of 1.506657 days
+Error in iteration 94 : system is computationally singular: reciprocal condition number = 4.24445e-19
+Time difference of 1.507395 days
+Time difference of 1.511431 days
+Time difference of 1.531815 days
+Time difference of 1.532362 days
+Error in iteration 70 : system is computationally singular: reciprocal condition number = 8.36145e-19
+Time difference of 1.533347 days
+Time difference of 1.556197 days
+Error in iteration 55 : system is computationally singular: reciprocal condition number = 4.11157e-21
+Time difference of 1.559834 days
+Error in iteration 66 : system is computationally singular: reciprocal condition number = 7.70559e-19
+Time difference of 1.560272 days
+Error in iteration 59 : system is computationally singular: reciprocal condition number = 7.20702e-19
+Time difference of 1.56585 days
+Time difference of 1.569654 days
+Time difference of 1.572903 days
+Time difference of 1.573849 days
+Time difference of 1.610177 days
+Error in iteration 73 : system is computationally singular: reciprocal condition number = 2.60892e-21
+Time difference of 1.620128 days
+Time difference of 1.658987 days
+Time difference of 1.680161 days
+Time difference of 1.792199 days
+> 
+> print ("DONE")
+[1] "DONE"
+> end_time <- Sys.time(); end_time - start_time
+Time difference of 1.7922 days
+> 
+> save.image(file = 'foraminifera_allruns_model_2b_it1.RData')
+> 
+> 
+> 
+> ###### EXTRACTING AND SAVING THE ITERATION WITH BEST PARAMETER ESTIMATES ######
+> #Filtering 50 iterations which converged
+> foraminifera_model_2b_it1_filtered <- Filter(function(iteration) !is.na(iteration$result2[[1]]), foraminifera_model_2b_it1)
+> foraminifera_model_2b_it1_filtered <- Filter(function(iteration) !is.null(iteration), foraminifera_model_2b_it1_filtered)
+> foraminifera_model_2b_it1_results <- foraminifera_model_2b_it1_filtered[1:50]
+> 
+> #Extracting the AICc values of each iterations
+> AICc <- matrix(ncol=2, nrow=50)
+> colnames(AICc) <- c("iteration", "AIC")
+> 
+> for (j in 1:50) {
++   AICc[j,1] <- j 
++   AICc[j,2] <- foraminifera_model_2b_it1_results[[j]]$result2$AICc 
++ }
+> 
+> #Finding the best AICc
+> AICc_min <- which.min(AICc[,2])
+> 
+> #Finding the best iteration  
+> foraminifera_model_2b_best_it1 <- foraminifera_model_2b_it1_results[[AICc_min]]
+> 
+> #calculating the correlation coefficients 
+> Rmatrix_best_foraminifera_model_2b_it1 <- foraminifera_model_2b_best_it1$result2$R
+> cormatrix_best_foraminifera_model_2b_it1 <- cov2cor(Rmatrix_best_foraminifera_model_2b_it1)
+> 
+> #Saving the best iteration
+> print(foraminifera_model_2b_best_it1)
+$LE_overall
+NULL
+
+$LE_overall_exp
+NULL
+
+$LE_overall_nonexp
+NULL
+
+$LE_without_dis
+NULL
+
+$LE_without_dis_exp
+NULL
+
+$LE_without_dis_nonexp
+NULL
+
+$LE_dis
+NULL
+
+$LE_dis_exp
+NULL
+
+$LE_dis_nonexp
+NULL
+
+$LE_non_dis
+NULL
+
+$LE_non_dis_exp
+NULL
+
+$LE_non_dis_nonexp
+NULL
+
+$np_age
+NULL
+
+$tp_dis
+NULL
+
+$nsurvival
+NULL
+
+$rsurvival
+NULL
+
+$nb_dis
+NULL
+
+$nb_dis_exp
+NULL
+
+$nb_dis_nonexp
+NULL
+
+$p_dis
+NULL
+
+$a_dis
+NULL
+
+$m_exp
+NULL
+
+$p_exp
+NULL
+
+$mortality_r
+NULL
+
+$result1
+[1] 55
+
+$result2
+$converge
+[1] "Model converged successfully"
+
+$modelName
+[1] "Multivariate model: User-specified OU model"
+
+$logL
+[1] 331.3734
+
+$AICc
+[1] -638.0528
+
+$ancestral.values
+[1] -1.493027 -1.079084  2.032316
+
+$SE.anc
+[1] 0.02239679 0.03115523 0.04009622
+
+$optima
+[1] -0.9995875         NA         NA
+
+$SE.optima
+[1] 0.1643446        NA        NA
+
+$A
+         [,1] [,2] [,3]
+[1,] 4.349449    0    0
+[2,] 0.000000    0    0
+[3,] 0.000000    0    0
+
+$SE.A
+         [,1] [,2] [,3]
+[1,] 2.830131    0    0
+[2,] 0.000000    0    0
+[3,] 0.000000    0    0
+
+$half.life
+[1] 0.1593644       Inf       Inf
+
+$R
+            [,1]        [,2]      [,3]
+[1,]  0.35763590 -0.00272342 0.1894987
+[2,] -0.00272342  1.32423245 0.1918693
+[3,]  0.18949868  0.19186926 1.3062226
+
+$SE.R
+            [,1]       [,2]        [,3]
+[1,] 0.018423482 0.02202745 0.009420978
+[2,] 0.022027448 0.03554212 0.017334961
+[3,] 0.009420978 0.01733496 0.012402912
+
+$method
+[1] "Joint"
+
+$K
+[1] 11
+
+$n
+[1] 110
+
+$iter
+[1] 1
+
+attr(,"class")
+[1] "evoTSmvFit"
+
+$result3
+Time difference of 16.99152 hours
+
+> print(cormatrix_best_foraminifera_model_2b_it1)
+             [,1]         [,2]      [,3]
+[1,]  1.000000000 -0.003957418 0.2772535
+[2,] -0.003957418  1.000000000 0.1458864
+[3,]  0.277253499  0.145886358 1.0000000
+> save(foraminifera_model_2b_best_it1, cormatrix_best_foraminifera_model_2b_it1, file = 'foraminifera_bestrun_model_2b_it1.RData')
+> 
+
+Job 16013134 consumed 2237.1 billing hours from project nn8105k.
+
+Submitted 2025-10-27T13:47:28; waited 9.8 minutes in the queue after becoming eligible to run.
+
+Requested wallclock time: 7.0 days
+Elapsed wallclock time:   1.8 days
+
+Job exited normally.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+16013134          52            0.0 %  2025-10-27T13:57:13   43.0 h  0
+16013134.batch    52      1   169.2 %  2025-10-27T13:57:13   43.0 h  0
+
+Used CPU time:   157.7 CPU days
+Unused CPU time: 0.0 CPU seconds
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+16013134          40.0        
+16013134.batch    40.0    17.9
+
+Job 16013134 completed at Wed Oct 29 08:58:30 CET 2025

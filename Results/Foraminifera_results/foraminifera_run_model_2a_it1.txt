@@ -1,0 +1,846 @@
+Starting job 16035086 on c10-4 on Saga at Thu Oct 30 13:11:14 CET 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv                              (S)
+  2) GCCcore/11.3.0
+  3) zlib/1.2.12-GCCcore-11.3.0          (H)
+  4) binutils/2.38-GCCcore-11.3.0        (H)
+  5) GCC/11.3.0
+  6) numactl/2.0.14-GCCcore-11.3.0       (H)
+  7) XZ/5.2.5-GCCcore-11.3.0             (H)
+  8) libxml2/2.9.13-GCCcore-11.3.0       (H)
+  9) libpciaccess/0.16-GCCcore-11.3.0    (H)
+ 10) hwloc/2.7.1-GCCcore-11.3.0          (H)
+ 11) hpcx/2.14
+ 12) OpenMPI/4.1.4-GCC-11.3.0
+ 13) OpenBLAS/0.3.20-GCC-11.3.0
+ 14) FlexiBLAS/3.2.0-GCC-11.3.0
+ 15) FFTW/3.3.10-GCC-11.3.0
+ 16) gompi/2022a
+ 17) FFTW.MPI/3.3.10-gompi-2022a
+ 18) ScaLAPACK/2.2.0-gompi-2022a-fb
+ 19) foss/2022a
+ 20) bzip2/1.0.8-GCCcore-11.3.0          (H)
+ 21) expat/2.4.8-GCCcore-11.3.0          (H)
+ 22) libpng/1.6.37-GCCcore-11.3.0        (H)
+ 23) Brotli/1.0.9-GCCcore-11.3.0         (H)
+ 24) freetype/2.12.1-GCCcore-11.3.0      (H)
+ 25) ncurses/6.3-GCCcore-11.3.0          (H)
+ 26) util-linux/2.38-GCCcore-11.3.0      (H)
+ 27) fontconfig/2.14.0-GCCcore-11.3.0    (H)
+ 28) xorg-macros/1.19.3-GCCcore-11.3.0   (H)
+ 29) X11/20220504-GCCcore-11.3.0         (H)
+ 30) gzip/1.12-GCCcore-11.3.0            (H)
+ 31) lz4/1.9.3-GCCcore-11.3.0            (H)
+ 32) zstd/1.5.2-GCCcore-11.3.0           (H)
+ 33) libdrm/2.4.110-GCCcore-11.3.0       (H)
+ 34) libglvnd/1.4.0-GCCcore-11.3.0       (H)
+ 35) libunwind/1.6.2-GCCcore-11.3.0      (H)
+ 36) LLVM/14.0.3-GCCcore-11.3.0          (H)
+ 37) Mesa/22.0.3-GCCcore-11.3.0          (H)
+ 38) libGLU/9.0.2-GCCcore-11.3.0         (H)
+ 39) pixman/0.40.0-GCCcore-11.3.0        (H)
+ 40) libffi/3.4.2-GCCcore-11.3.0         (H)
+ 41) gettext/0.21-GCCcore-11.3.0         (H)
+ 42) PCRE/8.45-GCCcore-11.3.0            (H)
+ 43) GLib/2.72.1-GCCcore-11.3.0          (H)
+ 44) cairo/1.17.4-GCCcore-11.3.0         (H)
+ 45) libreadline/8.1.2-GCCcore-11.3.0    (H)
+ 46) Tcl/8.6.12-GCCcore-11.3.0           (H)
+ 47) SQLite/3.38.3-GCCcore-11.3.0        (H)
+ 48) PCRE2/10.40-GCCcore-11.3.0          (H)
+ 49) NASM/2.15.05-GCCcore-11.3.0         (H)
+ 50) libjpeg-turbo/2.1.3-GCCcore-11.3.0  (H)
+ 51) jbigkit/2.1-GCCcore-11.3.0          (H)
+ 52) libdeflate/1.10-GCCcore-11.3.0      (H)
+ 53) LibTIFF/4.3.0-GCCcore-11.3.0        (H)
+ 54) Java/11.0.16
+ 55) Tk/8.6.12-GCCcore-11.3.0            (H)
+ 56) OpenSSL/1.1                         (H)
+ 57) cURL/7.83.0-GCCcore-11.3.0          (H)
+ 58) GMP/6.2.1-GCCcore-11.3.0            (H)
+ 59) NLopt/2.7.1-GCCcore-11.3.0          (H)
+ 60) libogg/1.3.5-GCCcore-11.3.0         (H)
+ 61) FLAC/1.3.4-GCCcore-11.3.0           (H)
+ 62) libvorbis/1.3.7-GCCcore-11.3.0      (H)
+ 63) libopus/1.3.1-GCCcore-11.3.0        (H)
+ 64) LAME/3.100-GCCcore-11.3.0           (H)
+ 65) libsndfile/1.1.0-GCCcore-11.3.0     (H)
+ 66) ICU/71.1-GCCcore-11.3.0             (H)
+ 67) Szip/2.1.1-GCCcore-11.3.0           (H)
+ 68) HDF5/1.12.2-gompi-2022a
+ 69) UDUNITS/2.2.28-GCCcore-11.3.0
+ 70) GSL/2.7-GCC-11.3.0
+ 71) ATK/2.38.0-GCCcore-11.3.0           (H)
+ 72) Gdk-Pixbuf/2.42.8-GCCcore-11.3.0    (H)
+ 73) HarfBuzz/4.2.1-GCCcore-11.3.0       (H)
+ 74) FriBidi/1.0.12-GCCcore-11.3.0       (H)
+ 75) Pango/1.50.7-GCCcore-11.3.0         (H)
+ 76) GTK2/2.24.33-GCCcore-11.3.0         (H)
+ 77) Ghostscript/9.56.1-GCCcore-11.3.0   (H)
+ 78) JasPer/2.0.33-GCCcore-11.3.0        (H)
+ 79) LittleCMS/2.13.1-GCCcore-11.3.0     (H)
+ 80) ImageMagick/7.1.0-37-GCCcore-11.3.0 (H)
+ 81) GLPK/5.0-GCCcore-11.3.0             (H)
+ 82) nodejs/16.15.1-GCCcore-11.3.0       (H)
+ 83) Python/3.10.4-GCCcore-11.3.0
+ 84) netCDF/4.9.0-gompi-2022a
+ 85) GEOS/3.10.3-GCC-11.3.0
+ 86) nlohmann_json/3.10.5-GCCcore-11.3.0 (H)
+ 87) PROJ/9.0.0-GCCcore-11.3.0
+ 88) libgeotiff/1.7.1-GCCcore-11.3.0     (H)
+ 89) pybind11/2.9.2-GCCcore-11.3.0       (H)
+ 90) SciPy-bundle/2022.05-foss-2022a
+ 91) libtirpc/1.3.2-GCCcore-11.3.0       (H)
+ 92) HDF/4.2.15-GCCcore-11.3.0           (H)
+ 93) GDAL/3.5.0-foss-2022a
+ 94) MPFR/4.1.0-GCCcore-11.3.0           (H)
+ 95) libgit2/1.4.3-GCCcore-11.3.0        (H)
+ 96) R/4.2.1-foss-2022a
+
+  Where:
+   H:  Hidden Module
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+
+R version 4.2.1 (2022-06-23) -- "Funny-Looking Kid"
+Copyright (C) 2022 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> #########################################################
+> ##                                                     ##
+> ##  FORAMINIFERA SCRIPT - Model 2a (iteration 1 - 50)  ##
+> ##                                                     ## 
+> #########################################################
+> 
+> 
+> #R version 4.2.1
+> .libPaths("/cluster/home/marionth/R")
+> library(doParallel) #doParallel version 1.0.17
+Loading required package: foreach
+Loading required package: iterators
+Loading required package: parallel
+> library(dplyr) #dplyr version 1.1.0
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+> library(evoTS) #evoTS version 1.0.3
+> library(foreach) #foreach version 1.5.2
+> library(MCSPCD) #MCSPCD version 0.0.0.9000
+> library(paleoTS) #paleoTS version 0.6.2
+> library(parallel) #parallel version 4.2.1
+> library(stats) #stats version 4.2.1
+> 
+> 
+> setwd("/cluster/home/marionth/Hodell")
+> 
+> 
+> 
+> ###### LOAD MORPHOLOGICAL AND ENVIRONMENTAL DATA ######
+> bodylength_raw <- read.table("Hodell_and_Vayavananda_1993_Fohsella_length.txt",header=T)
+> oxygen_isotopes_raw <- read.csv("table_d18O.csv")
+> carbon_isotopes_raw <- read.csv("table_d13C.csv")
+> 
+> #removing the NA rows
+> dataset_raw = cbind(bodylength_raw, oxygen_isotopes_raw, carbon_isotopes_raw)
+> dataset = dataset_raw %>% filter(!is.na(d13C_mean)) 
+> 
+> #creating the body length time series (already log-transformed)
+> bodylength_ts <- data.frame(
++   mean = dataset$trait_mean,
++   variance = dataset$trait_var,
++   samplesize = dataset$N,
++   time = dataset$age_MY
++ )
+> 
+> #creating the oxygen isotope time series
+> oxygen_isotopes_ts <- data.frame(
++   mean = dataset$d18O_mean,
++   variance = abs(dataset$d18O_mean)*0.001,
++   samplesize = 1,
++   time = dataset$age_MY
++ )
+> 
+> #creating the carbon isotope time series
+> carbon_isotopes_ts <- data.frame(
++   mean = dataset$d13C_mean,
++   variance = abs(dataset$d13C_mean)*0.001,
++   samplesize = 1,
++   time = dataset$age_MY
++ )
+> 
+> 
+> 
+> ###### CREATING PALEOTS AND EVOTS OBJECTS ######
+> #Creating paleoTS object for the body length time series
+> ln.bodylength_obj <- paleoTS::as.paleoTS(mm = bodylength_ts$mean, vv = bodylength_ts$variance, nn = bodylength_ts$samplesize, tt = bodylength_ts$time)
+> ln.bodylength_obj$tt <- ln.bodylength_obj$tt/(max(ln.bodylength_obj$tt)) #transfer of the time vector into a length unit of 1 
+> 
+> #Creating paleoTS object for the oxygen isotope time series
+> oxygen_isotopes_obj <- paleoTS::as.paleoTS(mm = oxygen_isotopes_ts$mean, vv = oxygen_isotopes_ts$variance, nn = oxygen_isotopes_ts$samplesize, tt = oxygen_isotopes_ts$time, oldest="first")
+> oxygen_isotopes_obj$tt <- oxygen_isotopes_obj$tt/(max(oxygen_isotopes_obj$tt)) #transfer of the time vector into a length unit of 1
+> 
+> #Creating paleoTS object for the carbon isotope time series
+> carbon_isotopes_obj <- paleoTS::as.paleoTS(mm = carbon_isotopes_ts$mean, vv = carbon_isotopes_ts$variance, nn = carbon_isotopes_ts$samplesize, tt = carbon_isotopes_ts$time, oldest="first")
+> carbon_isotopes_obj$tt <- carbon_isotopes_obj$tt/(max(carbon_isotopes_obj$tt)) #transfer of the time vector into a length unit of 1
+> 
+> #Creating and plotting the multivariate evoTS object
+> ln.bodylength_isotopes_multiobj <- make.multivar.evoTS(ln.bodylength_obj, oxygen_isotopes_obj, carbon_isotopes_obj)
+> 
+> 
+> 
+> ###### RUNNING Model_2a ######
+> #Parallelisation of the job 
+> registerDoParallel(52)
+> start_time <- Sys.time() 
+> 
+> #Model_2a: only body length is an OU in A matrix; diagonal R matrix
+> A = matrix(c(1,0,0,0,0,0,0,0,0), nrow = 3, byrow=TRUE)
+> R = matrix(c(1,0,0,0,1,0,0,0,1), nrow = 3, byrow=TRUE)
+> 
+> #Loop for 65 iterations 
+> foraminifera_model_2a_it1 <- foreach(i=1:260) %dopar% { 
++   result <- multiResultClass() 
++   
++ #Set and store a different seed for each iteration
++   seed <- (10+i) 
++   set.seed(seed)
++   result$result1 <- seed
++   
++ #Run iterations using the parametrized matrices A and R
++   result$result2 <- tryCatch({fit.multivariate.OU.user.defined(ln.bodylength_isotopes_multiobj, A.user = A, R.user = R, iterations = 1, hess = TRUE)
++     
++ #Handle non-converging iterations
++   }, error = function(e) {
++     message(paste("Error in iteration", i, ":", e$message))
++     return(NA) 
++   })
++   
++ #Record the running time for each iteration
++   end_time <- Sys.time()
++   elapsed_time <- end_time - start_time
++   print(elapsed_time)
++   result$result3 <- elapsed_time
++   
++   return(result)
++ }
+Error in iteration 39 : system is computationally singular: reciprocal condition number = 1.22749e-21
+Time difference of 4.379208 hours
+Error in iteration 34 : system is computationally singular: reciprocal condition number = 2.48988e-21
+Time difference of 4.688599 hours
+Time difference of 5.046755 hours
+Error in iteration 7 : system is computationally singular: reciprocal condition number = 1.84133e-19
+Time difference of 5.080605 hours
+Time difference of 5.406437 hours
+Time difference of 5.449753 hours
+Error in iteration 20 : system is computationally singular: reciprocal condition number = 2.57627e-19
+Time difference of 5.88585 hours
+Error in iteration 19 : system is computationally singular: reciprocal condition number = 2.30974e-21
+Time difference of 6.040962 hours
+Time difference of 6.201999 hours
+Time difference of 6.219834 hours
+Error in iteration 44 : system is computationally singular: reciprocal condition number = 1.35118e-18
+Time difference of 6.336178 hours
+Error in iteration 1 : system is computationally singular: reciprocal condition number = 1.84391e-19
+Time difference of 6.358848 hours
+Time difference of 6.498587 hours
+Time difference of 6.722109 hours
+Error in iteration 9 : system is computationally singular: reciprocal condition number = 1.98189e-19
+Time difference of 6.794222 hours
+Time difference of 6.96483 hours
+Error in iteration 6 : system is computationally singular: reciprocal condition number = 1.63065e-21
+Time difference of 7.013645 hours
+Time difference of 7.099864 hours
+Error in iteration 27 : system is computationally singular: reciprocal condition number = 1.96015e-19
+Time difference of 7.182467 hours
+Error in iteration 40 : system is computationally singular: reciprocal condition number = 2.78995e-22
+Time difference of 7.709281 hours
+Error in iteration 42 : system is computationally singular: reciprocal condition number = 3.9885e-23
+Time difference of 7.745066 hours
+Error in iteration 16 : system is computationally singular: reciprocal condition number = 1.61672e-19
+Time difference of 7.784668 hours
+Error in iteration 8 : system is computationally singular: reciprocal condition number = 8.71305e-19
+Time difference of 7.785363 hours
+Time difference of 7.840252 hours
+Time difference of 7.936276 hours
+Error in iteration 18 : system is computationally singular: reciprocal condition number = 1.18905e-21
+Time difference of 8.02891 hours
+Time difference of 8.261576 hours
+Time difference of 8.515805 hours
+Time difference of 8.520639 hours
+Time difference of 8.561768 hours
+Error in iteration 29 : system is computationally singular: reciprocal condition number = 7.28559e-22
+Time difference of 8.941096 hours
+Error in iteration 33 : system is computationally singular: reciprocal condition number = 5.2326e-22
+Time difference of 9.040858 hours
+Error in iteration 38 : system is computationally singular: reciprocal condition number = 1.26495e-21
+Time difference of 9.251407 hours
+Error in iteration 46 : system is computationally singular: reciprocal condition number = 5.01628e-20
+Time difference of 9.71643 hours
+Time difference of 9.745448 hours
+Error in iteration 25 : system is computationally singular: reciprocal condition number = 3.86117e-21
+Time difference of 10.2918 hours
+Error in iteration 48 : system is computationally singular: reciprocal condition number = 4.89594e-22
+Time difference of 10.31089 hours
+Error in iteration 52 : system is computationally singular: reciprocal condition number = 2.78466e-22
+Time difference of 10.49947 hours
+Error in iteration 45 : system is computationally singular: reciprocal condition number = 7.68424e-19
+Time difference of 10.66179 hours
+Error in iteration 32 : system is computationally singular: reciprocal condition number = 3.93447e-21
+Time difference of 10.75404 hours
+Time difference of 11.02027 hours
+Error in iteration 28 : system is computationally singular: reciprocal condition number = 7.55502e-21
+Time difference of 11.64492 hours
+Error in iteration 59 : system is computationally singular: reciprocal condition number = 3.7617e-22
+Time difference of 11.88002 hours
+Error in iteration 74 : system is computationally singular: reciprocal condition number = 4.0194e-22
+Time difference of 12.19536 hours
+Time difference of 12.50131 hours
+Error in iteration 11 : system is computationally singular: reciprocal condition number = 4.92576e-21
+Time difference of 12.93417 hours
+Time difference of 13.11632 hours
+Error in iteration 15 : system is computationally singular: reciprocal condition number = 1.90944e-19
+Time difference of 13.26148 hours
+Time difference of 13.30618 hours
+Time difference of 13.31123 hours
+Error in iteration 36 : system is computationally singular: reciprocal condition number = 1.90624e-19
+Time difference of 13.33311 hours
+Error in iteration 75 : system is computationally singular: reciprocal condition number = 2.17194e-22
+Time difference of 13.6309 hours
+Error in iteration 3 : system is computationally singular: reciprocal condition number = 2.01539e-19
+Time difference of 13.71538 hours
+Error in iteration 101 : system is computationally singular: reciprocal condition number = 7.18829e-22
+Time difference of 13.87406 hours
+Time difference of 14.02154 hours
+Error in iteration 35 : system is computationally singular: reciprocal condition number = 3.79769e-21
+Time difference of 14.04176 hours
+Time difference of 14.09628 hours
+Error in iteration 98 : system is computationally singular: reciprocal condition number = 2.59846e-22
+Time difference of 14.46381 hours
+Time difference of 14.80472 hours
+Time difference of 14.97205 hours
+Error in iteration 83 : system is computationally singular: reciprocal condition number = 2.24457e-21
+Time difference of 15.38734 hours
+Time difference of 15.51141 hours
+Time difference of 15.57114 hours
+Time difference of 15.68721 hours
+Time difference of 15.76211 hours
+Error in iteration 37 : system is computationally singular: reciprocal condition number = 1.17255e-21
+Time difference of 16.03369 hours
+Error in iteration 104 : system is computationally singular: reciprocal condition number = 6.63985e-19
+Time difference of 16.26451 hours
+Error in iteration 85 : system is computationally singular: reciprocal condition number = 2.26061e-21
+Time difference of 16.28038 hours
+Time difference of 16.30044 hours
+Error in iteration 92 : system is computationally singular: reciprocal condition number = 2.27538e-19
+Time difference of 16.65316 hours
+Time difference of 16.76322 hours
+Time difference of 16.88634 hours
+Time difference of 16.93217 hours
+Error in iteration 91 : system is computationally singular: reciprocal condition number = 1.08208e-22
+Time difference of 17.52097 hours
+Time difference of 17.66232 hours
+Error in iteration 95 : system is computationally singular: reciprocal condition number = 1.86803e-19
+Time difference of 17.91503 hours
+Error in iteration 117 : system is computationally singular: reciprocal condition number = 1.27172e-19
+Time difference of 18.46053 hours
+Time difference of 18.48148 hours
+Time difference of 18.82728 hours
+Time difference of 19.0062 hours
+Time difference of 19.0371 hours
+Error in iteration 80 : system is computationally singular: reciprocal condition number = 8.27237e-19
+Time difference of 19.29117 hours
+Error in iteration 150 : system is computationally singular: reciprocal condition number = 1.96721e-21
+Time difference of 19.37821 hours
+Time difference of 19.57899 hours
+Time difference of 19.58469 hours
+Time difference of 19.60715 hours
+Time difference of 19.80142 hours
+Time difference of 20.32061 hours
+Error in iteration 94 : system is computationally singular: reciprocal condition number = 1.55519e-19
+Time difference of 21.29729 hours
+Time difference of 21.40016 hours
+Error in iteration 137 : system is computationally singular: reciprocal condition number = 2.06723e-19
+Time difference of 21.46513 hours
+Error in iteration 124 : system is computationally singular: reciprocal condition number = 5.66551e-21
+Time difference of 21.70013 hours
+Error in iteration 142 : system is computationally singular: reciprocal condition number = 2.51796e-19
+Time difference of 21.93186 hours
+Time difference of 22.00029 hours
+Time difference of 22.75977 hours
+Error in iteration 69 : system is computationally singular: reciprocal condition number = 1.07236e-21
+Time difference of 23.0267 hours
+Error in iteration 99 : system is computationally singular: reciprocal condition number = 6.1757e-19
+Time difference of 23.35797 hours
+Time difference of 23.37296 hours
+Error in iteration 60 : system is computationally singular: reciprocal condition number = 2.93434e-21
+Time difference of 23.54185 hours
+Error in iteration 149 : system is computationally singular: reciprocal condition number = 2.2158e-19
+Time difference of 23.61361 hours
+Error in iteration 144 : system is computationally singular: reciprocal condition number = 2.09917e-19
+Time difference of 23.66067 hours
+Time difference of 23.71844 hours
+Time difference of 23.72815 hours
+Error in iteration 58 : system is computationally singular: reciprocal condition number = 3.46026e-22
+Time difference of 23.83473 hours
+Error in iteration 89 : system is computationally singular: reciprocal condition number = 2.32856e-19
+Time difference of 1.014684 days
+Error in iteration 147 : system is computationally singular: reciprocal condition number = 5.63149e-22
+Time difference of 1.018276 days
+Time difference of 1.024415 days
+Time difference of 1.037928 days
+Error in iteration 57 : system is computationally singular: reciprocal condition number = 1.9168e-19
+Time difference of 1.039707 days
+Time difference of 1.040457 days
+Time difference of 1.041787 days
+Time difference of 1.045518 days
+Error in iteration 205 : system is computationally singular: reciprocal condition number = 8.19916e-20
+Time difference of 1.059495 days
+Error in iteration 135 : system is computationally singular: reciprocal condition number = 1.52136e-21
+Time difference of 1.081469 days
+Time difference of 1.09962 days
+Error in iteration 127 : system is computationally singular: reciprocal condition number = 2.05329e-19
+Time difference of 1.108759 days
+Time difference of 1.119193 days
+Time difference of 1.139018 days
+Time difference of 1.13925 days
+Error in iteration 143 : system is computationally singular: reciprocal condition number = 2.57159e-20
+Time difference of 1.139974 days
+Time difference of 1.176778 days
+Time difference of 1.177049 days
+Time difference of 1.17783 days
+Error in iteration 141 : system is computationally singular: reciprocal condition number = 6.05423e-22
+Time difference of 1.186717 days
+Time difference of 1.191678 days
+Time difference of 1.209086 days
+Error in iteration 121 : system is computationally singular: reciprocal condition number = 1.53962e-19
+Time difference of 1.209977 days
+Error in iteration 163 : system is computationally singular: reciprocal condition number = 1.95678e-19
+Time difference of 1.211766 days
+Time difference of 1.246811 days
+Error in iteration 176 : system is computationally singular: reciprocal condition number = 2.34149e-18
+Time difference of 1.248868 days
+Time difference of 1.251801 days
+Error in iteration 152 : system is computationally singular: reciprocal condition number = 5.01693e-22
+Time difference of 1.253352 days
+Error in iteration 257 : system is computationally singular: reciprocal condition number = 1.26688e-21
+Time difference of 1.256072 days
+Time difference of 1.256475 days
+Error in iteration 81 : system is computationally singular: reciprocal condition number = 1.68595e-21
+Time difference of 1.261876 days
+Time difference of 1.26263 days
+Error in iteration 120 : system is computationally singular: reciprocal condition number = 5.27709e-21
+Time difference of 1.269996 days
+Error in iteration 200 : system is computationally singular: reciprocal condition number = 5.79818e-22
+Time difference of 1.270997 days
+Time difference of 1.273731 days
+Time difference of 1.279351 days
+Error in iteration 114 : system is computationally singular: reciprocal condition number = 1.91141e-19
+Time difference of 1.286712 days
+Error in iteration 221 : system is computationally singular: reciprocal condition number = 2.21259e-19
+Time difference of 1.307336 days
+Error in iteration 138 : Lapack routine dgesv: system is exactly singular: U[6,6] = 0
+Time difference of 1.309522 days
+Error in iteration 194 : system is computationally singular: reciprocal condition number = 7.09504e-21
+Time difference of 1.328889 days
+Time difference of 1.334098 days
+Time difference of 1.364849 days
+Time difference of 1.373539 days
+Error in iteration 119 : system is computationally singular: reciprocal condition number = 2.65509e-21
+Time difference of 1.383536 days
+Time difference of 1.385303 days
+Error in iteration 170 : system is computationally singular: reciprocal condition number = 3.75169e-22
+Time difference of 1.387461 days
+Error in iteration 73 : system is computationally singular: reciprocal condition number = 9.48061e-22
+Time difference of 1.399793 days
+Time difference of 1.400593 days
+Error in iteration 193 : system is computationally singular: reciprocal condition number = 1.48836e-21
+Time difference of 1.40503 days
+Time difference of 1.411213 days
+Time difference of 1.420834 days
+Time difference of 1.427141 days
+Time difference of 1.431444 days
+Error in iteration 201 : system is computationally singular: reciprocal condition number = 1.19985e-21
+Time difference of 1.433661 days
+Time difference of 1.441716 days
+Error in iteration 181 : system is computationally singular: reciprocal condition number = 3.65771e-21
+Time difference of 1.442026 days
+Error in iteration 207 : system is computationally singular: reciprocal condition number = 2.99764e-21
+Time difference of 1.442243 days
+Error in iteration 54 : system is computationally singular: reciprocal condition number = 1.0058e-19
+Time difference of 1.464481 days
+Error in iteration 112 : system is computationally singular: reciprocal condition number = 1.24541e-21
+Time difference of 1.472037 days
+Error in iteration 133 : system is computationally singular: reciprocal condition number = 8.15435e-21
+Time difference of 1.483736 days
+Time difference of 1.491564 days
+Time difference of 1.49364 days
+Time difference of 1.501568 days
+Time difference of 1.509373 days
+Error in iteration 190 : system is computationally singular: reciprocal condition number = 3.02521e-22
+Time difference of 1.512603 days
+Error in iteration 162 : system is computationally singular: reciprocal condition number = 2.45655e-22
+Time difference of 1.513072 days
+Error in iteration 161 : system is computationally singular: reciprocal condition number = 3.62827e-21
+Time difference of 1.514491 days
+Time difference of 1.517536 days
+Error in iteration 145 : system is computationally singular: reciprocal condition number = 1.35583e-22
+Time difference of 1.525778 days
+Error in iteration 187 : system is computationally singular: reciprocal condition number = 1.58871e-21
+Time difference of 1.532275 days
+Error in iteration 175 : system is computationally singular: reciprocal condition number = 1.68439e-21
+Time difference of 1.548028 days
+Error in iteration 12 : system is computationally singular: reciprocal condition number = 6.53289e-24
+Time difference of 1.549628 days
+Time difference of 1.573285 days
+Error in iteration 228 : system is computationally singular: reciprocal condition number = 1.79674e-19
+Time difference of 1.577336 days
+Error in iteration 204 : system is computationally singular: reciprocal condition number = 4.99981e-21
+Time difference of 1.579099 days
+Error in iteration 184 : system is computationally singular: reciprocal condition number = 8.27212e-19
+Time difference of 1.587824 days
+Time difference of 1.600488 days
+Error in iteration 217 : system is computationally singular: reciprocal condition number = 2.3217e-21
+Time difference of 1.602667 days
+Error in iteration 171 : system is computationally singular: reciprocal condition number = 1.49359e-22
+Time difference of 1.609111 days
+Error in iteration 174 : system is computationally singular: reciprocal condition number = 2.98423e-22
+Time difference of 1.610635 days
+Time difference of 1.610909 days
+Error in iteration 178 : system is computationally singular: reciprocal condition number = 5.97433e-22
+Time difference of 1.61248 days
+Error in iteration 233 : system is computationally singular: reciprocal condition number = 5.93919e-22
+Time difference of 1.622163 days
+Time difference of 1.62379 days
+Time difference of 1.627948 days
+Time difference of 1.630367 days
+Time difference of 1.636348 days
+Time difference of 1.639919 days
+Time difference of 1.640861 days
+Error in iteration 253 : system is computationally singular: reciprocal condition number = 3.43133e-21
+Time difference of 1.641291 days
+Time difference of 1.645336 days
+Time difference of 1.64849 days
+Time difference of 1.652096 days
+Error in iteration 125 : system is computationally singular: reciprocal condition number = 4.0223e-23
+Time difference of 1.660391 days
+Error in iteration 192 : system is computationally singular: reciprocal condition number = 1.57421e-21
+Time difference of 1.661205 days
+Error in iteration 106 : system is computationally singular: reciprocal condition number = 2.22733e-19
+Time difference of 1.672693 days
+Error in iteration 64 : system is computationally singular: reciprocal condition number = 3.19759e-22
+Time difference of 1.689601 days
+Error in iteration 197 : system is computationally singular: reciprocal condition number = 6.29295e-22
+Time difference of 1.694164 days
+Time difference of 1.695039 days
+Time difference of 1.703806 days
+Time difference of 1.708697 days
+Error in iteration 236 : system is computationally singular: reciprocal condition number = 1.94063e-19
+Time difference of 1.70878 days
+Error in iteration 196 : system is computationally singular: reciprocal condition number = 1.19639e-21
+Time difference of 1.711236 days
+Time difference of 1.711295 days
+Time difference of 1.714347 days
+Error in iteration 166 : system is computationally singular: reciprocal condition number = 4.14285e-21
+Time difference of 1.724318 days
+Time difference of 1.724984 days
+Time difference of 1.730199 days
+Error in iteration 115 : system is computationally singular: reciprocal condition number = 1.9116e-19
+Time difference of 1.730261 days
+Time difference of 1.735873 days
+Time difference of 1.737152 days
+Time difference of 1.739083 days
+Error in iteration 250 : system is computationally singular: reciprocal condition number = 2.30094e-19
+Time difference of 1.741555 days
+Time difference of 1.748962 days
+Time difference of 1.750712 days
+Time difference of 1.751164 days
+Time difference of 1.762207 days
+Error in iteration 128 : system is computationally singular: reciprocal condition number = 3.07707e-21
+Time difference of 1.771296 days
+Error in iteration 185 : system is computationally singular: reciprocal condition number = 1.7871e-22
+Time difference of 1.773219 days
+Time difference of 1.773505 days
+Error in iteration 255 : system is computationally singular: reciprocal condition number = 4.7231e-21
+Time difference of 1.77804 days
+Time difference of 1.78016 days
+Error in iteration 108 : system is computationally singular: reciprocal condition number = 1.88315e-19
+Time difference of 1.783714 days
+Error in iteration 230 : system is computationally singular: reciprocal condition number = 1.89945e-19
+Time difference of 1.785159 days
+Error in iteration 159 : system is computationally singular: reciprocal condition number = 1.22225e-19
+Time difference of 1.787998 days
+Time difference of 1.790674 days
+Time difference of 1.796249 days
+Time difference of 1.799289 days
+Time difference of 1.802784 days
+Time difference of 1.805587 days
+Error in iteration 116 : system is computationally singular: reciprocal condition number = 2.14549e-21
+Time difference of 1.806314 days
+Time difference of 1.806937 days
+Error in iteration 240 : system is computationally singular: reciprocal condition number = 1.62255e-21
+Time difference of 1.809026 days
+Error in iteration 218 : system is computationally singular: reciprocal condition number = 1.25581e-19
+Time difference of 1.812983 days
+Time difference of 1.81324 days
+Time difference of 1.82499 days
+Time difference of 1.830434 days
+Time difference of 1.832042 days
+Time difference of 1.836252 days
+Error in iteration 160 : system is computationally singular: reciprocal condition number = 1.42407e-21
+Time difference of 1.836329 days
+Error in iteration 225 : system is computationally singular: reciprocal condition number = 1.93617e-19
+Time difference of 1.836662 days
+Time difference of 1.838229 days
+Error in iteration 223 : system is computationally singular: reciprocal condition number = 3.41099e-21
+Time difference of 1.83933 days
+Error in iteration 216 : system is computationally singular: reciprocal condition number = 4.09214e-21
+Time difference of 1.844932 days
+Time difference of 1.845928 days
+Error in iteration 167 : system is computationally singular: reciprocal condition number = 2.1016e-19
+Time difference of 1.846513 days
+Error in iteration 243 : system is computationally singular: reciprocal condition number = 1.88086e-19
+Time difference of 1.850345 days
+Error in iteration 234 : system is computationally singular: reciprocal condition number = 4.29015e-21
+Time difference of 1.85566 days
+Error in iteration 212 : system is computationally singular: reciprocal condition number = 2.7928e-22
+Time difference of 1.880544 days
+Time difference of 1.891418 days
+Error in iteration 180 : system is computationally singular: reciprocal condition number = 1.91482e-21
+Time difference of 1.900014 days
+Time difference of 1.910277 days
+Error in iteration 220 : system is computationally singular: reciprocal condition number = 1.87457e-19
+Time difference of 1.912125 days
+Error in iteration 172 : system is computationally singular: reciprocal condition number = 2.82891e-21
+Time difference of 1.912178 days
+Time difference of 1.952218 days
+Time difference of 1.966644 days
+> 
+> print ("DONE")
+[1] "DONE"
+> end_time <- Sys.time(); end_time - start_time
+Time difference of 1.966644 days
+> 
+> save.image(file = 'foraminifera_allruns_model_2a_it1.RData')
+> 
+> 
+> 
+> ###### EXTRACTING AND SAVING THE ITERATION WITH BEST PARAMETER ESTIMATES ######
+> #Filtering 50 iterations which converged
+> foraminifera_model_2a_it1_filtered <- Filter(function(iteration) !is.na(iteration$result2[[1]]), foraminifera_model_2a_it1)
+> foraminifera_model_2a_it1_filtered <- Filter(function(iteration) !is.null(iteration), foraminifera_model_2a_it1_filtered)
+> foraminifera_model_2a_it1_results <- foraminifera_model_2a_it1_filtered[1:50]
+> 
+> #Extracting the AICc values of each iterations
+> AICc <- matrix(ncol=2, nrow=50)
+> colnames(AICc) <- c("iteration", "AIC")
+> 
+> for (j in 1:50) {
++   AICc[j,1] <- j 
++   AICc[j,2] <- foraminifera_model_2a_it1_results[[j]]$result2$AICc 
++ }
+> 
+> #Finding the best AICc
+> AICc_min <- which.min(AICc[,2])
+> 
+> #Finding the best iteration  
+> foraminifera_model_2a_best_it1 <- foraminifera_model_2a_it1_results[[AICc_min]]
+> 
+> #Saving the best iteration
+> print(foraminifera_model_2a_best_it1)
+$LE_overall
+NULL
+
+$LE_overall_exp
+NULL
+
+$LE_overall_nonexp
+NULL
+
+$LE_without_dis
+NULL
+
+$LE_without_dis_exp
+NULL
+
+$LE_without_dis_nonexp
+NULL
+
+$LE_dis
+NULL
+
+$LE_dis_exp
+NULL
+
+$LE_dis_nonexp
+NULL
+
+$LE_non_dis
+NULL
+
+$LE_non_dis_exp
+NULL
+
+$LE_non_dis_nonexp
+NULL
+
+$np_age
+NULL
+
+$tp_dis
+NULL
+
+$nsurvival
+NULL
+
+$rsurvival
+NULL
+
+$nb_dis
+NULL
+
+$nb_dis_exp
+NULL
+
+$nb_dis_nonexp
+NULL
+
+$p_dis
+NULL
+
+$a_dis
+NULL
+
+$m_exp
+NULL
+
+$p_exp
+NULL
+
+$mortality_r
+NULL
+
+$result1
+[1] 80
+
+$result2
+$converge
+[1] "Model converged successfully"
+
+$modelName
+[1] "Multivariate model: User-specified OU model"
+
+$logL
+[1] 328.8595
+
+$AICc
+[1] -640.2932
+
+$ancestral.values
+[1] -1.494253 -1.080710  2.032304
+
+$SE.anc
+[1] 0.02239973 0.03115734 0.04013989
+
+$optima
+[1] -1.010777        NA        NA
+
+$SE.optima
+[1] 0.1684997        NA        NA
+
+$A
+       [,1] [,2] [,3]
+[1,] 4.1753    0    0
+[2,] 0.0000    0    0
+[3,] 0.0000    0    0
+
+$SE.A
+         [,1] [,2] [,3]
+[1,] 2.770017    0    0
+[2,] 0.000000    0    0
+[3,] 0.000000    0    0
+
+$half.life
+[1] 0.1660114       Inf       Inf
+
+$R
+         [,1]    [,2]     [,3]
+[1,] 0.349113 0.00000 0.000000
+[2,] 0.000000 1.32798 0.000000
+[3,] 0.000000 0.00000 1.283798
+
+$SE.R
+            [,1]       [,2]       [,3]
+[1,] 0.004308438 0.00000000 0.00000000
+[2,] 0.000000000 0.01114453 0.00000000
+[3,] 0.000000000 0.00000000 0.01212338
+
+$method
+[1] "Joint"
+
+$K
+[1] 8
+
+$n
+[1] 110
+
+$iter
+[1] 1
+
+attr(,"class")
+[1] "evoTSmvFit"
+
+$result3
+Time difference of 1.041787 days
+
+> save(foraminifera_model_2a_best_it1, file = 'foraminifera_bestrun_model_2a_it1.RData')
+> 
+
+Job 16035086 consumed 2454.8 billing hours from project nn8105k.
+
+Submitted 2025-10-30T13:11:12; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 7.0 days
+Elapsed wallclock time:   2.0 days
+
+Job exited normally.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+16035086          52            0.0 %  2025-10-30T13:11:13   47.2 h  0
+16035086.batch    52      1   184.7 %  2025-10-30T13:11:13   47.2 h  0
+
+Used CPU time:   189.0 CPU days
+Unused CPU time: 0.0 CPU seconds
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+16035086          40.0        
+16035086.batch    40.0    12.6
+
+Job 16035086 completed at Sat Nov 1 12:23:42 CET 2025

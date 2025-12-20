@@ -1,0 +1,517 @@
+Starting job 16005587 on c1-39 on Saga at Fri Oct 24 21:00:42 CEST 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv                              (S)
+  2) GCCcore/11.3.0
+  3) zlib/1.2.12-GCCcore-11.3.0          (H)
+  4) binutils/2.38-GCCcore-11.3.0        (H)
+  5) GCC/11.3.0
+  6) numactl/2.0.14-GCCcore-11.3.0       (H)
+  7) XZ/5.2.5-GCCcore-11.3.0             (H)
+  8) libxml2/2.9.13-GCCcore-11.3.0       (H)
+  9) libpciaccess/0.16-GCCcore-11.3.0    (H)
+ 10) hwloc/2.7.1-GCCcore-11.3.0          (H)
+ 11) hpcx/2.14
+ 12) OpenMPI/4.1.4-GCC-11.3.0
+ 13) OpenBLAS/0.3.20-GCC-11.3.0
+ 14) FlexiBLAS/3.2.0-GCC-11.3.0
+ 15) FFTW/3.3.10-GCC-11.3.0
+ 16) gompi/2022a
+ 17) FFTW.MPI/3.3.10-gompi-2022a
+ 18) ScaLAPACK/2.2.0-gompi-2022a-fb
+ 19) foss/2022a
+ 20) bzip2/1.0.8-GCCcore-11.3.0          (H)
+ 21) expat/2.4.8-GCCcore-11.3.0          (H)
+ 22) libpng/1.6.37-GCCcore-11.3.0        (H)
+ 23) Brotli/1.0.9-GCCcore-11.3.0         (H)
+ 24) freetype/2.12.1-GCCcore-11.3.0      (H)
+ 25) ncurses/6.3-GCCcore-11.3.0          (H)
+ 26) util-linux/2.38-GCCcore-11.3.0      (H)
+ 27) fontconfig/2.14.0-GCCcore-11.3.0    (H)
+ 28) xorg-macros/1.19.3-GCCcore-11.3.0   (H)
+ 29) X11/20220504-GCCcore-11.3.0         (H)
+ 30) gzip/1.12-GCCcore-11.3.0            (H)
+ 31) lz4/1.9.3-GCCcore-11.3.0            (H)
+ 32) zstd/1.5.2-GCCcore-11.3.0           (H)
+ 33) libdrm/2.4.110-GCCcore-11.3.0       (H)
+ 34) libglvnd/1.4.0-GCCcore-11.3.0       (H)
+ 35) libunwind/1.6.2-GCCcore-11.3.0      (H)
+ 36) LLVM/14.0.3-GCCcore-11.3.0          (H)
+ 37) Mesa/22.0.3-GCCcore-11.3.0          (H)
+ 38) libGLU/9.0.2-GCCcore-11.3.0         (H)
+ 39) pixman/0.40.0-GCCcore-11.3.0        (H)
+ 40) libffi/3.4.2-GCCcore-11.3.0         (H)
+ 41) gettext/0.21-GCCcore-11.3.0         (H)
+ 42) PCRE/8.45-GCCcore-11.3.0            (H)
+ 43) GLib/2.72.1-GCCcore-11.3.0          (H)
+ 44) cairo/1.17.4-GCCcore-11.3.0         (H)
+ 45) libreadline/8.1.2-GCCcore-11.3.0    (H)
+ 46) Tcl/8.6.12-GCCcore-11.3.0           (H)
+ 47) SQLite/3.38.3-GCCcore-11.3.0        (H)
+ 48) PCRE2/10.40-GCCcore-11.3.0          (H)
+ 49) NASM/2.15.05-GCCcore-11.3.0         (H)
+ 50) libjpeg-turbo/2.1.3-GCCcore-11.3.0  (H)
+ 51) jbigkit/2.1-GCCcore-11.3.0          (H)
+ 52) libdeflate/1.10-GCCcore-11.3.0      (H)
+ 53) LibTIFF/4.3.0-GCCcore-11.3.0        (H)
+ 54) Java/11.0.16
+ 55) Tk/8.6.12-GCCcore-11.3.0            (H)
+ 56) OpenSSL/1.1                         (H)
+ 57) cURL/7.83.0-GCCcore-11.3.0          (H)
+ 58) GMP/6.2.1-GCCcore-11.3.0            (H)
+ 59) NLopt/2.7.1-GCCcore-11.3.0          (H)
+ 60) libogg/1.3.5-GCCcore-11.3.0         (H)
+ 61) FLAC/1.3.4-GCCcore-11.3.0           (H)
+ 62) libvorbis/1.3.7-GCCcore-11.3.0      (H)
+ 63) libopus/1.3.1-GCCcore-11.3.0        (H)
+ 64) LAME/3.100-GCCcore-11.3.0           (H)
+ 65) libsndfile/1.1.0-GCCcore-11.3.0     (H)
+ 66) ICU/71.1-GCCcore-11.3.0             (H)
+ 67) Szip/2.1.1-GCCcore-11.3.0           (H)
+ 68) HDF5/1.12.2-gompi-2022a
+ 69) UDUNITS/2.2.28-GCCcore-11.3.0
+ 70) GSL/2.7-GCC-11.3.0
+ 71) ATK/2.38.0-GCCcore-11.3.0           (H)
+ 72) Gdk-Pixbuf/2.42.8-GCCcore-11.3.0    (H)
+ 73) HarfBuzz/4.2.1-GCCcore-11.3.0       (H)
+ 74) FriBidi/1.0.12-GCCcore-11.3.0       (H)
+ 75) Pango/1.50.7-GCCcore-11.3.0         (H)
+ 76) GTK2/2.24.33-GCCcore-11.3.0         (H)
+ 77) Ghostscript/9.56.1-GCCcore-11.3.0   (H)
+ 78) JasPer/2.0.33-GCCcore-11.3.0        (H)
+ 79) LittleCMS/2.13.1-GCCcore-11.3.0     (H)
+ 80) ImageMagick/7.1.0-37-GCCcore-11.3.0 (H)
+ 81) GLPK/5.0-GCCcore-11.3.0             (H)
+ 82) nodejs/16.15.1-GCCcore-11.3.0       (H)
+ 83) Python/3.10.4-GCCcore-11.3.0
+ 84) netCDF/4.9.0-gompi-2022a
+ 85) GEOS/3.10.3-GCC-11.3.0
+ 86) nlohmann_json/3.10.5-GCCcore-11.3.0 (H)
+ 87) PROJ/9.0.0-GCCcore-11.3.0
+ 88) libgeotiff/1.7.1-GCCcore-11.3.0     (H)
+ 89) pybind11/2.9.2-GCCcore-11.3.0       (H)
+ 90) SciPy-bundle/2022.05-foss-2022a
+ 91) libtirpc/1.3.2-GCCcore-11.3.0       (H)
+ 92) HDF/4.2.15-GCCcore-11.3.0           (H)
+ 93) GDAL/3.5.0-foss-2022a
+ 94) MPFR/4.1.0-GCCcore-11.3.0           (H)
+ 95) libgit2/1.4.3-GCCcore-11.3.0        (H)
+ 96) R/4.2.1-foss-2022a
+
+  Where:
+   H:  Hidden Module
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+
+R version 4.2.1 (2022-06-23) -- "Funny-Looking Kid"
+Copyright (C) 2022 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> #####################################################
+> ##                                                 ##
+> ##  SALMON SCRIPT - Model 5b (iteration 50 - 100)  ##
+> ##                                                 ## 
+> #####################################################
+> 
+> 
+> #R version 4.2.1
+> .libPaths("/cluster/home/marionth/R")
+> library(doParallel) #doParallel version 1.0.17
+Loading required package: foreach
+Loading required package: iterators
+Loading required package: parallel
+> library(dplyr) #dplyr version 1.1.0
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+> library(evoTS) #evoTS version 1.0.3
+> library(foreach) #foreach version 1.5.2
+> library(MCSPCD) #MCSPCD version 0.0.0.9000
+> library(paleoTS) #paleoTS version 0.6.2
+> library(parallel) #parallel version 4.2.1
+> library(stats) #stats version 4.2.1
+> 
+> 
+> setwd("/cluster/home/marionth/Jensen")
+> 
+> 
+> 
+> ###### LOAD MORPHOLOGICAL DATA ######
+> bodymass_raw <- read.delim("/cluster/home/marionth/Jensen/Atlantic_salmon_size.txt")
+> 
+> #Cleaning the data and log-transforming the data
+> bodymass_raw <- bodymass_raw %>% filter(!is.na(Year.of.catch)) #filter out NA rows
+> ln.bodymass_raw <- within(bodymass_raw, Mass <- log(Mass))
+> 
+> #Calculating the mean and variance of the observations for each year
+> year <- unique(ln.bodymass_raw$Year.of.catch)
+> ln.bodymass <- data.frame()
+> 
+> for (i in 1:length(year)) {
++   year_subset <- subset(ln.bodymass_raw, ln.bodymass_raw$Year.of.catch == year[i]) #Create subsets based on the year
++   year_stats <- data.frame(samplesize = nrow(year_subset), #calculate the mean and the variance for each subset
++                         mean = mean(year_subset$Mass, na.rm = TRUE),  
++                         variance = var(year_subset$Mass, na.rm = TRUE),  
++                         time = year[i])
++   ln.bodymass <- rbind(ln.bodymass, year_stats)
++ }
+> 
+> ln.bodymass <- ln.bodymass[order(ln.bodymass$time), ] #ordering chronologically the dataset
+> 
+> 
+> 
+> ###### LOAD ENVIRONMENTAL DATA ######
+> discharge_raw <- read.delim("/cluster/home/marionth/Jensen/Discharge.txt")
+> discharge <- subset(discharge_raw, select = -DC_year) #we keep the discharge measured between June and September, not the average over the complete year
+> 
+> #Keeping the years common to both bodymass record and discharge
+> years_ts <- intersect(ln.bodymass$time, discharge$Year)
+> ln.bodymass_ts <- ln.bodymass[ln.bodymass$time %in% years_ts, ]
+> discharge_ts <- discharge[discharge$Year %in% years_ts, ]
+> 
+> #Implementation of variance and sample size 
+> discharge_ts$variance <- discharge_ts$DC_Jun_Sept*0.05
+> discharge_ts$samplesize <- 1
+> 
+> 
+>   
+> ###### CREATING PALEOTS AND EVOTS OBJECTS ######
+> #Creating paleoTS object for the bodymass time series
+> ln.bodymass_obj <- paleoTS::as.paleoTS(mm = ln.bodymass_ts$mean, vv = ln.bodymass_ts$variance, nn = ln.bodymass_ts$samplesize, tt = ln.bodymass_ts$time, oldest = "first")
+> ln.bodymass_obj$tt <- ln.bodymass_obj$tt/(max(ln.bodymass_obj$tt)) #transfer of the time vector into a length unit of 1 
+> 
+> #Creating paleoTS object for the waterflow time series
+> discharge_obj <- paleoTS::as.paleoTS(mm = discharge_ts$DC_Jun_Sept, vv = discharge_ts$variance, nn = discharge_ts$samplesize, tt = discharge_ts$Year, oldest = "first")
+> ln.discharge_obj <- paleoTS::ln.paleoTS(discharge_obj) #log-transformation of the data
+> ln.discharge_obj$tt <- ln.discharge_obj$tt/(max(ln.discharge_obj$tt)) #transfer of the time vector into a length unit of 1 
+> 
+> #Creating and plotting the multivariate evoTS object
+> ln.bodymass_ln.discharge_multiobj <- make.multivar.evoTS(ln.bodymass_obj,ln.discharge_obj)
+> 
+> 
+> 
+> ###### RUNNING Model 5b ######
+> #Parallelisation of the job 
+> registerDoParallel(15)
+> start_time <- Sys.time()
+> 
+> #Loop for 65 iterations 
+> salmon_model_5b_it50 <- foreach(i=1:65) %dopar% { 
++   result <- multiResultClass() 
++   
++ #Set and store a different seed for each iteration
++   seed <- (75+i) 
++   set.seed(seed)
++   result$result1 <- seed
++   
++ #Model_5b: upper tri in A matrix; full R matrix
++   result$result2 <- tryCatch({fit.multivariate.OU(ln.bodymass_ln.discharge_multiobj, A.matrix = "upper.tri", R.matrix = "symmetric", iterations=1, iter.sd=0.000001, hess=TRUE) 
++     
++ #Handle non-converging iterations
++ }, error = function(e) {
++      message(paste("Error in iteration", i, ":", e$message))
++      return(NA) # or another value indicating an error
++    })
++ 
++ #Record the running time for each iteration
++   end_time <- Sys.time()
++   elapsed_time <- end_time - start_time
++   print(elapsed_time)
++   result$result3 <- elapsed_time
++   
++   return(result)
++ }
+Time difference of 2.407607 hours
+Time difference of 2.646569 hours
+Time difference of 2.687239 hours
+Time difference of 3.41052 hours
+Time difference of 3.418763 hours
+Time difference of 3.43207 hours
+Time difference of 3.53672 hours
+Time difference of 3.60659 hours
+Time difference of 3.670407 hours
+Time difference of 3.796774 hours
+Time difference of 4.002422 hours
+Time difference of 4.292679 hours
+Time difference of 5.685097 hours
+Time difference of 5.795735 hours
+Time difference of 5.903822 hours
+Time difference of 6.182557 hours
+Time difference of 6.191386 hours
+Time difference of 6.388109 hours
+Time difference of 6.819657 hours
+Time difference of 6.884279 hours
+Time difference of 6.906532 hours
+Time difference of 7.114292 hours
+Time difference of 7.231392 hours
+Time difference of 7.473771 hours
+Time difference of 8.310056 hours
+Time difference of 8.858658 hours
+Time difference of 9.327685 hours
+Time difference of 9.490971 hours
+Time difference of 9.551901 hours
+Time difference of 9.590929 hours
+Time difference of 9.917826 hours
+Time difference of 10.2617 hours
+Time difference of 10.34734 hours
+Time difference of 10.43318 hours
+Time difference of 10.52526 hours
+Time difference of 11.28057 hours
+Time difference of 11.61115 hours
+Time difference of 12.1615 hours
+Time difference of 12.29439 hours
+Time difference of 12.50475 hours
+Time difference of 12.62915 hours
+Time difference of 12.73738 hours
+Time difference of 12.76838 hours
+Time difference of 12.86871 hours
+Time difference of 12.94057 hours
+Time difference of 13.20769 hours
+Time difference of 14.0989 hours
+Time difference of 14.12822 hours
+Time difference of 14.33396 hours
+Time difference of 14.42965 hours
+Time difference of 14.43165 hours
+Time difference of 14.46265 hours
+Time difference of 14.58776 hours
+Time difference of 14.59097 hours
+Time difference of 15.49977 hours
+Time difference of 15.67568 hours
+Time difference of 15.74383 hours
+Time difference of 16.35331 hours
+Warning message:
+In mclapply(argsList, FUN, mc.preschedule = preschedule, mc.set.seed = set.seed,  :
+  scheduled cores 1, 12 did not deliver results, all values of the jobs will be affected
+> 
+> print ("DONE")
+[1] "DONE"
+> end_time <- Sys.time(); end_time - start_time
+Time difference of 16.35334 hours
+> 
+> save.image(file = 'salmon_allruns_model_5b_it50.RData')
+> 
+> 
+> 
+> ###### EXTRACTING AND SAVING THE ITERATION WITH BEST PARAMETER ESTIMATES ######
+> #Filtering 50 iterations which converged
+> salmon_model_5b_it50_filtered <- Filter(function(iteration) !is.null(iteration), salmon_model_5b_it50)
+> salmon_model_5b_it50_results <- salmon_model_5b_it50_filtered[1:50]
+> 
+> #Extracting the AICc values of each iterations
+> AICc <- matrix(ncol=2, nrow=50)
+> colnames(AICc) <- c("iteration", "AIC")
+> 
+> for (j in 1:50) {
++   AICc[j,1] <- j 
++   AICc[j,2] <- salmon_model_5b_it50_results[[j]]$result2$AICc 
++ }
+> 
+> #Finding the best AICc
+> AICc_min <- which.min(AICc[,2])
+> 
+> #Finding the best iteration  
+> salmon_model_5b_best_it50 <- salmon_model_5b_it50_results[[AICc_min]]
+> 
+> #calculating the correlation coefficients 
+> Rmatrix_best_salmon_model_5b_it50 <- salmon_model_5b_best_it50$result2$R
+> cormatrix_best_salmon_model_5b_it50 <- cov2cor(Rmatrix_best_salmon_model_5b_it50)
+> 
+> #Saving the best iteration
+> print(salmon_model_5b_best_it50)
+$LE_overall
+NULL
+
+$LE_overall_exp
+NULL
+
+$LE_overall_nonexp
+NULL
+
+$LE_without_dis
+NULL
+
+$LE_without_dis_exp
+NULL
+
+$LE_without_dis_nonexp
+NULL
+
+$LE_dis
+NULL
+
+$LE_dis_exp
+NULL
+
+$LE_dis_nonexp
+NULL
+
+$LE_non_dis
+NULL
+
+$LE_non_dis_exp
+NULL
+
+$LE_non_dis_nonexp
+NULL
+
+$np_age
+NULL
+
+$tp_dis
+NULL
+
+$nsurvival
+NULL
+
+$rsurvival
+NULL
+
+$nb_dis
+NULL
+
+$nb_dis_exp
+NULL
+
+$nb_dis_nonexp
+NULL
+
+$p_dis
+NULL
+
+$a_dis
+NULL
+
+$m_exp
+NULL
+
+$p_exp
+NULL
+
+$mortality_r
+NULL
+
+$result1
+[1] 119
+
+$result2
+$converge
+[1] "Model converged successfully"
+
+$modelName
+[1] "Multivariate model: OU; upper triangular A matrix, symmetric R matrix "
+
+$logL
+[1] -34.08613
+
+$AICc
+[1] 91.96536
+
+$ancestral.values
+[1] 9.085854 4.481882
+
+$SE.anc
+[1] 0.06254367 0.03631656
+
+$optima
+[1] 8.461974 3.693449
+
+$SE.optima
+[1] 0.1517522 0.1297298
+
+$A
+         [,1]      [,2]
+[1,] 22.27443 -5.164622
+[2,]  0.00000 27.817153
+
+$SE.A
+         [,1]      [,2]
+[1,] 11.21042 13.300043
+[2,]  0.00000  9.524725
+
+$half.life
+[1] 0.03111851 0.02491798
+
+$R
+         [,1]      [,2]
+[1,] 8.304144  1.057636
+[2,] 1.057636 11.690520
+
+$SE.R
+          [,1]      [,2]
+[1,] 0.1082296 0.1439275
+[2,] 0.1439275 0.3179753
+
+$method
+[1] "Joint"
+
+$K
+[1] 10
+
+$n
+[1] 69
+
+$iter
+[1] 1
+
+attr(,"class")
+[1] "evoTSmvFit"
+
+$result3
+Time difference of 13.20769 hours
+
+> print(cormatrix_best_salmon_model_5b_it50)
+          [,1]      [,2]
+[1,] 1.0000000 0.1073426
+[2,] 0.1073426 1.0000000
+> save(salmon_model_5b_best_it50, cormatrix_best_salmon_model_5b_it50, file = 'salmon_bestrun_model_5b_it50.RData')
+> 
+slurmstepd: error: Detected 2 oom_kill events in StepId=16005587.batch. Some of the step tasks have been OOM Killed.
+
+Job 16005587 consumed 245.4 billing hours from project nn8105k.
+
+Submitted 2025-10-24T21:00:37; waited 5.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 7.0 days
+Elapsed wallclock time:   16.4 hours
+
+Job had an out of memory error.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+16005587          15            0.0 %  2025-10-24T21:00:42   16.4 h  Signal 125
+16005587.batch    15      1   176.9 %  2025-10-24T21:00:42   16.4 h  Signal 125
+
+Used CPU time:   18.1 CPU days
+Unused CPU time: 0.0 CPU seconds
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+16005587           3.0        
+16005587.batch     3.0     3.0
+
+Job 16005587 completed at Sat Oct 25 13:22:27 CEST 2025

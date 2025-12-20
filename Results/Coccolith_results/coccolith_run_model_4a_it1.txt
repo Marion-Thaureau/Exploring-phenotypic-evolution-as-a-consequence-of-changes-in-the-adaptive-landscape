@@ -1,0 +1,1339 @@
+Starting job 16250718 on c11-4 on Saga at Thu Nov 27 17:26:10 CET 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv                              (S)
+  2) GCCcore/11.3.0
+  3) zlib/1.2.12-GCCcore-11.3.0          (H)
+  4) binutils/2.38-GCCcore-11.3.0        (H)
+  5) GCC/11.3.0
+  6) numactl/2.0.14-GCCcore-11.3.0       (H)
+  7) XZ/5.2.5-GCCcore-11.3.0             (H)
+  8) libxml2/2.9.13-GCCcore-11.3.0       (H)
+  9) libpciaccess/0.16-GCCcore-11.3.0    (H)
+ 10) hwloc/2.7.1-GCCcore-11.3.0          (H)
+ 11) hpcx/2.14
+ 12) OpenMPI/4.1.4-GCC-11.3.0
+ 13) OpenBLAS/0.3.20-GCC-11.3.0
+ 14) FlexiBLAS/3.2.0-GCC-11.3.0
+ 15) FFTW/3.3.10-GCC-11.3.0
+ 16) gompi/2022a
+ 17) FFTW.MPI/3.3.10-gompi-2022a
+ 18) ScaLAPACK/2.2.0-gompi-2022a-fb
+ 19) foss/2022a
+ 20) bzip2/1.0.8-GCCcore-11.3.0          (H)
+ 21) expat/2.4.8-GCCcore-11.3.0          (H)
+ 22) libpng/1.6.37-GCCcore-11.3.0        (H)
+ 23) Brotli/1.0.9-GCCcore-11.3.0         (H)
+ 24) freetype/2.12.1-GCCcore-11.3.0      (H)
+ 25) ncurses/6.3-GCCcore-11.3.0          (H)
+ 26) util-linux/2.38-GCCcore-11.3.0      (H)
+ 27) fontconfig/2.14.0-GCCcore-11.3.0    (H)
+ 28) xorg-macros/1.19.3-GCCcore-11.3.0   (H)
+ 29) X11/20220504-GCCcore-11.3.0         (H)
+ 30) gzip/1.12-GCCcore-11.3.0            (H)
+ 31) lz4/1.9.3-GCCcore-11.3.0            (H)
+ 32) zstd/1.5.2-GCCcore-11.3.0           (H)
+ 33) libdrm/2.4.110-GCCcore-11.3.0       (H)
+ 34) libglvnd/1.4.0-GCCcore-11.3.0       (H)
+ 35) libunwind/1.6.2-GCCcore-11.3.0      (H)
+ 36) LLVM/14.0.3-GCCcore-11.3.0
+ 37) Mesa/22.0.3-GCCcore-11.3.0          (H)
+ 38) libGLU/9.0.2-GCCcore-11.3.0         (H)
+ 39) pixman/0.40.0-GCCcore-11.3.0        (H)
+ 40) libffi/3.4.2-GCCcore-11.3.0         (H)
+ 41) gettext/0.21-GCCcore-11.3.0         (H)
+ 42) PCRE/8.45-GCCcore-11.3.0            (H)
+ 43) GLib/2.72.1-GCCcore-11.3.0          (H)
+ 44) cairo/1.17.4-GCCcore-11.3.0         (H)
+ 45) libreadline/8.1.2-GCCcore-11.3.0    (H)
+ 46) Tcl/8.6.12-GCCcore-11.3.0           (H)
+ 47) SQLite/3.38.3-GCCcore-11.3.0        (H)
+ 48) PCRE2/10.40-GCCcore-11.3.0          (H)
+ 49) NASM/2.15.05-GCCcore-11.3.0         (H)
+ 50) libjpeg-turbo/2.1.3-GCCcore-11.3.0  (H)
+ 51) jbigkit/2.1-GCCcore-11.3.0          (H)
+ 52) libdeflate/1.10-GCCcore-11.3.0      (H)
+ 53) LibTIFF/4.3.0-GCCcore-11.3.0        (H)
+ 54) Java/11.0.16
+ 55) Tk/8.6.12-GCCcore-11.3.0            (H)
+ 56) OpenSSL/1.1                         (H)
+ 57) cURL/7.83.0-GCCcore-11.3.0          (H)
+ 58) GMP/6.2.1-GCCcore-11.3.0            (H)
+ 59) NLopt/2.7.1-GCCcore-11.3.0          (H)
+ 60) libogg/1.3.5-GCCcore-11.3.0         (H)
+ 61) FLAC/1.3.4-GCCcore-11.3.0           (H)
+ 62) libvorbis/1.3.7-GCCcore-11.3.0      (H)
+ 63) libopus/1.3.1-GCCcore-11.3.0        (H)
+ 64) LAME/3.100-GCCcore-11.3.0           (H)
+ 65) libsndfile/1.1.0-GCCcore-11.3.0     (H)
+ 66) ICU/71.1-GCCcore-11.3.0             (H)
+ 67) Szip/2.1.1-GCCcore-11.3.0           (H)
+ 68) HDF5/1.12.2-gompi-2022a
+ 69) UDUNITS/2.2.28-GCCcore-11.3.0
+ 70) GSL/2.7-GCC-11.3.0
+ 71) ATK/2.38.0-GCCcore-11.3.0           (H)
+ 72) Gdk-Pixbuf/2.42.8-GCCcore-11.3.0    (H)
+ 73) HarfBuzz/4.2.1-GCCcore-11.3.0       (H)
+ 74) FriBidi/1.0.12-GCCcore-11.3.0       (H)
+ 75) Pango/1.50.7-GCCcore-11.3.0         (H)
+ 76) GTK2/2.24.33-GCCcore-11.3.0         (H)
+ 77) Ghostscript/9.56.1-GCCcore-11.3.0   (H)
+ 78) JasPer/2.0.33-GCCcore-11.3.0        (H)
+ 79) LittleCMS/2.13.1-GCCcore-11.3.0     (H)
+ 80) ImageMagick/7.1.0-37-GCCcore-11.3.0 (H)
+ 81) GLPK/5.0-GCCcore-11.3.0             (H)
+ 82) nodejs/16.15.1-GCCcore-11.3.0       (H)
+ 83) Python/3.10.4-GCCcore-11.3.0
+ 84) netCDF/4.9.0-gompi-2022a
+ 85) GEOS/3.10.3-GCC-11.3.0
+ 86) nlohmann_json/3.10.5-GCCcore-11.3.0 (H)
+ 87) PROJ/9.0.0-GCCcore-11.3.0
+ 88) libgeotiff/1.7.1-GCCcore-11.3.0     (H)
+ 89) pybind11/2.9.2-GCCcore-11.3.0       (H)
+ 90) SciPy-bundle/2022.05-foss-2022a
+ 91) libtirpc/1.3.2-GCCcore-11.3.0       (H)
+ 92) HDF/4.2.15-GCCcore-11.3.0           (H)
+ 93) GDAL/3.5.0-foss-2022a
+ 94) MPFR/4.1.0-GCCcore-11.3.0           (H)
+ 95) libgit2/1.4.3-GCCcore-11.3.0        (H)
+ 96) R/4.2.1-foss-2022a
+
+  Where:
+   H:  Hidden Module
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+
+R version 4.2.1 (2022-06-23) -- "Funny-Looking Kid"
+Copyright (C) 2022 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> ######################################################
+> ##                                                  ##
+> ##  COCCOLITH SCRIPT - Model 4a (iteration 1 - 50)  ##
+> ##                                                  ## 
+> ######################################################
+> 
+> 
+> #R version 4.2.1
+> .libPaths("/cluster/home/marionth/R")
+> library(doParallel) #doParallel version 1.0.17
+Loading required package: foreach
+Loading required package: iterators
+Loading required package: parallel
+> library(dplyr) #dplyr version 1.1.0
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+> library(evoTS) #evoTS version 1.0.3
+> library(foreach) #foreach version 1.5.2
+> library(MCSPCD) #MCSPCD version 0.0.0.9000
+> library(paleoTS) #paleoTS version 0.6.2
+> library(parallel) #parallel version 4.2.1
+> library(stats) #stats version 4.2.1
+> library(usethis) #usethis version 2.1.6
+> 
+> 
+> setwd("/cluster/home/marionth/Bornemann")
+> 
+> 
+> 
+> ###### LOAD MORPHOLOGICAL DATA ######
+> bodylength_raw <- read.delim("/cluster/home/marionth/Bornemann/Biscutum_TotalcoccolithLength.txt")
+> 
+> bodylength_ts <- data.frame(
++   mean = bodylength_raw[[2]],
++   variance = bodylength_raw[[3]],
++   samplesize = bodylength_raw[[1]],
++   time = bodylength_raw[[4]]
++ )
+> 
+> 
+> 
+> ###### LOAD ENVIRONMENTAL DATA ######
+> isotopes <- read.delim("/cluster/home/marionth/Bornemann/isotopes.txt")
+> 
+> oxygen_isotopes_ts <- data.frame(
++   mean = isotopes[[4]],
++   variance = abs(isotopes[[4]])*0.001,
++   samplesize = 1,
++   time = bodylength_raw[[4]]
++ )
+> 
+> carbon_isotopes_ts <- data.frame(
++   mean = isotopes[[3]],
++   variance = abs(isotopes[[3]])*0.001,
++   samplesize = 1,
++   time = bodylength_raw[[4]]
++ )
+> 
+> 
+> 
+> ###### CREATING PALEOTS AND EVOTS OBJECTS ######
+> #Creating paleoTS object for the body length time series
+> bodylength_obj <- paleoTS::as.paleoTS(mm = bodylength_ts$mean, vv = bodylength_ts$variance, nn = bodylength_ts$samplesize, tt = bodylength_ts$time)
+> ln.bodylength_obj <- paleoTS::ln.paleoTS(bodylength_obj) #log-transformation of the data
+> ln.bodylength_obj$tt <- ln.bodylength_obj$tt/(max(ln.bodylength_obj$tt)) #transfer of the time vector into a length unit of 1 
+> 
+> #Creating paleoTS object for the oxygen isotope time series
+> oxygen_isotopes_obj <- paleoTS::as.paleoTS(mm = oxygen_isotopes_ts$mean, vv = oxygen_isotopes_ts$variance, nn = oxygen_isotopes_ts$samplesize, tt = oxygen_isotopes_ts$time, oldest="first")
+> oxygen_isotopes_obj$tt <- oxygen_isotopes_obj$tt/(max(oxygen_isotopes_obj$tt)) #transfer of the time vector into a length unit of 1
+> 
+> #Creating paleoTS object for the carbon isotope time series
+> carbon_isotopes_obj <- paleoTS::as.paleoTS(mm = carbon_isotopes_ts$mean, vv = carbon_isotopes_ts$variance, nn = carbon_isotopes_ts$samplesize, tt = carbon_isotopes_ts$time, oldest="first")
+> carbon_isotopes_obj$tt <- carbon_isotopes_obj$tt/(max(carbon_isotopes_obj$tt)) #transfer of the time vector into a length unit of 1
+> 
+> #Creating and plotting the multivariate evoTS object
+> ln.bodylength_isotopes_multiobj <- make.multivar.evoTS(ln.bodylength_obj, oxygen_isotopes_obj, carbon_isotopes_obj)
+> 
+> 
+> 
+> ###### RUNNING Model_4a ######
+> #Parallelisation of the job 
+> registerDoParallel(52)
+> start_time <- Sys.time() 
+> 
+> #Model_4a: oxygen isotope influences the primary optimum of the body length in A matrix; diagonal R matrix 
+> A = matrix(c(1,1,0,0,1,0,0,0,1), nrow = 3, byrow=TRUE)
+> R = matrix(c(1,0,0,0,1,0,0,0,1), nrow = 3, byrow=TRUE)
+> 
+> #Loop for 104 iterations 
+> coccolith_model_4a_it1 <- foreach(i=1:104) %dopar% { 
++   result <- multiResultClass() 
++   
++ #Set and store a different seed for each iteration
++   seed <- (10+i) 
++   set.seed(seed)
++   result$result1 <- seed
++   
++ #Run iterations using the parametrized matrices A and R
++   result$result2 <- tryCatch({fit.multivariate.OU.user.defined(ln.bodylength_isotopes_multiobj, A.user = A, R.user = R, iterations = 1, hess = TRUE)
++     
++ #Handle non-converging iterations
++   }, error = function(e) {
++     message(paste("Error in iteration", i, ":", e$message))
++     return(NA) 
++   })
++   
++ #Record the running time for each iteration
++   end_time <- Sys.time()
++   elapsed_time <- end_time - start_time
++   print(elapsed_time)
++   result$result3 <- elapsed_time
++   
++   return(result)
++ }
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+Time difference of 1.183245 hours
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 5.062467 hours
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 6.628674 hours
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 7.672064 hours
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 7.820777 hours
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 8.012676 hours
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 8.464871 hours
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 8.759957 hours
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 9.448853 hours
+Time difference of 9.517247 hours
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 10.40014 hours
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 10.71065 hours
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 11.6521 hours
+Time difference of 11.87084 hours
+Time difference of 11.90358 hours
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 12.92714 hours
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 13.0631 hours
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 13.55071 hours
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 14.21071 hours
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 14.90299 hours
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 15.00522 hours
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 15.83582 hours
+Time difference of 15.87668 hours
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 16.21686 hours
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 17.39787 hours
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 17.84289 hours
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 18.78493 hours
+Time difference of 18.78524 hours
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 18.95179 hours
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 20.45119 hours
+Time difference of 20.4526 hours
+Time difference of 20.50832 hours
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 20.84018 hours
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 22.43921 hours
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 23.23492 hours
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 23.66007 hours
+Time difference of 23.66649 hours
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.013411 days
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.077756 days
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.108671 days
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+Time difference of 1.131105 days
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.137306 days
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+Time difference of 1.179942 days
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.181824 days
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.194026 days
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.239301 days
+Time difference of 1.239562 days
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.250052 days
+Time difference of 1.251892 days
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.254213 days
+Time difference of 1.256054 days
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.268919 days
+Time difference of 1.269207 days
+Time difference of 1.269725 days
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.297007 days
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.307745 days
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+Time difference of 1.346959 days
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.350023 days
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.358688 days
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+Time difference of 1.361754 days
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+Time difference of 1.366919 days
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.380227 days
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.382543 days
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.394754 days
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.398275 days
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.419723 days
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.463596 days
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.477718 days
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.4816 days
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.505348 days
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.50792 days
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.51197 days
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.520216 days
+Time difference of 1.520559 days
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.529284 days
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.546791 days
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.571005 days
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.575698 days
+Time difference of 1.576579 days
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.587493 days
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+Time difference of 1.592346 days
+Time difference of 1.593824 days
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.598211 days
+Time difference of 1.598237 days
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.600328 days
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.603218 days
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.64682 days
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+Time difference of 1.649888 days
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.65251 days
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.655599 days
+Time difference of 1.659175 days
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.667065 days
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.676765 days
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.680243 days
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.689092 days
+Time difference of 1.690122 days
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.690742 days
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+Time difference of 1.750091 days
+Time difference of 1.75309 days
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.76843 days
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.781065 days
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.795187 days
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.829973 days
+Time difference of 1.831412 days
+> 
+> print ("DONE")
+[1] "DONE"
+> end_time <- Sys.time(); end_time - start_time
+Time difference of 1.831412 days
+> 
+> save.image(file = 'coccolith_allruns_model_4a_it1.RData')
+> 
+> 
+> 
+> ###### EXTRACTING AND SAVING THE ITERATION WITH BEST PARAMETER ESTIMATES ######
+> #Filtering 50 iterations which converged
+> coccolith_model_4a_it1_filtered <- Filter(function(iteration) !is.na(iteration$result2[[1]]), coccolith_model_4a_it1)
+> coccolith_model_4a_it1_filtered <- Filter(function(iteration) !is.null(iteration), coccolith_model_4a_it1_filtered)
+> coccolith_model_4a_it1_results <- coccolith_model_4a_it1_filtered[1:50]
+> 
+> #Extracting the AICc values of each iterations
+> AICc <- matrix(ncol=2, nrow=50)
+> colnames(AICc) <- c("iteration", "AIC")
+> 
+> for (j in 1:50) {
++   AICc[j,1] <- j 
++   AICc[j,2] <- coccolith_model_4a_it1_results[[j]]$result2$AICc 
++ }
+> 
+> #Finding the best AICc
+> AICc_min <- which.min(AICc[,2])
+> 
+> #Finding the best iteration  
+> coccolith_model_4a_best_it1 <- coccolith_model_4a_it1_results[[AICc_min]]
+> 
+> #Saving the best iteration
+> print(coccolith_model_4a_best_it1)
+$LE_overall
+NULL
+
+$LE_overall_exp
+NULL
+
+$LE_overall_nonexp
+NULL
+
+$LE_without_dis
+NULL
+
+$LE_without_dis_exp
+NULL
+
+$LE_without_dis_nonexp
+NULL
+
+$LE_dis
+NULL
+
+$LE_dis_exp
+NULL
+
+$LE_dis_nonexp
+NULL
+
+$LE_non_dis
+NULL
+
+$LE_non_dis_exp
+NULL
+
+$LE_non_dis_nonexp
+NULL
+
+$np_age
+NULL
+
+$tp_dis
+NULL
+
+$nsurvival
+NULL
+
+$rsurvival
+NULL
+
+$nb_dis
+NULL
+
+$nb_dis_exp
+NULL
+
+$nb_dis_nonexp
+NULL
+
+$p_dis
+NULL
+
+$a_dis
+NULL
+
+$m_exp
+NULL
+
+$p_exp
+NULL
+
+$mortality_r
+NULL
+
+$result1
+[1] 14
+
+$result2
+$converge
+[1] "Model converged successfully"
+
+$modelName
+[1] "Multivariate model: User-specified OU model"
+
+$logL
+[1] 90.7535
+
+$AICc
+[1] -145.3959
+
+$ancestral.values
+[1]  1.272861 -4.010085  1.591028
+
+$SE.anc
+[1] 0.005005929 0.063313734 0.039428604
+
+$optima
+[1]  1.095635 -4.044519  1.598776
+
+$SE.optima
+[1]        NaN 0.08163933 0.09020422
+
+$A
+          [,1]         [,2]     [,3]
+[1,] 0.5936997 -0.001947159  0.00000
+[2,] 0.0000000 33.004575993  0.00000
+[3,] 0.0000000  0.000000000 24.32705
+
+$SE.A
+     [,1]       [,2]     [,3]
+[1,]  NaN  0.1325597  0.00000
+[2,]    0 12.9425453  0.00000
+[3,]    0  0.0000000 10.05508
+
+$half.life
+[1] 1.16750459 0.02100155 0.02849286
+
+$R
+             [,1]     [,2]     [,3]
+[1,] 5.157651e-08 0.000000 0.000000
+[2,] 0.000000e+00 6.581171 0.000000
+[3,] 0.000000e+00 0.000000 4.598671
+
+$SE.R
+             [,1]      [,2]       [,3]
+[1,] 4.760952e-05 0.0000000 0.00000000
+[2,] 0.000000e+00 0.1558651 0.00000000
+[3,] 0.000000e+00 0.0000000 0.08966972
+
+$method
+[1] "Joint"
+
+$K
+[1] 13
+
+$n
+[1] 50
+
+$iter
+[1] 1
+
+attr(,"class")
+[1] "evoTSmvFit"
+
+$result3
+Time difference of 22.43921 hours
+
+> save(coccolith_model_4a_best_it1, file = 'coccolith_bestrun_model_4a_it1.RData')
+> 
+
+Job 16250718 consumed 2286.2 billing hours from project nn8105k.
+
+Submitted 2025-11-27T17:26:09; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 3.0 days
+Elapsed wallclock time:   1.8 days
+
+Job exited normally.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+16250718          52            0.0 %  2025-11-27T17:26:10   44.0 h  0
+16250718.batch    52      1   177.2 %  2025-11-27T17:26:10   44.0 h  0
+
+Used CPU time:   168.8 CPU days
+Unused CPU time: 0.0 CPU seconds
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+16250718          40.0        
+16250718.batch    40.0    12.1
+
+Job 16250718 completed at Sat Nov 29 13:24:04 CET 2025

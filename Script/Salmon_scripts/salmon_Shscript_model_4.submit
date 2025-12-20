@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# Account name:
+#SBATCH --account=nn8105k
+
+# Project name:
+#SBATCH --job-name=salmon_model_4
+
+# Type of job:
+#SBATCH --partition=normal
+
+# Time limit:
+#SBATCH --time=1:0:0
+
+
+#SBATCH --mem=2G
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=1
+
+
+module --quiet purge  # Reset the modules to the system default
+module load R/4.2.1-foss-2022a
+module list
+
+
+# Define the R scripts names
+scripts=(salmon_script_model_4*.R)
+
+# Loop through the R scripts and run each one as a separate job
+for script in "${scripts[@]}"; do
+sbatch --export=SCRIPT="$script" salmon_slurm_script.submit
+done

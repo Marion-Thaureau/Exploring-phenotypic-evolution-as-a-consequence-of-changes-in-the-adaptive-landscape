@@ -1,4 +1,4 @@
-Mean_isotopsd18O,Variance_isotopsd18O,Sample_size,Age_MY
+d18O_mean,d18O_variance,d18O_samplesize,d18O_MY
 -1.08,0,1,0
 -1.11,0,1,0.09
 -1.07,0,1,0.16

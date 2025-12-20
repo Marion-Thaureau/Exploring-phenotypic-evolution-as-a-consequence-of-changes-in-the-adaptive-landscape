@@ -1,0 +1,574 @@
+Starting job 16013149 on c10-11 on Saga at Mon Oct 27 13:57:18 CET 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv                              (S)
+  2) GCCcore/11.3.0
+  3) zlib/1.2.12-GCCcore-11.3.0          (H)
+  4) binutils/2.38-GCCcore-11.3.0        (H)
+  5) GCC/11.3.0
+  6) numactl/2.0.14-GCCcore-11.3.0       (H)
+  7) XZ/5.2.5-GCCcore-11.3.0             (H)
+  8) libxml2/2.9.13-GCCcore-11.3.0       (H)
+  9) libpciaccess/0.16-GCCcore-11.3.0    (H)
+ 10) hwloc/2.7.1-GCCcore-11.3.0          (H)
+ 11) hpcx/2.14
+ 12) OpenMPI/4.1.4-GCC-11.3.0
+ 13) OpenBLAS/0.3.20-GCC-11.3.0
+ 14) FlexiBLAS/3.2.0-GCC-11.3.0
+ 15) FFTW/3.3.10-GCC-11.3.0
+ 16) gompi/2022a
+ 17) FFTW.MPI/3.3.10-gompi-2022a
+ 18) ScaLAPACK/2.2.0-gompi-2022a-fb
+ 19) foss/2022a
+ 20) bzip2/1.0.8-GCCcore-11.3.0          (H)
+ 21) expat/2.4.8-GCCcore-11.3.0          (H)
+ 22) libpng/1.6.37-GCCcore-11.3.0        (H)
+ 23) Brotli/1.0.9-GCCcore-11.3.0         (H)
+ 24) freetype/2.12.1-GCCcore-11.3.0      (H)
+ 25) ncurses/6.3-GCCcore-11.3.0          (H)
+ 26) util-linux/2.38-GCCcore-11.3.0      (H)
+ 27) fontconfig/2.14.0-GCCcore-11.3.0    (H)
+ 28) xorg-macros/1.19.3-GCCcore-11.3.0   (H)
+ 29) X11/20220504-GCCcore-11.3.0         (H)
+ 30) gzip/1.12-GCCcore-11.3.0            (H)
+ 31) lz4/1.9.3-GCCcore-11.3.0            (H)
+ 32) zstd/1.5.2-GCCcore-11.3.0           (H)
+ 33) libdrm/2.4.110-GCCcore-11.3.0       (H)
+ 34) libglvnd/1.4.0-GCCcore-11.3.0       (H)
+ 35) libunwind/1.6.2-GCCcore-11.3.0      (H)
+ 36) LLVM/14.0.3-GCCcore-11.3.0          (H)
+ 37) Mesa/22.0.3-GCCcore-11.3.0          (H)
+ 38) libGLU/9.0.2-GCCcore-11.3.0         (H)
+ 39) pixman/0.40.0-GCCcore-11.3.0        (H)
+ 40) libffi/3.4.2-GCCcore-11.3.0         (H)
+ 41) gettext/0.21-GCCcore-11.3.0         (H)
+ 42) PCRE/8.45-GCCcore-11.3.0            (H)
+ 43) GLib/2.72.1-GCCcore-11.3.0          (H)
+ 44) cairo/1.17.4-GCCcore-11.3.0         (H)
+ 45) libreadline/8.1.2-GCCcore-11.3.0    (H)
+ 46) Tcl/8.6.12-GCCcore-11.3.0           (H)
+ 47) SQLite/3.38.3-GCCcore-11.3.0        (H)
+ 48) PCRE2/10.40-GCCcore-11.3.0          (H)
+ 49) NASM/2.15.05-GCCcore-11.3.0         (H)
+ 50) libjpeg-turbo/2.1.3-GCCcore-11.3.0  (H)
+ 51) jbigkit/2.1-GCCcore-11.3.0          (H)
+ 52) libdeflate/1.10-GCCcore-11.3.0      (H)
+ 53) LibTIFF/4.3.0-GCCcore-11.3.0        (H)
+ 54) Java/11.0.16
+ 55) Tk/8.6.12-GCCcore-11.3.0            (H)
+ 56) OpenSSL/1.1                         (H)
+ 57) cURL/7.83.0-GCCcore-11.3.0          (H)
+ 58) GMP/6.2.1-GCCcore-11.3.0            (H)
+ 59) NLopt/2.7.1-GCCcore-11.3.0          (H)
+ 60) libogg/1.3.5-GCCcore-11.3.0         (H)
+ 61) FLAC/1.3.4-GCCcore-11.3.0           (H)
+ 62) libvorbis/1.3.7-GCCcore-11.3.0      (H)
+ 63) libopus/1.3.1-GCCcore-11.3.0        (H)
+ 64) LAME/3.100-GCCcore-11.3.0           (H)
+ 65) libsndfile/1.1.0-GCCcore-11.3.0     (H)
+ 66) ICU/71.1-GCCcore-11.3.0             (H)
+ 67) Szip/2.1.1-GCCcore-11.3.0           (H)
+ 68) HDF5/1.12.2-gompi-2022a
+ 69) UDUNITS/2.2.28-GCCcore-11.3.0
+ 70) GSL/2.7-GCC-11.3.0
+ 71) ATK/2.38.0-GCCcore-11.3.0           (H)
+ 72) Gdk-Pixbuf/2.42.8-GCCcore-11.3.0    (H)
+ 73) HarfBuzz/4.2.1-GCCcore-11.3.0       (H)
+ 74) FriBidi/1.0.12-GCCcore-11.3.0       (H)
+ 75) Pango/1.50.7-GCCcore-11.3.0         (H)
+ 76) GTK2/2.24.33-GCCcore-11.3.0         (H)
+ 77) Ghostscript/9.56.1-GCCcore-11.3.0   (H)
+ 78) JasPer/2.0.33-GCCcore-11.3.0        (H)
+ 79) LittleCMS/2.13.1-GCCcore-11.3.0     (H)
+ 80) ImageMagick/7.1.0-37-GCCcore-11.3.0 (H)
+ 81) GLPK/5.0-GCCcore-11.3.0             (H)
+ 82) nodejs/16.15.1-GCCcore-11.3.0       (H)
+ 83) Python/3.10.4-GCCcore-11.3.0
+ 84) netCDF/4.9.0-gompi-2022a
+ 85) GEOS/3.10.3-GCC-11.3.0
+ 86) nlohmann_json/3.10.5-GCCcore-11.3.0 (H)
+ 87) PROJ/9.0.0-GCCcore-11.3.0
+ 88) libgeotiff/1.7.1-GCCcore-11.3.0     (H)
+ 89) pybind11/2.9.2-GCCcore-11.3.0       (H)
+ 90) SciPy-bundle/2022.05-foss-2022a
+ 91) libtirpc/1.3.2-GCCcore-11.3.0       (H)
+ 92) HDF/4.2.15-GCCcore-11.3.0           (H)
+ 93) GDAL/3.5.0-foss-2022a
+ 94) MPFR/4.1.0-GCCcore-11.3.0           (H)
+ 95) libgit2/1.4.3-GCCcore-11.3.0        (H)
+ 96) R/4.2.1-foss-2022a
+
+  Where:
+   H:  Hidden Module
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+
+R version 4.2.1 (2022-06-23) -- "Funny-Looking Kid"
+Copyright (C) 2022 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> #########################################################
+> ##                                                     ##
+> ##  FORAMINIFERA SCRIPT - Model 6a (iteration 1 - 50)  ##
+> ##                                                     ## 
+> #########################################################
+> 
+> 
+> #R version 4.2.1
+> .libPaths("/cluster/home/marionth/R")
+> library(doParallel) #doParallel version 1.0.17
+Loading required package: foreach
+Loading required package: iterators
+Loading required package: parallel
+> library(dplyr) #dplyr version 1.1.0
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+> library(evoTS) #evoTS version 1.0.3
+> library(foreach) #foreach version 1.5.2
+> library(MCSPCD) #MCSPCD version 0.0.0.9000
+> library(paleoTS) #paleoTS version 0.6.2
+> library(parallel) #parallel version 4.2.1
+> library(stats) #stats version 4.2.1
+> 
+> 
+> setwd("/cluster/home/marionth/Hodell")
+> 
+> 
+> 
+> ###### LOAD MORPHOLOGICAL AND ENVIRONMENTAL DATA ######
+> bodylength_raw <- read.table("Hodell_and_Vayavananda_1993_Fohsella_length.txt",header=T)
+> oxygen_isotopes_raw <- read.csv("table_d18O.csv")
+> carbon_isotopes_raw <- read.csv("table_d13C.csv")
+> 
+> #removing the NA rows
+> dataset_raw = cbind(bodylength_raw, oxygen_isotopes_raw, carbon_isotopes_raw)
+> dataset = dataset_raw %>% filter(!is.na(d13C_mean)) 
+> 
+> #creating the body length time series (already log-transformed)
+> bodylength_ts <- data.frame(
++   mean = dataset$trait_mean,
++   variance = dataset$trait_var,
++   samplesize = dataset$N,
++   time = dataset$age_MY
++ )
+> 
+> #creating the oxygen isotope time series
+> oxygen_isotopes_ts <- data.frame(
++   mean = dataset$d18O_mean,
++   variance = abs(dataset$d18O_mean)*0.001,
++   samplesize = 1,
++   time = dataset$age_MY
++ )
+> 
+> #creating the carbon isotope time series
+> carbon_isotopes_ts <- data.frame(
++   mean = dataset$d13C_mean,
++   variance = abs(dataset$d13C_mean)*0.001,
++   samplesize = 1,
++   time = dataset$age_MY
++ )
+> 
+> 
+> 
+> ###### CREATING PALEOTS AND EVOTS OBJECTS ######
+> #Creating paleoTS object for the body length time series
+> ln.bodylength_obj <- paleoTS::as.paleoTS(mm = bodylength_ts$mean, vv = bodylength_ts$variance, nn = bodylength_ts$samplesize, tt = bodylength_ts$time)
+> ln.bodylength_obj$tt <- ln.bodylength_obj$tt/(max(ln.bodylength_obj$tt)) #transfer of the time vector into a length unit of 1 
+> 
+> #Creating paleoTS object for the oxygen isotope time series
+> oxygen_isotopes_obj <- paleoTS::as.paleoTS(mm = oxygen_isotopes_ts$mean, vv = oxygen_isotopes_ts$variance, nn = oxygen_isotopes_ts$samplesize, tt = oxygen_isotopes_ts$time, oldest="first")
+> oxygen_isotopes_obj$tt <- oxygen_isotopes_obj$tt/(max(oxygen_isotopes_obj$tt)) #transfer of the time vector into a length unit of 1
+> 
+> #Creating paleoTS object for the carbon isotope time series
+> carbon_isotopes_obj <- paleoTS::as.paleoTS(mm = carbon_isotopes_ts$mean, vv = carbon_isotopes_ts$variance, nn = carbon_isotopes_ts$samplesize, tt = carbon_isotopes_ts$time, oldest="first")
+> carbon_isotopes_obj$tt <- carbon_isotopes_obj$tt/(max(carbon_isotopes_obj$tt)) #transfer of the time vector into a length unit of 1
+> 
+> #Creating and plotting the multivariate evoTS object
+> ln.bodylength_isotopes_multiobj <- make.multivar.evoTS(ln.bodylength_obj, oxygen_isotopes_obj, carbon_isotopes_obj)
+> 
+> 
+> 
+> ###### RUNNING Model_6a ######
+> #Parallelisation of the job 
+> registerDoParallel(52)
+> start_time <- Sys.time() 
+> 
+> #Model_6a: both isotopes influence the primary optimum of the body length in A matrix; diagonal R matrix 
+> A = matrix(c(1,1,1,0,1,0,0,0,1), nrow = 3, byrow=TRUE)
+> R = matrix(c(1,0,0,0,1,0,0,0,1), nrow = 3, byrow=TRUE)
+> 
+> #Loop for 65 iterations 
+> foraminifera_model_6a_it1 <- foreach(i=1:104) %dopar% { 
++   result <- multiResultClass() 
++   
++ #Set and store a different seed for each iteration
++   seed <- (10+i) 
++   set.seed(seed)
++   result$result1 <- seed
++   
++ #Run iterations using the parametrized matrices A and R
++   result$result2 <- tryCatch({fit.multivariate.OU.user.defined(ln.bodylength_isotopes_multiobj, A.user = A, R.user = R, iterations = 1, hess = TRUE)
++     
++ #Handle non-converging iterations
++   }, error = function(e) {
++     message(paste("Error in iteration", i, ":", e$message))
++     return(NA) 
++   })
++   
++ #Record the running time for each iteration
++   end_time <- Sys.time()
++   elapsed_time <- end_time - start_time
++   print(elapsed_time)
++   result$result3 <- elapsed_time
++   
++   return(result)
++ }
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+Time difference of 11.18636 hours
+Time difference of 11.96236 hours
+Time difference of 12.23846 hours
+Time difference of 12.25724 hours
+Time difference of 12.90442 hours
+Time difference of 13.01482 hours
+Time difference of 14.55337 hours
+Time difference of 14.66118 hours
+ERROR : The initial parameters did not work. Trying a new set of candidate starting values. 
+Time difference of 15.8856 hours
+Time difference of 16.85516 hours
+Time difference of 17.50235 hours
+Time difference of 17.76974 hours
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 18.48476 hours
+Time difference of 18.48804 hours
+Time difference of 18.5414 hours
+Time difference of 18.77417 hours
+Time difference of 19.10806 hours
+Time difference of 19.84226 hours
+Time difference of 19.92586 hours
+Time difference of 20.29251 hours
+Time difference of 20.70187 hours
+Time difference of 20.7349 hours
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 21.64337 hours
+Time difference of 21.98434 hours
+Time difference of 22.0201 hours
+Time difference of 23.41341 hours
+Time difference of 23.52414 hours
+Time difference of 23.6829 hours
+Time difference of 1.001961 days
+Time difference of 1.036029 days
+Time difference of 1.036948 days
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.049382 days
+Time difference of 1.157812 days
+Time difference of 1.168296 days
+Time difference of 1.191001 days
+Time difference of 1.21266 days
+Time difference of 1.252853 days
+Time difference of 1.258156 days
+Time difference of 1.268703 days
+Time difference of 1.277765 days
+Time difference of 1.304044 days
+Time difference of 1.327734 days
+Time difference of 1.335225 days
+Time difference of 1.339723 days
+Time difference of 1.340337 days
+Time difference of 1.346288 days
+ERROR : $ operator is invalid for atomic vectors 
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.397126 days
+Time difference of 1.411659 days
+Time difference of 1.41976 days
+Time difference of 1.430213 days
+Time difference of 1.432545 days
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.456138 days
+Time difference of 1.463347 days
+Time difference of 1.464141 days
+Time difference of 1.46648 days
+Time difference of 1.470265 days
+Time difference of 1.470879 days
+Time difference of 1.473252 days
+Time difference of 1.507319 days
+Time difference of 1.513292 days
+Time difference of 1.532153 days
+Time difference of 1.534141 days
+Time difference of 1.53469 days
+Time difference of 1.541769 days
+Time difference of 1.550128 days
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.579475 days
+Time difference of 1.602753 days
+Time difference of 1.617683 days
+Time difference of 1.617731 days
+Time difference of 1.631213 days
+Time difference of 1.646095 days
+Time difference of 1.648313 days
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.654467 days
+Time difference of 1.662613 days
+Time difference of 1.668914 days
+Time difference of 1.669522 days
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.688647 days
+Time difference of 1.693992 days
+Time difference of 1.698916 days
+Time difference of 1.700251 days
+Time difference of 1.702305 days
+Time difference of 1.707729 days
+Time difference of 1.734731 days
+Time difference of 1.736349 days
+Time difference of 1.738877 days
+Time difference of 1.742452 days
+Time difference of 1.744325 days
+Time difference of 1.750633 days
+Time difference of 1.767065 days
+Time difference of 1.788309 days
+Time difference of 1.789961 days
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 1.808188 days
+Time difference of 1.808351 days
+Time difference of 1.826166 days
+Time difference of 1.830776 days
+Time difference of 1.832607 days
+Time difference of 1.839092 days
+Time difference of 1.853342 days
+Time difference of 1.866696 days
+Time difference of 1.894237 days
+ERROR : $ operator is invalid for atomic vectors 
+Time difference of 2.006938 days
+Time difference of 2.020344 days
+Time difference of 2.069595 days
+Time difference of 2.104145 days
+> 
+> print ("DONE")
+[1] "DONE"
+> end_time <- Sys.time(); end_time - start_time
+Time difference of 2.104146 days
+> 
+> save.image(file = 'foraminifera_allruns_model_6a_it1.RData')
+> 
+> 
+> 
+> ###### EXTRACTING AND SAVING THE ITERATION WITH BEST PARAMETER ESTIMATES ######
+> #Filtering 50 iterations which converged
+> foraminifera_model_6a_it1_filtered <- Filter(function(iteration) !is.na(iteration$result2[[1]]), foraminifera_model_6a_it1)
+> foraminifera_model_6a_it1_filtered <- Filter(function(iteration) !is.null(iteration), foraminifera_model_6a_it1_filtered)
+> foraminifera_model_6a_it1_results <- foraminifera_model_6a_it1_filtered[1:50]
+> 
+> #Extracting the AICc values of each iterations
+> AICc <- matrix(ncol=2, nrow=50)
+> colnames(AICc) <- c("iteration", "AIC")
+> 
+> for (j in 1:50) {
++   AICc[j,1] <- j 
++   AICc[j,2] <- foraminifera_model_6a_it1_results[[j]]$result2$AICc 
++ }
+> 
+> #Finding the best AICc
+> AICc_min <- which.min(AICc[,2])
+> 
+> #Finding the best iteration  
+> foraminifera_model_6a_best_it1 <- foraminifera_model_6a_it1_results[[AICc_min]]
+> 
+> #Saving the best iteration
+> print(foraminifera_model_6a_best_it1)
+$LE_overall
+NULL
+
+$LE_overall_exp
+NULL
+
+$LE_overall_nonexp
+NULL
+
+$LE_without_dis
+NULL
+
+$LE_without_dis_exp
+NULL
+
+$LE_without_dis_nonexp
+NULL
+
+$LE_dis
+NULL
+
+$LE_dis_exp
+NULL
+
+$LE_dis_nonexp
+NULL
+
+$LE_non_dis
+NULL
+
+$LE_non_dis_exp
+NULL
+
+$LE_non_dis_nonexp
+NULL
+
+$np_age
+NULL
+
+$tp_dis
+NULL
+
+$nsurvival
+NULL
+
+$rsurvival
+NULL
+
+$nb_dis
+NULL
+
+$nb_dis_exp
+NULL
+
+$nb_dis_nonexp
+NULL
+
+$p_dis
+NULL
+
+$a_dis
+NULL
+
+$m_exp
+NULL
+
+$p_exp
+NULL
+
+$mortality_r
+NULL
+
+$result1
+[1] 41
+
+$result2
+$converge
+[1] "Model converged successfully"
+
+$modelName
+[1] "Multivariate model: User-specified OU model"
+
+$logL
+[1] 340.1707
+
+$AICc
+[1] -647.9203
+
+$ancestral.values
+[1] -1.494842 -1.086110  2.039780
+
+$SE.anc
+[1] 0.02263897 0.03127793 0.04070558
+
+$optima
+[1] -1.0967313 -0.9178837  1.6981299
+
+$SE.optima
+[1] 0.09204913 0.10967981 0.04921932
+
+$A
+         [,1]      [,2]      [,3]
+[1,] 13.84694 -9.745542  4.254053
+[2,]  0.00000 10.789339  0.000000
+[3,]  0.00000  0.000000 26.196313
+
+$SE.A
+        [,1]     [,2]     [,3]
+[1,] 9.95484 8.013756 6.221189
+[2,] 0.00000 4.883513 0.000000
+[3,] 0.00000 0.000000 9.245329
+
+$half.life
+[1] 0.05005777 0.06424371 0.02645972
+
+$R
+          [,1]     [,2]     [,3]
+[1,] 0.3581571 0.000000 0.000000
+[2,] 0.0000000 1.394144 0.000000
+[3,] 0.0000000 0.000000 1.565667
+
+$SE.R
+            [,1]       [,2]       [,3]
+[1,] 0.004631941 0.00000000 0.00000000
+[2,] 0.000000000 0.01304518 0.00000000
+[3,] 0.000000000 0.00000000 0.01839073
+
+$method
+[1] "Joint"
+
+$K
+[1] 14
+
+$n
+[1] 110
+
+$iter
+[1] 1
+
+attr(,"class")
+[1] "evoTSmvFit"
+
+$result3
+Time difference of 13.01482 hours
+
+> save(foraminifera_model_6a_best_it1, file = 'foraminifera_bestrun_model_6a_it1.RData')
+> 
+
+Job 16013149 consumed 2626.4 billing hours from project nn8105k.
+
+Submitted 2025-10-27T13:47:57; waited 9.3 minutes in the queue after becoming eligible to run.
+
+Requested wallclock time: 7.0 days
+Elapsed wallclock time:   2.1 days
+
+Job exited normally.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+16013149          52            0.0 %  2025-10-27T13:57:13   50.5 h  0
+16013149.batch    52      1   169.4 %  2025-10-27T13:57:13   50.5 h  0
+
+Used CPU time:   185.4 CPU days
+Unused CPU time: 0.0 CPU seconds
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+16013149          40.0        
+16013149.batch    40.0    12.5
+
+Job 16013149 completed at Wed Oct 29 16:27:46 CET 2025

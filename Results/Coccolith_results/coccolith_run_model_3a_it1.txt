@@ -1,0 +1,557 @@
+Starting job 16248410 on c11-36 on Saga at Thu Nov 27 17:17:04 CET 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv                              (S)
+  2) GCCcore/11.3.0
+  3) zlib/1.2.12-GCCcore-11.3.0          (H)
+  4) binutils/2.38-GCCcore-11.3.0        (H)
+  5) GCC/11.3.0
+  6) numactl/2.0.14-GCCcore-11.3.0       (H)
+  7) XZ/5.2.5-GCCcore-11.3.0             (H)
+  8) libxml2/2.9.13-GCCcore-11.3.0       (H)
+  9) libpciaccess/0.16-GCCcore-11.3.0    (H)
+ 10) hwloc/2.7.1-GCCcore-11.3.0          (H)
+ 11) hpcx/2.14
+ 12) OpenMPI/4.1.4-GCC-11.3.0
+ 13) OpenBLAS/0.3.20-GCC-11.3.0
+ 14) FlexiBLAS/3.2.0-GCC-11.3.0
+ 15) FFTW/3.3.10-GCC-11.3.0
+ 16) gompi/2022a
+ 17) FFTW.MPI/3.3.10-gompi-2022a
+ 18) ScaLAPACK/2.2.0-gompi-2022a-fb
+ 19) foss/2022a
+ 20) bzip2/1.0.8-GCCcore-11.3.0          (H)
+ 21) expat/2.4.8-GCCcore-11.3.0          (H)
+ 22) libpng/1.6.37-GCCcore-11.3.0        (H)
+ 23) Brotli/1.0.9-GCCcore-11.3.0         (H)
+ 24) freetype/2.12.1-GCCcore-11.3.0      (H)
+ 25) ncurses/6.3-GCCcore-11.3.0          (H)
+ 26) util-linux/2.38-GCCcore-11.3.0      (H)
+ 27) fontconfig/2.14.0-GCCcore-11.3.0    (H)
+ 28) xorg-macros/1.19.3-GCCcore-11.3.0   (H)
+ 29) X11/20220504-GCCcore-11.3.0         (H)
+ 30) gzip/1.12-GCCcore-11.3.0            (H)
+ 31) lz4/1.9.3-GCCcore-11.3.0            (H)
+ 32) zstd/1.5.2-GCCcore-11.3.0           (H)
+ 33) libdrm/2.4.110-GCCcore-11.3.0       (H)
+ 34) libglvnd/1.4.0-GCCcore-11.3.0       (H)
+ 35) libunwind/1.6.2-GCCcore-11.3.0      (H)
+ 36) LLVM/14.0.3-GCCcore-11.3.0
+ 37) Mesa/22.0.3-GCCcore-11.3.0          (H)
+ 38) libGLU/9.0.2-GCCcore-11.3.0         (H)
+ 39) pixman/0.40.0-GCCcore-11.3.0        (H)
+ 40) libffi/3.4.2-GCCcore-11.3.0         (H)
+ 41) gettext/0.21-GCCcore-11.3.0         (H)
+ 42) PCRE/8.45-GCCcore-11.3.0            (H)
+ 43) GLib/2.72.1-GCCcore-11.3.0          (H)
+ 44) cairo/1.17.4-GCCcore-11.3.0         (H)
+ 45) libreadline/8.1.2-GCCcore-11.3.0    (H)
+ 46) Tcl/8.6.12-GCCcore-11.3.0           (H)
+ 47) SQLite/3.38.3-GCCcore-11.3.0        (H)
+ 48) PCRE2/10.40-GCCcore-11.3.0          (H)
+ 49) NASM/2.15.05-GCCcore-11.3.0         (H)
+ 50) libjpeg-turbo/2.1.3-GCCcore-11.3.0  (H)
+ 51) jbigkit/2.1-GCCcore-11.3.0          (H)
+ 52) libdeflate/1.10-GCCcore-11.3.0      (H)
+ 53) LibTIFF/4.3.0-GCCcore-11.3.0        (H)
+ 54) Java/11.0.16
+ 55) Tk/8.6.12-GCCcore-11.3.0            (H)
+ 56) OpenSSL/1.1                         (H)
+ 57) cURL/7.83.0-GCCcore-11.3.0          (H)
+ 58) GMP/6.2.1-GCCcore-11.3.0            (H)
+ 59) NLopt/2.7.1-GCCcore-11.3.0          (H)
+ 60) libogg/1.3.5-GCCcore-11.3.0         (H)
+ 61) FLAC/1.3.4-GCCcore-11.3.0           (H)
+ 62) libvorbis/1.3.7-GCCcore-11.3.0      (H)
+ 63) libopus/1.3.1-GCCcore-11.3.0        (H)
+ 64) LAME/3.100-GCCcore-11.3.0           (H)
+ 65) libsndfile/1.1.0-GCCcore-11.3.0     (H)
+ 66) ICU/71.1-GCCcore-11.3.0             (H)
+ 67) Szip/2.1.1-GCCcore-11.3.0           (H)
+ 68) HDF5/1.12.2-gompi-2022a
+ 69) UDUNITS/2.2.28-GCCcore-11.3.0
+ 70) GSL/2.7-GCC-11.3.0
+ 71) ATK/2.38.0-GCCcore-11.3.0           (H)
+ 72) Gdk-Pixbuf/2.42.8-GCCcore-11.3.0    (H)
+ 73) HarfBuzz/4.2.1-GCCcore-11.3.0       (H)
+ 74) FriBidi/1.0.12-GCCcore-11.3.0       (H)
+ 75) Pango/1.50.7-GCCcore-11.3.0         (H)
+ 76) GTK2/2.24.33-GCCcore-11.3.0         (H)
+ 77) Ghostscript/9.56.1-GCCcore-11.3.0   (H)
+ 78) JasPer/2.0.33-GCCcore-11.3.0        (H)
+ 79) LittleCMS/2.13.1-GCCcore-11.3.0     (H)
+ 80) ImageMagick/7.1.0-37-GCCcore-11.3.0 (H)
+ 81) GLPK/5.0-GCCcore-11.3.0             (H)
+ 82) nodejs/16.15.1-GCCcore-11.3.0       (H)
+ 83) Python/3.10.4-GCCcore-11.3.0
+ 84) netCDF/4.9.0-gompi-2022a
+ 85) GEOS/3.10.3-GCC-11.3.0
+ 86) nlohmann_json/3.10.5-GCCcore-11.3.0 (H)
+ 87) PROJ/9.0.0-GCCcore-11.3.0
+ 88) libgeotiff/1.7.1-GCCcore-11.3.0     (H)
+ 89) pybind11/2.9.2-GCCcore-11.3.0       (H)
+ 90) SciPy-bundle/2022.05-foss-2022a
+ 91) libtirpc/1.3.2-GCCcore-11.3.0       (H)
+ 92) HDF/4.2.15-GCCcore-11.3.0           (H)
+ 93) GDAL/3.5.0-foss-2022a
+ 94) MPFR/4.1.0-GCCcore-11.3.0           (H)
+ 95) libgit2/1.4.3-GCCcore-11.3.0        (H)
+ 96) R/4.2.1-foss-2022a
+
+  Where:
+   H:  Hidden Module
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+
+R version 4.2.1 (2022-06-23) -- "Funny-Looking Kid"
+Copyright (C) 2022 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> ######################################################
+> ##                                                  ##
+> ##  COCCOLITH SCRIPT - Model 3a (iteration 1 - 50)  ##
+> ##                                                  ## 
+> ######################################################
+> 
+> 
+> #R version 4.2.1
+> .libPaths("/cluster/home/marionth/R")
+> library(doParallel) #doParallel version 1.0.17
+Loading required package: foreach
+Loading required package: iterators
+Loading required package: parallel
+> library(dplyr) #dplyr version 1.1.0
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+> library(evoTS) #evoTS version 1.0.3
+> library(foreach) #foreach version 1.5.2
+> library(MCSPCD) #MCSPCD version 0.0.0.9000
+> library(paleoTS) #paleoTS version 0.6.2
+> library(parallel) #parallel version 4.2.1
+> library(stats) #stats version 4.2.1
+> library(usethis) #usethis version 2.1.6
+> 
+> 
+> setwd("/cluster/home/marionth/Bornemann")
+> 
+> 
+> 
+> ###### LOAD MORPHOLOGICAL DATA ######
+> bodylength_raw <- read.delim("/cluster/home/marionth/Bornemann/Biscutum_TotalcoccolithLength.txt")
+> 
+> bodylength_ts <- data.frame(
++   mean = bodylength_raw[[2]],
++   variance = bodylength_raw[[3]],
++   samplesize = bodylength_raw[[1]],
++   time = bodylength_raw[[4]]
++ )
+> 
+> 
+> 
+> ###### LOAD ENVIRONMENTAL DATA ######
+> isotopes <- read.delim("/cluster/home/marionth/Bornemann/isotopes.txt")
+> 
+> oxygen_isotopes_ts <- data.frame(
++   mean = isotopes[[4]],
++   variance = abs(isotopes[[4]])*0.001,
++   samplesize = 1,
++   time = bodylength_raw[[4]]
++ )
+> 
+> carbon_isotopes_ts <- data.frame(
++   mean = isotopes[[3]],
++   variance = abs(isotopes[[3]])*0.001,
++   samplesize = 1,
++   time = bodylength_raw[[4]]
++ )
+> 
+> 
+> 
+> ###### CREATING PALEOTS AND EVOTS OBJECTS ######
+> #Creating paleoTS object for the body length time series
+> bodylength_obj <- paleoTS::as.paleoTS(mm = bodylength_ts$mean, vv = bodylength_ts$variance, nn = bodylength_ts$samplesize, tt = bodylength_ts$time)
+> ln.bodylength_obj <- paleoTS::ln.paleoTS(bodylength_obj) #log-transformation of the data
+> ln.bodylength_obj$tt <- ln.bodylength_obj$tt/(max(ln.bodylength_obj$tt)) #transfer of the time vector into a length unit of 1 
+> 
+> #Creating paleoTS object for the oxygen isotope time series
+> oxygen_isotopes_obj <- paleoTS::as.paleoTS(mm = oxygen_isotopes_ts$mean, vv = oxygen_isotopes_ts$variance, nn = oxygen_isotopes_ts$samplesize, tt = oxygen_isotopes_ts$time, oldest="first")
+> oxygen_isotopes_obj$tt <- oxygen_isotopes_obj$tt/(max(oxygen_isotopes_obj$tt)) #transfer of the time vector into a length unit of 1
+> 
+> #Creating paleoTS object for the carbon isotope time series
+> carbon_isotopes_obj <- paleoTS::as.paleoTS(mm = carbon_isotopes_ts$mean, vv = carbon_isotopes_ts$variance, nn = carbon_isotopes_ts$samplesize, tt = carbon_isotopes_ts$time, oldest="first")
+> carbon_isotopes_obj$tt <- carbon_isotopes_obj$tt/(max(carbon_isotopes_obj$tt)) #transfer of the time vector into a length unit of 1
+> 
+> #Creating and plotting the multivariate evoTS object
+> ln.bodylength_isotopes_multiobj <- make.multivar.evoTS(ln.bodylength_obj, oxygen_isotopes_obj, carbon_isotopes_obj)
+> 
+> 
+> 
+> ###### RUNNING Model_3a ######
+> #Parallelisation of the job 
+> registerDoParallel(52)
+> start_time <- Sys.time() 
+> 
+> #Model_3a: diagonal A matrix; diagonal R matrix 
+> A = matrix(c(1,0,0,0,1,0,0,0,1), nrow = 3, byrow=TRUE)
+> R = matrix(c(1,0,0,0,1,0,0,0,1), nrow = 3, byrow=TRUE)
+> 
+> #Loop for 104 iterations 
+> coccolith_model_3a_it1 <- foreach(i=1:104) %dopar% { 
++   result <- multiResultClass() 
++   
++ #Set and store a different seed for each iteration
++   seed <- (10+i) 
++   set.seed(seed)
++   result$result1 <- seed
++   
++ #Run iterations using the parametrized matrices A and R
++   result$result2 <- tryCatch({fit.multivariate.OU.user.defined(ln.bodylength_isotopes_multiobj, A.user = A, R.user = R, iterations = 1, hess = TRUE)
++     
++ #Handle non-converging iterations
++   }, error = function(e) {
++     message(paste("Error in iteration", i, ":", e$message))
++     return(NA) 
++   })
++   
++ #Record the running time for each iteration
++   end_time <- Sys.time()
++   elapsed_time <- end_time - start_time
++   print(elapsed_time)
++   result$result3 <- elapsed_time
++   
++   return(result)
++ }
+Time difference of 1.005643 hours
+Time difference of 3.787941 hours
+Time difference of 3.820619 hours
+Time difference of 3.825624 hours
+Time difference of 3.878181 hours
+Time difference of 3.919691 hours
+Time difference of 3.971234 hours
+Time difference of 4.046427 hours
+Time difference of 4.24429 hours
+Time difference of 4.269545 hours
+Time difference of 4.333741 hours
+Time difference of 4.409522 hours
+Time difference of 4.420507 hours
+Time difference of 4.466342 hours
+Time difference of 4.540183 hours
+Time difference of 4.614073 hours
+Time difference of 4.71125 hours
+Time difference of 5.019314 hours
+Time difference of 5.033161 hours
+Time difference of 5.070792 hours
+Time difference of 5.075849 hours
+Time difference of 5.082531 hours
+Time difference of 5.119019 hours
+Time difference of 5.255234 hours
+Time difference of 5.394215 hours
+Time difference of 5.413085 hours
+Time difference of 5.505063 hours
+Time difference of 5.536767 hours
+Time difference of 5.584895 hours
+Time difference of 5.635005 hours
+Time difference of 5.706665 hours
+Time difference of 5.853433 hours
+Time difference of 5.975826 hours
+Time difference of 6.111656 hours
+Time difference of 6.148665 hours
+Time difference of 6.189954 hours
+Time difference of 6.259465 hours
+Time difference of 6.310169 hours
+Time difference of 6.42448 hours
+Time difference of 6.523904 hours
+Time difference of 6.539083 hours
+Time difference of 6.662043 hours
+Time difference of 6.772919 hours
+Time difference of 6.884013 hours
+Time difference of 6.949657 hours
+Time difference of 7.042369 hours
+Time difference of 7.283811 hours
+Time difference of 7.317353 hours
+Time difference of 7.33141 hours
+Time difference of 7.353154 hours
+Time difference of 7.635543 hours
+Time difference of 7.7817 hours
+Time difference of 7.868384 hours
+Time difference of 8.07246 hours
+Time difference of 8.412353 hours
+Time difference of 8.41619 hours
+Time difference of 9.019462 hours
+Time difference of 9.042358 hours
+Time difference of 9.071168 hours
+Time difference of 9.159689 hours
+Time difference of 9.265849 hours
+Time difference of 9.437069 hours
+Time difference of 9.489345 hours
+Time difference of 9.49729 hours
+Time difference of 9.506503 hours
+Time difference of 9.507254 hours
+Time difference of 9.50888 hours
+Time difference of 9.548588 hours
+Time difference of 9.606 hours
+Time difference of 9.617441 hours
+Time difference of 9.619485 hours
+Time difference of 9.624965 hours
+Time difference of 9.678072 hours
+Time difference of 9.693809 hours
+Time difference of 9.772108 hours
+Time difference of 9.787513 hours
+Time difference of 9.859715 hours
+Time difference of 9.87276 hours
+Time difference of 9.950889 hours
+Time difference of 10.00101 hours
+Time difference of 10.01068 hours
+Time difference of 10.01168 hours
+Time difference of 10.04855 hours
+Time difference of 10.06662 hours
+Time difference of 10.08551 hours
+Time difference of 10.09247 hours
+Time difference of 10.13635 hours
+Time difference of 10.16214 hours
+Time difference of 10.19183 hours
+Time difference of 10.19734 hours
+Time difference of 10.20623 hours
+Time difference of 10.25014 hours
+Time difference of 10.25416 hours
+Time difference of 10.25702 hours
+Time difference of 10.26674 hours
+Time difference of 10.29378 hours
+Time difference of 10.37076 hours
+Time difference of 10.38655 hours
+Time difference of 10.46882 hours
+Time difference of 10.78276 hours
+Time difference of 10.83789 hours
+Time difference of 10.98121 hours
+Time difference of 10.99107 hours
+Time difference of 11.37338 hours
+> 
+> print ("DONE")
+[1] "DONE"
+> end_time <- Sys.time(); end_time - start_time
+Time difference of 11.37338 hours
+> 
+> save.image(file = 'coccolith_allruns_model_3a_it1.RData')
+> 
+> 
+> 
+> ###### EXTRACTING AND SAVING THE ITERATION WITH BEST PARAMETER ESTIMATES ######
+> #Filtering 50 iterations which converged
+> coccolith_model_3a_it1_filtered <- Filter(function(iteration) !is.na(iteration$result2[[1]]), coccolith_model_3a_it1)
+> coccolith_model_3a_it1_filtered <- Filter(function(iteration) !is.null(iteration), coccolith_model_3a_it1_filtered)
+> coccolith_model_3a_it1_results <- coccolith_model_3a_it1_filtered[1:50]
+> 
+> #Extracting the AICc values of each iterations
+> AICc <- matrix(ncol=2, nrow=50)
+> colnames(AICc) <- c("iteration", "AIC")
+> 
+> for (j in 1:50) {
++   AICc[j,1] <- j 
++   AICc[j,2] <- coccolith_model_3a_it1_results[[j]]$result2$AICc 
++ }
+> 
+> #Finding the best AICc
+> AICc_min <- which.min(AICc[,2])
+> 
+> #Finding the best iteration  
+> coccolith_model_3a_best_it1 <- coccolith_model_3a_it1_results[[AICc_min]]
+> 
+> #Saving the best iteration
+> print(coccolith_model_3a_best_it1)
+$LE_overall
+NULL
+
+$LE_overall_exp
+NULL
+
+$LE_overall_nonexp
+NULL
+
+$LE_without_dis
+NULL
+
+$LE_without_dis_exp
+NULL
+
+$LE_without_dis_nonexp
+NULL
+
+$LE_dis
+NULL
+
+$LE_dis_exp
+NULL
+
+$LE_dis_nonexp
+NULL
+
+$LE_non_dis
+NULL
+
+$LE_non_dis_exp
+NULL
+
+$LE_non_dis_nonexp
+NULL
+
+$np_age
+NULL
+
+$tp_dis
+NULL
+
+$nsurvival
+NULL
+
+$rsurvival
+NULL
+
+$nb_dis
+NULL
+
+$nb_dis_exp
+NULL
+
+$nb_dis_nonexp
+NULL
+
+$p_dis
+NULL
+
+$a_dis
+NULL
+
+$m_exp
+NULL
+
+$p_exp
+NULL
+
+$mortality_r
+NULL
+
+$result1
+[1] 31
+
+$result2
+$converge
+[1] "Model converged successfully"
+
+$modelName
+[1] "Multivariate model: User-specified OU model"
+
+$logL
+[1] 90.72386
+
+$AICc
+[1] -149.0153
+
+$ancestral.values
+[1]  1.273749 -4.005046  1.589592
+
+$SE.anc
+[1] 0.01022050 0.06335894 0.03943720
+
+$optima
+[1]  1.128066 -4.045514  1.602092
+
+$SE.optima
+[1] 0.12479050 0.07781914 0.08787128
+
+$A
+          [,1]     [,2]     [,3]
+[1,] 0.7759977  0.00000  0.00000
+[2,] 0.0000000 35.39875  0.00000
+[3,] 0.0000000  0.00000 25.25191
+
+$SE.A
+          [,1]     [,2]    [,3]
+[1,] 0.9536528  0.00000  0.0000
+[2,] 0.0000000 14.08578  0.0000
+[3,] 0.0000000  0.00000 10.4326
+
+$half.life
+[1] 0.89323352 0.01958112 0.02744930
+
+$R
+             [,1]     [,2]     [,3]
+[1,] 1.448377e-08 0.000000 0.000000
+[2,] 0.000000e+00 6.817013 0.000000
+[3,] 0.000000e+00 0.000000 4.682451
+
+$SE.R
+             [,1]      [,2]       [,3]
+[1,] 5.273952e-05 0.0000000 0.00000000
+[2,] 0.000000e+00 0.1754904 0.00000000
+[3,] 0.000000e+00 0.0000000 0.09513432
+
+$method
+[1] "Joint"
+
+$K
+[1] 12
+
+$n
+[1] 50
+
+$iter
+[1] 1
+
+attr(,"class")
+[1] "evoTSmvFit"
+
+$result3
+Time difference of 4.71125 hours
+
+> save(coccolith_model_3a_best_it1, file = 'coccolith_bestrun_model_3a_it1.RData')
+> 
+
+Job 16248410 consumed 591.8 billing hours from project nn8105k.
+
+Submitted 2025-11-27T17:17:02; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 3.0 days
+Elapsed wallclock time:   11.4 hours
+
+Job exited normally.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+16248410          52            0.0 %  2025-11-27T17:17:03   11.4 h  0
+16248410.batch    52      1   179.0 %  2025-11-27T17:17:03   11.4 h  0
+
+Used CPU time:   44.1 CPU days
+Unused CPU time: 0.0 CPU seconds
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+16248410          40.0        
+16248410.batch    40.0    17.4
+
+Job 16248410 completed at Fri Nov 28 04:39:55 CET 2025

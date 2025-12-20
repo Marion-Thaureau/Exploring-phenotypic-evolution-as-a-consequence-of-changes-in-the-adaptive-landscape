@@ -1,4 +1,4 @@
-Mean_isotopsd13C,Variance_isotopsd13C,Nombre_valeurs,Age_MY
+d13C_mean,d13C_variance,d13C_samplesize,d13C_MY
 2.04,0.00001,1,0
 1.85,0.00001,1,0.09
 1.99,0.00001,1,0.16
