@@ -17,7 +17,7 @@ __Abstract:__ The  adaptive landscape has been suggested as a potential conceptu
 __Info:__ This repository contains scripts and data used for analyses in the publication.
 
 
-__Files__ 
+__Files:__ 
 
 _Each following folder contains a subfolder per analyzed dataset: the salmon dataset (data from Jensen et al., 2022), the coccolith dataset (data from Bornemann and Muterlose, 2006), and the foraminifera dataset (data from Hodell and Vayavananda, 1993)._
 
