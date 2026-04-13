@@ -1,0 +1,2045 @@
+Starting job 17444940 on c5-60 on Saga at Mon Mar 23 11:35:22 CET 2026
+
+
+Currently Loaded Modules:
+  1) StdEnv                              (S)
+  2) GCCcore/11.3.0
+  3) zlib/1.2.12-GCCcore-11.3.0          (H)
+  4) binutils/2.38-GCCcore-11.3.0        (H)
+  5) GCC/11.3.0
+  6) numactl/2.0.14-GCCcore-11.3.0       (H)
+  7) XZ/5.2.5-GCCcore-11.3.0             (H)
+  8) libxml2/2.9.13-GCCcore-11.3.0       (H)
+  9) libpciaccess/0.16-GCCcore-11.3.0    (H)
+ 10) hwloc/2.7.1-GCCcore-11.3.0          (H)
+ 11) hpcx/2.14
+ 12) OpenMPI/4.1.4-GCC-11.3.0
+ 13) OpenBLAS/0.3.20-GCC-11.3.0
+ 14) FlexiBLAS/3.2.0-GCC-11.3.0
+ 15) FFTW/3.3.10-GCC-11.3.0
+ 16) gompi/2022a
+ 17) FFTW.MPI/3.3.10-gompi-2022a
+ 18) ScaLAPACK/2.2.0-gompi-2022a-fb
+ 19) foss/2022a
+ 20) bzip2/1.0.8-GCCcore-11.3.0          (H)
+ 21) expat/2.4.8-GCCcore-11.3.0          (H)
+ 22) libpng/1.6.37-GCCcore-11.3.0        (H)
+ 23) Brotli/1.0.9-GCCcore-11.3.0         (H)
+ 24) freetype/2.12.1-GCCcore-11.3.0      (H)
+ 25) ncurses/6.3-GCCcore-11.3.0          (H)
+ 26) util-linux/2.38-GCCcore-11.3.0      (H)
+ 27) fontconfig/2.14.0-GCCcore-11.3.0    (H)
+ 28) xorg-macros/1.19.3-GCCcore-11.3.0   (H)
+ 29) X11/20220504-GCCcore-11.3.0         (H)
+ 30) gzip/1.12-GCCcore-11.3.0            (H)
+ 31) lz4/1.9.3-GCCcore-11.3.0            (H)
+ 32) zstd/1.5.2-GCCcore-11.3.0           (H)
+ 33) libdrm/2.4.110-GCCcore-11.3.0       (H)
+ 34) libglvnd/1.4.0-GCCcore-11.3.0       (H)
+ 35) libunwind/1.6.2-GCCcore-11.3.0      (H)
+ 36) LLVM/14.0.3-GCCcore-11.3.0
+ 37) Mesa/22.0.3-GCCcore-11.3.0          (H)
+ 38) libGLU/9.0.2-GCCcore-11.3.0         (H)
+ 39) pixman/0.40.0-GCCcore-11.3.0        (H)
+ 40) libffi/3.4.2-GCCcore-11.3.0         (H)
+ 41) gettext/0.21-GCCcore-11.3.0         (H)
+ 42) PCRE/8.45-GCCcore-11.3.0            (H)
+ 43) GLib/2.72.1-GCCcore-11.3.0          (H)
+ 44) cairo/1.17.4-GCCcore-11.3.0         (H)
+ 45) libreadline/8.1.2-GCCcore-11.3.0    (H)
+ 46) Tcl/8.6.12-GCCcore-11.3.0           (H)
+ 47) SQLite/3.38.3-GCCcore-11.3.0        (H)
+ 48) PCRE2/10.40-GCCcore-11.3.0          (H)
+ 49) NASM/2.15.05-GCCcore-11.3.0         (H)
+ 50) libjpeg-turbo/2.1.3-GCCcore-11.3.0  (H)
+ 51) jbigkit/2.1-GCCcore-11.3.0          (H)
+ 52) libdeflate/1.10-GCCcore-11.3.0      (H)
+ 53) LibTIFF/4.3.0-GCCcore-11.3.0        (H)
+ 54) Java/11.0.16
+ 55) Tk/8.6.12-GCCcore-11.3.0            (H)
+ 56) OpenSSL/1.1                         (H)
+ 57) cURL/7.83.0-GCCcore-11.3.0          (H)
+ 58) GMP/6.2.1-GCCcore-11.3.0            (H)
+ 59) NLopt/2.7.1-GCCcore-11.3.0          (H)
+ 60) libogg/1.3.5-GCCcore-11.3.0         (H)
+ 61) FLAC/1.3.4-GCCcore-11.3.0           (H)
+ 62) libvorbis/1.3.7-GCCcore-11.3.0      (H)
+ 63) libopus/1.3.1-GCCcore-11.3.0        (H)
+ 64) LAME/3.100-GCCcore-11.3.0           (H)
+ 65) libsndfile/1.1.0-GCCcore-11.3.0     (H)
+ 66) ICU/71.1-GCCcore-11.3.0             (H)
+ 67) Szip/2.1.1-GCCcore-11.3.0           (H)
+ 68) HDF5/1.12.2-gompi-2022a
+ 69) UDUNITS/2.2.28-GCCcore-11.3.0
+ 70) GSL/2.7-GCC-11.3.0
+ 71) ATK/2.38.0-GCCcore-11.3.0           (H)
+ 72) Gdk-Pixbuf/2.42.8-GCCcore-11.3.0    (H)
+ 73) HarfBuzz/4.2.1-GCCcore-11.3.0       (H)
+ 74) FriBidi/1.0.12-GCCcore-11.3.0       (H)
+ 75) Pango/1.50.7-GCCcore-11.3.0         (H)
+ 76) GTK2/2.24.33-GCCcore-11.3.0         (H)
+ 77) Ghostscript/9.56.1-GCCcore-11.3.0   (H)
+ 78) JasPer/2.0.33-GCCcore-11.3.0        (H)
+ 79) LittleCMS/2.13.1-GCCcore-11.3.0     (H)
+ 80) ImageMagick/7.1.0-37-GCCcore-11.3.0 (H)
+ 81) GLPK/5.0-GCCcore-11.3.0             (H)
+ 82) nodejs/16.15.1-GCCcore-11.3.0       (H)
+ 83) Python/3.10.4-GCCcore-11.3.0
+ 84) netCDF/4.9.0-gompi-2022a
+ 85) GEOS/3.10.3-GCC-11.3.0
+ 86) nlohmann_json/3.10.5-GCCcore-11.3.0 (H)
+ 87) PROJ/9.0.0-GCCcore-11.3.0
+ 88) libgeotiff/1.7.1-GCCcore-11.3.0     (H)
+ 89) pybind11/2.9.2-GCCcore-11.3.0       (H)
+ 90) SciPy-bundle/2022.05-foss-2022a
+ 91) libtirpc/1.3.2-GCCcore-11.3.0       (H)
+ 92) HDF/4.2.15-GCCcore-11.3.0           (H)
+ 93) GDAL/3.5.0-foss-2022a
+ 94) MPFR/4.1.0-GCCcore-11.3.0           (H)
+ 95) libgit2/1.4.3-GCCcore-11.3.0        (H)
+ 96) R/4.2.1-foss-2022a
+
+  Where:
+   H:  Hidden Module
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+
+R version 4.2.1 (2022-06-23) -- "Funny-Looking Kid"
+Copyright (C) 2022 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> #R version 4.2.1
+> .libPaths("/cluster/home/marionth/R")
+> library(evoTS)
+> 
+> setwd("/cluster/home/marionth/Detrending")
+> 
+> 
+> nrep <- 100
+> winners_s1 <- character(nrep)   # store best model name each run
+> t1 <- seq(1, 30, by = 1)
+> tt <- cbind(t1, t1)
+> vv <- cbind(rep(1, 30), rep(1, 30))
+> nn <- cbind(rep(30, 30), rep(30, 30))
+> set.seed(123)
+> i <- 0          ###
+> attempt <- 0    ###
+> while (i < nrep) {   ###
++   attempt <- attempt + 1   ###
++   resid1 <- rnorm(30, mean = 0, sd = 1.5)
++   x1 <- (1 + .5 * t1 + resid1) #variable 1 is assosciated with time, but not directly affecting variable 2
++   resid2 <- rnorm(30, mean = 0, sd = 2)
++   x2 <- (1 + .3 * t1 + resid2) #variable 2 is assosciated with time, but not directly affecting variable 1
++   xx <- cbind(x1, x2)
++ 
++   x <- list(xx = xx, vv = vv, nn = nn, tt = tt)
++   plotevoTS.multivariate(x)
++   plot(x2,x1)
++ 
++   x$tt[,1]<-x$tt[,1]/max(x$tt[,1])
++   x$tt[,2]<-x$tt[,1]
++ 
++   # ---- Fit models ----
++   m1<-fit.multivariate.URW(x, R="diag")
++   print(m1$converge)
++   if (m1$converge != "Model converged successfully") { message("Attempt ", attempt, ": m1 did not converge, re-simulating."); next }   ###
++   m2<-fit.multivariate.URW(x)
++   print(m2$converge)
++   if (m2$converge != "Model converged successfully") { message("Attempt ", attempt, ": m2 did not converge, re-simulating."); next }   ###
++   m3 <- fit.multivariate.OU(x, A.matrix="diag", R.matrix="diag")
++   print(m3$converge)
++   if (m3$converge != "Model converged successfully") { message("Attempt ", attempt, ": m3 did not converge, re-simulating."); next }   ###
++   m4 <- fit.multivariate.OU(x, A.matrix="diag", R.matrix="symmetric")
++   print(m4$converge)
++   if (m4$converge != "Model converged successfully") { message("Attempt ", attempt, ": m4 did not converge, re-simulating."); next }   ###
++   m5 <- fit.multivariate.OU(x, A.matrix="upper.tri", R.matrix="diag")
++   print(m5$converge)
++   if (m5$converge != "Model converged successfully") { message("Attempt ", attempt, ": m5 did not converge, re-simulating."); next }   ###
++   m6 <- fit.multivariate.OU(x, A.matrix="upper.tri", R.matrix="symmetric")
++   print(m6$converge)
++   if (m6$converge != "Model converged successfully") { message("Attempt ", attempt, ": m6 did not converge, re-simulating."); next }   ###
++ 
++   i <- i + 1   ###
++ 
++   # ---- Extract AICcs ----
++   aics <- c(
++     m1 = m1$AICc,
++     m2 = m2$AICc,
++     m3 = m3$AICc,
++     m4 = m4$AICc,
++     m5 = m5$AICc,
++     m6 = m6$AICc
++   )
++ 
++   print(i)
++   print(aics)
++ 
++   # ---- Store best model ----
++   winners_s1[i] <- names(which.min(aics))
++ }
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 1
+      m1       m2       m3       m4       m5       m6 
+280.1526 282.1420 300.9215 324.1694 301.8782 304.3881 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 2: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 2
+      m1       m2       m3       m4       m5       m6 
+300.8777 303.1416 347.6300 329.2172 314.8262 333.4777 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 3
+      m1       m2       m3       m4       m5       m6 
+278.5628 278.6642 302.3891 298.1152 304.0368 302.8682 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 5: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 6: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 7: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 4
+      m1       m2       m3       m4       m5       m6 
+298.9638 300.5434 314.3038 323.4396 338.3192 317.0200 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 9: m5 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 5
+      m1       m2       m3       m4       m5       m6 
+296.7767 297.4213 314.3752 318.5959 335.6003 338.5600 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 11: m5 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 12: m5 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 6
+      m1       m2       m3       m4       m5       m6 
+301.7113 304.6090 323.7966 321.0968 347.9274 324.9392 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 14: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 7
+      m1       m2       m3       m4       m5       m6 
+296.5854 298.9912 327.9291 318.8718 329.4640 308.6549 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 16: m6 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 17: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 18: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 8
+      m1       m2       m3       m4       m5       m6 
+309.3684 307.5032 352.0283 317.0154 317.3300 324.9363 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 20: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 21: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 22: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 23: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 24: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 25: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 26: m5 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 27: m5 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 9
+      m1       m2       m3       m4       m5       m6 
+295.7790 298.2081 323.5198 325.9746 323.5705 341.8379 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 29: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 30: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 31: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 10
+      m1       m2       m3       m4       m5       m6 
+301.2870 303.6127 353.3974 317.0913 318.0758 343.1548 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 11
+      m1       m2       m3       m4       m5       m6 
+315.9251 318.5678 358.3511 335.9783 348.1536 330.4851 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 34: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 35: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 36: m5 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 37: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 38: m5 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 39: m6 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 12
+      m1       m2       m3       m4       m5       m6 
+282.9528 285.7465 311.9976 338.3489 313.9131 324.4351 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 41: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 42: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 13
+      m1       m2       m3       m4       m5       m6 
+297.0723 299.8739 312.4504 318.0427 318.9481 316.6189 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 44: m5 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 45: m6 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 46: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 47: m6 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 14
+      m1       m2       m3       m4       m5       m6 
+301.0247 300.3003 304.2614 324.2997 308.3518 322.0539 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 49: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 50: m5 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 15
+      m1       m2       m3       m4       m5       m6 
+291.8035 294.3179 336.2012 319.6879 337.4239 323.4093 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 16
+      m1       m2       m3       m4       m5       m6 
+296.0406 293.0318 333.2818 335.6655 336.5255 333.7013 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 53: m5 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 17
+      m1       m2       m3       m4       m5       m6 
+283.7921 286.6156 323.7414 314.5340 329.8029 302.7971 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 18
+      m1       m2       m3       m4       m5       m6 
+279.5515 277.4936 322.6729 317.9928 321.5998 322.1726 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 56: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 57: m5 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 19
+      m1       m2       m3       m4       m5       m6 
+314.8011 316.4878 351.3337 335.0826 340.7689 340.0718 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 20
+      m1       m2       m3       m4       m5       m6 
+299.2390 295.2845 314.7629 326.4277 373.3782 333.4933 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 60: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 21
+      m1       m2       m3       m4       m5       m6 
+305.0699 307.5437 313.3149 312.9755 320.0553 318.3377 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 62: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 63: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 64: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 65: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 66: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 22
+      m1       m2       m3       m4       m5       m6 
+315.4612 318.2811 329.5849 347.3853 331.4046 351.9639 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 23
+      m1       m2       m3       m4       m5       m6 
+297.3800 300.1733 321.4751 338.7257 355.2142 326.5410 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 69: m5 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 24
+      m1       m2       m3       m4       m5       m6 
+251.3523 254.1526 276.9733 284.1190 280.0754 320.7168 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 25
+      m1       m2       m3       m4       m5       m6 
+266.8281 269.1859 302.5195 319.5179 303.0781 304.5731 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 26
+      m1       m2       m3       m4       m5       m6 
+308.1917 309.6929 355.6605 333.7744 349.6616 334.1791 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 73: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 27
+      m1       m2       m3       m4       m5       m6 
+286.9008 288.1710 326.7183 319.4905 324.7734 326.7063 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 75: m5 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 28
+      m1       m2       m3       m4       m5       m6 
+281.9873 284.8283 303.4013 306.9869 331.6611 311.3166 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 29
+      m1       m2       m3       m4       m5       m6 
+287.0843 289.9600 314.2191 316.1628 304.5886 328.4233 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 30
+      m1       m2       m3       m4       m5       m6 
+291.1324 283.7981 350.0483 315.6478 293.2790 308.5420 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 79: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 80: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 31
+      m1       m2       m3       m4       m5       m6 
+265.8590 267.4937 294.2256 299.1255 296.1413 301.4800 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 82: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 83: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 32
+      m1       m2       m3       m4       m5       m6 
+294.2017 292.9704 316.9070 309.8749 328.5366 330.6124 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 85: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 86: m6 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 87: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 88: m5 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 33
+      m1       m2       m3       m4       m5       m6 
+292.2050 290.8058 305.5007 329.7012 306.1262 306.7426 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 34
+      m1       m2       m3       m4       m5       m6 
+288.0348 286.9949 315.7516 320.1241 335.6633 317.0163 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 35
+      m1       m2       m3       m4       m5       m6 
+302.7093 302.3836 308.2428 311.5404 324.4570 344.3960 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 92: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 93: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 36
+      m1       m2       m3       m4       m5       m6 
+298.7150 300.2495 320.7659 316.2877 319.3874 325.0469 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 37
+      m1       m2       m3       m4       m5       m6 
+291.2801 294.1210 336.5783 312.3087 313.1953 316.0384 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 38
+      m1       m2       m3       m4       m5       m6 
+277.2634 279.3998 296.5779 300.1876 315.7433 342.9154 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 97: m5 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 39
+      m1       m2       m3       m4       m5       m6 
+301.1537 302.7572 312.6597 342.9253 316.6702 342.7583 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 40
+      m1       m2       m3       m4       m5       m6 
+284.4196 286.4614 309.7274 333.0860 311.5299 317.8968 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 100: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 101: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 41
+      m1       m2       m3       m4       m5       m6 
+307.5488 310.4473 321.7883 322.9626 348.3849 339.6897 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 42
+      m1       m2       m3       m4       m5       m6 
+310.6986 313.0907 324.3586 328.0796 355.1689 355.3661 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 104: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 43
+      m1       m2       m3       m4       m5       m6 
+300.6835 303.5725 346.9406 332.1239 353.0165 338.0010 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 44
+      m1       m2       m3       m4       m5       m6 
+290.0340 292.1047 314.1532 327.4885 328.5316 326.6783 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 107: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 108: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 45
+      m1       m2       m3       m4       m5       m6 
+296.9492 299.8233 302.1162 381.2428 343.5662 315.1322 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 110: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 111: m6 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 112: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 113: m6 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 114: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 115: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 116: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 117: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 46
+      m1       m2       m3       m4       m5       m6 
+285.3904 286.2639 337.1293 327.7242 322.5930 299.6456 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 47
+      m1       m2       m3       m4       m5       m6 
+282.8918 284.7493 334.7985 304.1373 318.4913 308.6842 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 48
+      m1       m2       m3       m4       m5       m6 
+280.4150 282.7412 335.4587 318.3021 345.1125 333.8982 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 121: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 49
+      m1       m2       m3       m4       m5       m6 
+278.6882 277.4721 307.7184 302.1406 293.6331 318.9887 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 123: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 124: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 125: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 126: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 127: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 128: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 129: m5 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 130: m5 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 50
+      m1       m2       m3       m4       m5       m6 
+300.6764 296.1955 322.1453 314.1346 321.6608 319.2667 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 51
+      m1       m2       m3       m4       m5       m6 
+317.3007 317.3431 358.1983 350.2216 354.0122 352.7359 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 133: m6 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 52
+      m1       m2       m3       m4       m5       m6 
+291.5713 292.6627 303.8803 303.2388 318.6492 326.7520 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 135: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 136: m6 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 137: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 53
+      m1       m2       m3       m4       m5       m6 
+296.9320 297.1380 308.0986 331.3177 332.9530 337.0108 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 139: m5 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 54
+      m1       m2       m3       m4       m5       m6 
+284.3177 285.9071 301.9995 304.2048 294.8942 328.0282 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 55
+      m1       m2       m3       m4       m5       m6 
+308.0230 307.9602 345.6382 323.0405 335.4774 338.9028 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 142: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 143: m5 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 144: m5 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 145: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 146: m6 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 147: m5 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 148: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 56
+      m1       m2       m3       m4       m5       m6 
+312.6578 312.8240 362.2449 327.0311 324.2242 326.7499 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 150: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 57
+      m1       m2       m3       m4       m5       m6 
+293.8468 294.9479 317.5085 331.2671 316.7409 336.8801 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 58
+      m1       m2       m3       m4       m5       m6 
+264.7807 266.1183 319.1905 310.1960 321.2427 315.4592 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 59
+      m1       m2       m3       m4       m5       m6 
+290.2154 292.9702 302.5452 305.8999 306.5898 297.2299 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 154: m6 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 155: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 156: m6 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 157: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 60
+      m1       m2       m3       m4       m5       m6 
+289.2366 290.5865 348.7861 344.7039 350.3403 319.9877 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 159: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 160: m5 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 161: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 162: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 61
+      m1       m2       m3       m4       m5       m6 
+279.1060 281.9573 301.6021 330.5713 311.7096 329.4553 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 164: m5 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 62
+      m1       m2       m3       m4       m5       m6 
+294.7471 296.6554 325.9385 321.2080 325.9320 327.3496 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 166: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 63
+      m1       m2       m3       m4       m5       m6 
+295.1529 296.6425 302.2997 311.1017 313.4193 329.7198 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 168: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 169: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 170: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 171: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 64
+      m1       m2       m3       m4       m5       m6 
+301.8148 304.5572 320.0260 322.7853 341.0143 344.7758 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 173: m5 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 174: m5 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 175: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 176: m6 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 65
+      m1       m2       m3       m4       m5       m6 
+304.9756 307.6271 321.2276 332.6440 322.7805 336.4760 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 178: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 66
+      m1       m2       m3       m4       m5       m6 
+316.2959 317.3937 325.9040 338.1755 336.0085 344.1692 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 67
+      m1       m2       m3       m4       m5       m6 
+297.3907 296.3038 338.1899 334.3377 309.4993 332.2241 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 68
+      m1       m2       m3       m4       m5       m6 
+295.9869 298.8640 340.3392 322.6149 337.4495 327.7145 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 182: m5 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 69
+      m1       m2       m3       m4       m5       m6 
+298.2627 300.0488 339.6491 340.0739 341.1796 314.3030 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 184: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 185: m5 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 186: m5 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 70
+      m1       m2       m3       m4       m5       m6 
+294.3453 297.2452 339.9101 336.6193 319.2510 326.2203 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 188: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 189: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 71
+      m1       m2       m3       m4       m5       m6 
+295.9813 289.1473 347.0563 295.2273 346.3326 319.4359 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 72
+      m1       m2       m3       m4       m5       m6 
+292.0093 293.9370 339.3203 309.8313 309.0177 332.5265 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 192: m5 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 193: m5 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 194: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 195: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 73
+      m1       m2       m3       m4       m5       m6 
+291.8392 294.0968 311.9285 335.7613 317.2766 330.5370 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 197: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 74
+      m1       m2       m3       m4       m5       m6 
+286.9851 285.9501 310.2778 322.0993 312.9784 328.6406 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 199: m6 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 75
+      m1       m2       m3       m4       m5       m6 
+292.6151 295.0311 313.7782 313.5682 313.1607 327.8970 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 201: m5 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 202: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 76
+      m1       m2       m3       m4       m5       m6 
+280.3691 282.1814 308.5721 302.3593 303.9506 308.1412 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 204: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 205: m5 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 77
+      m1       m2       m3       m4       m5       m6 
+300.9528 302.3721 303.5538 307.3437 316.8436 345.9635 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 207: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 208: m6 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 209: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 210: m6 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 78
+      m1       m2       m3       m4       m5       m6 
+280.8216 281.8933 330.4306 306.1714 320.3237 306.2501 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 212: m6 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 79
+      m1       m2       m3       m4       m5       m6 
+308.1817 310.9328 334.5379 319.4108 339.9495 326.9070 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 80
+      m1       m2       m3       m4       m5       m6 
+257.9229 259.4138 290.9510 288.6679 293.1063 294.5916 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 215: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 216: m5 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 217: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 218: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 81
+      m1       m2       m3       m4       m5       m6 
+274.8237 277.5802 302.9623 304.7220 308.3783 308.8422 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 82
+      m1       m2       m3       m4       m5       m6 
+285.0030 287.7197 299.5054 304.0775 300.6627 306.5089 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 83
+      m1       m2       m3       m4       m5       m6 
+304.1006 306.9668 342.0947 338.5890 318.4242 327.0753 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 84
+      m1       m2       m3       m4       m5       m6 
+302.7905 305.6857 344.5731 327.3995 331.1402 334.7190 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 223: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 85
+      m1       m2       m3       m4       m5       m6 
+273.1149 271.8046 301.2580 297.5599 297.4774 296.8445 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 225: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 226: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 86
+      m1       m2       m3       m4       m5       m6 
+294.4169 292.5686 345.9135 346.2595 329.6002 318.9229 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 87
+      m1       m2       m3       m4       m5       m6 
+282.2787 282.1802 320.8084 311.7034 299.8609 291.5964 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 88
+      m1       m2       m3       m4       m5       m6 
+290.5837 288.1215 336.7596 286.6068 348.9419 334.1246 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 230: m5 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 89
+      m1       m2       m3       m4       m5       m6 
+309.1501 311.1921 317.0186 316.2275 323.2542 332.7496 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 90
+      m1       m2       m3       m4       m5       m6 
+283.3576 286.1408 324.3182 313.9013 313.5976 327.6708 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 233: m5 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 91
+      m1       m2       m3       m4       m5       m6 
+298.2817 301.0622 311.6488 313.8032 314.6092 319.4893 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 235: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 236: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 237: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 238: m5 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 239: m6 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 92
+      m1       m2       m3       m4       m5       m6 
+306.4629 309.3481 331.9527 332.1254 331.6187 342.5747 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 241: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 242: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 93
+      m1       m2       m3       m4       m5       m6 
+273.0127 275.9018 329.6049 323.2494 331.0637 329.4285 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 94
+      m1       m2       m3       m4       m5       m6 
+264.3384 267.2300 329.4017 303.0942 303.9189 312.7546 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 245: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 246: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 247: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 248: m5 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 249: m5 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 95
+      m1       m2       m3       m4       m5       m6 
+286.9982 289.8944 300.5163 302.3185 327.8847 306.2830 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 251: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 252: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 96
+      m1       m2       m3       m4       m5       m6 
+294.4937 296.3737 322.4780 325.0676 324.4139 329.5959 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 254: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 255: m5 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 256: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 257: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 258: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 259: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 260: m5 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 261: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 97
+      m1       m2       m3       m4       m5       m6 
+293.9716 296.8543 315.4295 317.4949 321.6996 321.4694 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 263: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 264: m5 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "The search algorithm stopped as it did not make progress towards the optimal solution"
+Attempt 265: m4 did not converge, re-simulating.
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 98
+      m1       m2       m3       m4       m5       m6 
+287.0637 284.9484 338.1443 324.9666 344.0650 309.1642 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 99
+      m1       m2       m3       m4       m5       m6 
+287.6917 287.4907 307.5610 306.1956 327.0504 310.6228 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 100
+      m1       m2       m3       m4       m5       m6 
+299.3971 302.0959 324.5741 333.0761 338.3496 342.3552 
+> 
+> # ---- Count how often each model wins ----
+> table(winners_s1)
+winners_s1
+m1 m2 m4 
+78 21  1 
+> 
+> save(winners_s1, file = "reviewer1_revised.RData")
+> 
+
+Job 17444940 consumed 36.6 billing hours from project nn8105k.
+
+Submitted 2026-03-23T11:29:54; waited 5.5 minutes in the queue after becoming eligible to run.
+
+Requested wallclock time: 7.0 days
+Elapsed wallclock time:   1.5 days
+
+Job exited normally.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+17444940           1            0.0 %  2026-03-23T11:35:22   36.6 h  0
+17444940.batch     1      1    99.5 %  2026-03-23T11:35:22   36.6 h  0
+
+Used CPU time:   1.5 CPU days
+Unused CPU time: 10.4 CPU minutes
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+17444940           2.0        
+17444940.batch     2.0     0.2
+
+Job 17444940 completed at Wed Mar 25 00:08:24 CET 2026

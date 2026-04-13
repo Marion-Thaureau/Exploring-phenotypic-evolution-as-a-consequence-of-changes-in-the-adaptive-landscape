@@ -1,0 +1,376 @@
+Starting job 17585917 on c5-60 on Saga at Fri Apr 10 10:59:11 CEST 2026
+
+
+Currently Loaded Modules:
+  1) StdEnv                              (S)
+  2) GCCcore/11.3.0
+  3) zlib/1.2.12-GCCcore-11.3.0          (H)
+  4) binutils/2.38-GCCcore-11.3.0        (H)
+  5) GCC/11.3.0
+  6) numactl/2.0.14-GCCcore-11.3.0       (H)
+  7) XZ/5.2.5-GCCcore-11.3.0             (H)
+  8) libxml2/2.9.13-GCCcore-11.3.0       (H)
+  9) libpciaccess/0.16-GCCcore-11.3.0    (H)
+ 10) hwloc/2.7.1-GCCcore-11.3.0          (H)
+ 11) hpcx/2.14
+ 12) OpenMPI/4.1.4-GCC-11.3.0
+ 13) OpenBLAS/0.3.20-GCC-11.3.0
+ 14) FlexiBLAS/3.2.0-GCC-11.3.0
+ 15) FFTW/3.3.10-GCC-11.3.0
+ 16) gompi/2022a
+ 17) FFTW.MPI/3.3.10-gompi-2022a
+ 18) ScaLAPACK/2.2.0-gompi-2022a-fb
+ 19) foss/2022a
+ 20) bzip2/1.0.8-GCCcore-11.3.0          (H)
+ 21) expat/2.4.8-GCCcore-11.3.0          (H)
+ 22) libpng/1.6.37-GCCcore-11.3.0        (H)
+ 23) Brotli/1.0.9-GCCcore-11.3.0         (H)
+ 24) freetype/2.12.1-GCCcore-11.3.0      (H)
+ 25) ncurses/6.3-GCCcore-11.3.0          (H)
+ 26) util-linux/2.38-GCCcore-11.3.0      (H)
+ 27) fontconfig/2.14.0-GCCcore-11.3.0    (H)
+ 28) xorg-macros/1.19.3-GCCcore-11.3.0   (H)
+ 29) X11/20220504-GCCcore-11.3.0         (H)
+ 30) gzip/1.12-GCCcore-11.3.0            (H)
+ 31) lz4/1.9.3-GCCcore-11.3.0            (H)
+ 32) zstd/1.5.2-GCCcore-11.3.0           (H)
+ 33) libdrm/2.4.110-GCCcore-11.3.0       (H)
+ 34) libglvnd/1.4.0-GCCcore-11.3.0       (H)
+ 35) libunwind/1.6.2-GCCcore-11.3.0      (H)
+ 36) LLVM/14.0.3-GCCcore-11.3.0
+ 37) Mesa/22.0.3-GCCcore-11.3.0          (H)
+ 38) libGLU/9.0.2-GCCcore-11.3.0         (H)
+ 39) pixman/0.40.0-GCCcore-11.3.0        (H)
+ 40) libffi/3.4.2-GCCcore-11.3.0         (H)
+ 41) gettext/0.21-GCCcore-11.3.0         (H)
+ 42) PCRE/8.45-GCCcore-11.3.0            (H)
+ 43) GLib/2.72.1-GCCcore-11.3.0          (H)
+ 44) cairo/1.17.4-GCCcore-11.3.0         (H)
+ 45) libreadline/8.1.2-GCCcore-11.3.0    (H)
+ 46) Tcl/8.6.12-GCCcore-11.3.0           (H)
+ 47) SQLite/3.38.3-GCCcore-11.3.0        (H)
+ 48) PCRE2/10.40-GCCcore-11.3.0          (H)
+ 49) NASM/2.15.05-GCCcore-11.3.0         (H)
+ 50) libjpeg-turbo/2.1.3-GCCcore-11.3.0  (H)
+ 51) jbigkit/2.1-GCCcore-11.3.0          (H)
+ 52) libdeflate/1.10-GCCcore-11.3.0      (H)
+ 53) LibTIFF/4.3.0-GCCcore-11.3.0        (H)
+ 54) Java/11.0.16
+ 55) Tk/8.6.12-GCCcore-11.3.0            (H)
+ 56) OpenSSL/1.1                         (H)
+ 57) cURL/7.83.0-GCCcore-11.3.0          (H)
+ 58) GMP/6.2.1-GCCcore-11.3.0            (H)
+ 59) NLopt/2.7.1-GCCcore-11.3.0          (H)
+ 60) libogg/1.3.5-GCCcore-11.3.0         (H)
+ 61) FLAC/1.3.4-GCCcore-11.3.0           (H)
+ 62) libvorbis/1.3.7-GCCcore-11.3.0      (H)
+ 63) libopus/1.3.1-GCCcore-11.3.0        (H)
+ 64) LAME/3.100-GCCcore-11.3.0           (H)
+ 65) libsndfile/1.1.0-GCCcore-11.3.0     (H)
+ 66) ICU/71.1-GCCcore-11.3.0             (H)
+ 67) Szip/2.1.1-GCCcore-11.3.0           (H)
+ 68) HDF5/1.12.2-gompi-2022a
+ 69) UDUNITS/2.2.28-GCCcore-11.3.0
+ 70) GSL/2.7-GCC-11.3.0
+ 71) ATK/2.38.0-GCCcore-11.3.0           (H)
+ 72) Gdk-Pixbuf/2.42.8-GCCcore-11.3.0    (H)
+ 73) HarfBuzz/4.2.1-GCCcore-11.3.0       (H)
+ 74) FriBidi/1.0.12-GCCcore-11.3.0       (H)
+ 75) Pango/1.50.7-GCCcore-11.3.0         (H)
+ 76) GTK2/2.24.33-GCCcore-11.3.0         (H)
+ 77) Ghostscript/9.56.1-GCCcore-11.3.0   (H)
+ 78) JasPer/2.0.33-GCCcore-11.3.0        (H)
+ 79) LittleCMS/2.13.1-GCCcore-11.3.0     (H)
+ 80) ImageMagick/7.1.0-37-GCCcore-11.3.0 (H)
+ 81) GLPK/5.0-GCCcore-11.3.0             (H)
+ 82) nodejs/16.15.1-GCCcore-11.3.0       (H)
+ 83) Python/3.10.4-GCCcore-11.3.0
+ 84) netCDF/4.9.0-gompi-2022a
+ 85) GEOS/3.10.3-GCC-11.3.0
+ 86) nlohmann_json/3.10.5-GCCcore-11.3.0 (H)
+ 87) PROJ/9.0.0-GCCcore-11.3.0
+ 88) libgeotiff/1.7.1-GCCcore-11.3.0     (H)
+ 89) pybind11/2.9.2-GCCcore-11.3.0       (H)
+ 90) SciPy-bundle/2022.05-foss-2022a
+ 91) libtirpc/1.3.2-GCCcore-11.3.0       (H)
+ 92) HDF/4.2.15-GCCcore-11.3.0           (H)
+ 93) GDAL/3.5.0-foss-2022a
+ 94) MPFR/4.1.0-GCCcore-11.3.0           (H)
+ 95) libgit2/1.4.3-GCCcore-11.3.0        (H)
+ 96) R/4.2.1-foss-2022a
+
+  Where:
+   H:  Hidden Module
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+
+R version 4.2.1 (2022-06-23) -- "Funny-Looking Kid"
+Copyright (C) 2022 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> ######################################
+> ##                                  ##
+> ##  SALMON - SENSITIVITY ANALYSIS   ##
+> ##        iterations 75 - 100       ##  
+> ##                                  ##
+> ######################################
+> 
+> #R version 4.2.1
+> .libPaths("/cluster/home/marionth/R")
+> library(evoTS) #evoTS version 1.0.3
+> 
+> setwd("/cluster/home/marionth/Detrending")
+> 
+> 
+> ###### GET THE OUTPUT FOR THE SALMON BEST MODEL ######
+> # Load evoTS object and best model output for the salmon dataset
+> load("salmon_evoTS_obj.RData")
+> load("salmon_bestmodel.RData")
+> 
+> # Get the parameter estimates for matrices A and R
+> A_matrix<-salmon_best_model$A
+> R_matrix<-salmon_best_model$R
+> anc = salmon_best_model$anc
+> optima = salmon_best_model$opt
+> ts_length = length(ln.bodymass_ln.discharge_multiobj$xx[,1])
+> 
+> nrep <- 25
+> winners <- character(nrep)   # store best model name each run
+> set.seed(375)
+> i <- 0
+> attempt <- 0
+> 
+> ###### SIMULATE THE TIME SERIES AND FIT MODELS TO THE DATASET ######
+> while (i < nrep) {   
++   attempt <- attempt + 1
++   
++   # ---- Simulate the time series ----
++   data_sim<-sim.multi.OU(ts_length, anc = anc, optima = optima, A = A_matrix, R = R_matrix, vp = 0.000001)
++   data_sim$tt[,1] <- data_sim$tt[,1]/(max(data_sim$tt[,1])) # rescale the time vector
++   data_sim$tt[,2] <- data_sim$tt[,1]
++     
++   # ---- Fit models ----
++   m1<-fit.multivariate.URW(data_sim, R="diag")
++   print(m1$converge)
++   if (m1$converge != "Model converged successfully") { message("Attempt ", attempt, ": m1 did not converge, re-simulating."); next }   ###
++   m2 <- fit.multivariate.OU(data_sim, A.matrix="diag", R.matrix="diag")
++   print(m2$converge)
++   if (m2$converge != "Model converged successfully") { message("Attempt ", attempt, ": m2 did not converge, re-simulating."); next }   ###
++   m3 <- fit.multivariate.OU(data_sim, A.matrix="upper.tri", R.matrix="diag")
++   print(m3$converge)
++   if (m3$converge != "Model converged successfully") { message("Attempt ", attempt, ": m3 did not converge, re-simulating."); next }   ###
++   
++   i <- i + 1   ###
++   
++   # ---- Extract AICcs ----
++   aics <- c(
++     m1 = m1$AICc,
++     m2 = m2$AICc,
++     m3 = m3$AICc
++   )
++   
++   print(i)
++   print(aics)
++   
++   # ---- Store best model ----
++   winners[i] <- names(which.min(aics))
++ }
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 1
+       m1        m2        m3 
+126.27327  97.92069  73.82630 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 2
+       m1        m2        m3 
+129.95966 117.40168  84.42419 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 3
+      m1       m2       m3 
+91.75617 76.46888 74.62881 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 4
+      m1       m2       m3 
+62.65296 55.67668 55.68426 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 5
+       m1        m2        m3 
+106.35645  86.97102  69.72315 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 6
+       m1        m2        m3 
+115.78190 100.16313  84.88702 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 7
+       m1        m2        m3 
+110.38443  92.37347  83.55144 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 8
+      m1       m2       m3 
+84.55377 81.34253 85.07717 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 9
+       m1        m2        m3 
+110.26259  97.79004  79.32282 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 10
+       m1        m2        m3 
+120.06343 101.95544  71.85087 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 11
+      m1       m2       m3 
+73.70324 52.31952 50.33560 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 12
+      m1       m2       m3 
+97.62311 79.93464 70.08463 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 13
+      m1       m2       m3 
+77.19990 70.12872 52.35180 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 14
+      m1       m2       m3 
+81.54853 59.17808 48.64234 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 15
+      m1       m2       m3 
+79.91249 70.68076 58.21071 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 16
+      m1       m2       m3 
+127.2085 116.4491 111.6734 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 17
+      m1       m2       m3 
+65.80545 51.93229 22.50336 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 18
+      m1       m2       m3 
+84.82699 70.02635 62.13093 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 19
+      m1       m2       m3 
+98.38343 95.16233 95.18168 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 20
+       m1        m2        m3 
+106.67244  89.41866  72.87538 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 21
+      m1       m2       m3 
+73.74958 71.17129 57.94030 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 22
+      m1       m2       m3 
+92.50838 74.50547 74.20870 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 23
+       m1        m2        m3 
+102.69289  71.15952  42.61622 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 24
+       m1        m2        m3 
+104.62265  90.92130  89.94885 
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] "Model converged successfully"
+[1] 25
+       m1        m2        m3 
+119.36940 108.55144  86.32488 
+> 
+> # ---- Count how often each model wins ----
+> table(winners)
+winners
+m2 m3 
+ 3 22 
+> 
+> save(winners, file = "salmon_sensitivity_analysis_it75.RData")
+> 
+
+Job 17585917 consumed 15.3 billing hours from project nn8105k.
+
+Submitted 2026-04-10T10:59:00; waited 10.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 7.0 days
+Elapsed wallclock time:   15.3 hours
+
+Job exited normally.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+17585917           1            0.0 %  2026-04-10T10:59:10   15.3 h  0
+17585917.batch     1      1    99.6 %  2026-04-10T10:59:10   15.3 h  0
+
+Used CPU time:   15.3 CPU hours
+Unused CPU time: 4.0 CPU minutes
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+17585917           2.0        
+17585917.batch     2.0     0.2
+
+Job 17585917 completed at Sat Apr 11 02:18:48 CEST 2026
