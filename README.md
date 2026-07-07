@@ -33,14 +33,16 @@ This folder contains the phenotypic and environmental time series and the evoTs 
 
 * *Salmon\_data*
 
-  * **Atlantic\_salmon\_size.txt** contains all salmon catch recorded in river Eira from 1925 to 2016, the date of the catch, and the body mass of the salmon in grams.
+  * **Atlantic\_salmon\_size.txt** contains all salmon catch recorded in river Eira from 1925 to 2016, the year and exact date of the catch, and the body mass of the salmon in grams along with an ID number for each catch. Note that some ID numbers and exact dates of catch are not available, especially for the oldest data.
   * **Discharge.txt** is the recorded water flow volume in the Eira river from 1931 to 2016. It contains both a yearly average and an average from June to September in m³s⁻¹.
   * **salmon\_evoTS\_obj.RData** contains the multivariate evoTs object made of the salmon body mass and river water flow data, their variance, sample size, and time for each datapoint.
+
 * *Coccolith\_data*
 
   * **Biscutum\_TotalcoccolithLength.txt** contains the coccolith length of the Cretaceous coccolithophore lineage *B. constans* measured in micrometers across 160,000 years. For every 50 datapoints in time, the file also contains the variance, the sample size (60), and the age of the sample.
   * **isotopes.txt** contains the geochemistry data measured for the same samples from which the coccolith length was measured. The file contains oxygen and carbon isotopic values in addition to CaCO3 and TOC values.
   * **coccolith\_evoTS\_obj.RData** contains the multivariate evoTs object made of the coccolith length and isotopic data, their variance, sample size, and time for each datapoint.
+
 * *Foraminifera\_data*
 
   * **Hodell\_and\_Vayavananda\_1993\_Fohsella\_length.txt** contains the test length of the Miocene lineage *Globorotalia (Fohsella)* measured in micrometers across 3 million years. For every 114 datapoints in time, the file also contains the variance, the sample size (60), and the age of the sample.
