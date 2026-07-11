@@ -1,6 +1,6 @@
 # Modeling within-lineage evolution as a consequence of changes in the adaptive landscape across short and long timescales
 
-__Article:__ Accepted
+__Article:__ Published
 
 __Authors:__ Marion Thaureau<sup>1†</sup> and Kjetil Lysne Voje<sup>1</sup>
 
