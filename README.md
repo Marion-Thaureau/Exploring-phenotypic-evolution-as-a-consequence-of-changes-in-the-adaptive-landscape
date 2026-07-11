@@ -1,12 +1,12 @@
 # Modeling within-lineage evolution as a consequence of changes in the adaptive landscape across short and long timescales
 
-__Article:__ Published
-
 __Authors:__ Marion Thaureau<sup>1†</sup> and Kjetil Lysne Voje<sup>1</sup>
 
 __Affiliation:__ <sup>1</sup>Evolution and Paleobiology, Natural History Museum, University of Oslo
 
 __Contact:__ <sup>†</sup>marion.thaureau@nhm.uio.no
+
+__Article:__ Published
 
 __Journal:__ Evolution
 
