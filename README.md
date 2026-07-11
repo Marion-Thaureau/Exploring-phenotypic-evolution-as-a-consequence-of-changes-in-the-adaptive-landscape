@@ -6,7 +6,7 @@ __Affiliation:__ <sup>1</sup>Evolution and Paleobiology, Natural History Museum,
 
 __Contact:__ <sup>†</sup>marion.thaureau@nhm.uio.no
 
-__Article:__ Published
+__Article:__ [Thaureau and Voje, 2026](https://doi.org/10.1093/evolut/qpag127)
 
 __Journal:__ Evolution
 
